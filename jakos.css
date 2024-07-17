@@ -6,6 +6,7 @@
     background-color: #f5a85f;
     text-align: center;
     background-attachment: fixed;
+    background-position: top center;
 
 }
 #navbar{
@@ -15,6 +16,7 @@
     background-color: #f5a85f;
     text-align: center;
     background-attachment: fixed;
+    background-position: top center;
 }
 
 .nav-link {
