@@ -19,8 +19,8 @@
 }
 
 .nav-link {
-    /* font-family: "IBM Plex Mono", monospace; */
-    font-family: "source code pro", monospace;
+    font-family: "IBM Plex Mono", monospace;
+    /* font-family: "source code pro", monospace; */
     font-weight: 700 !important;
     font-size: large !important;
 
@@ -36,8 +36,7 @@
 }
 
 .dropdown-item {
-    /* font-family: "IBM Plex Mono", monospace; */
-    font-family: "source code pro", monospace;
+    font-family: "IBM Plex Mono", monospace;
     font-weight: 400 !important;
     font-size: medium !important;
     transition: 0.4s;
@@ -79,6 +78,7 @@
 
 .container h1 {
     margin: 1.5rem;
+    font-family: 'press start 2p';
 }
 .container p {
  
@@ -96,8 +96,9 @@
        padding: 2rem;
 }
 
-.back-light-wrapper h2 {
+.back-light-wrapper h2, .back-light h2 {
     padding: 1rem 0 1rem 0;
+    font-family: 'press start 2p';
 }
 
 .opening-hours {
@@ -115,6 +116,25 @@
 .back-light-wrapper ul {
     list-style: none;
 }
+.back-light-wrapper button {
+    padding: 1rem;
+    background-color: rgb(230, 186, 103);
+    border-radius: 3px;
+    transition: 0.4s;
+    border-style: outset;
+    font-family: "source code pro", monospace;
+    margin: 0.6rem;
+}
+
+.back-light-wrapper button a {
+    color: #061D25;
+    text-decoration: none;
+}
+
+.back-light-wrapper button:hover {
+    background-color: rgb(221, 145, 74);
+    border-style: inset;
+}
 
 .col {
     display: flex;
@@ -124,6 +144,9 @@
     margin: 1rem;
 }
 
+.tabs {
+    display: block;
+}
 
 .footer {
     background: #061D25;
