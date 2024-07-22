@@ -21,7 +21,7 @@
 }
 
 .bckgrnd-clr {
-    background-image: url(tuo.jpg) !important;
+    background-image: url(images/tuo.jpg) !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #f5a85f;
@@ -31,7 +31,7 @@
 }
 
 #navbar {
-    background: linear-gradient(to top, rgba(248, 249, 250, 0.651), rgba(248, 249, 250, 0.527)), url(tuo.jpg) no-repeat;
+    background: linear-gradient(to top, rgba(248, 249, 250, 0.651), rgba(248, 249, 250, 0.527)), url(images/tuo.jpg) no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #f5a85f;
@@ -117,13 +117,15 @@
     padding: 0.5rem;
 }
 
-.back-light-wrapper {
+.back-light-wrapper, .back-dark-wrapper {
     display: block;
     padding: 2rem;
 }
 
 .back-light-wrapper h2,
-.back-light h2 {
+.back-light h2,
+.back-dark-wrapper h2,
+.back-dark h2 {
     padding: 1rem 0 1rem 0;
     font-family: 'press start 2p';
     font-size: calc(2rem + 1.1vw);
