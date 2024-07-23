@@ -1,23 +1,25 @@
-/* tak chyba będzie lepiej */
+@media only screen and (min-width:200px) and (max-width:800px) {
+    .navbar-brand img {
+        max-width: 21rem !important;
+    }
+
+    .navbar-nav ul li {
+        font-size: calc(3rem + 1.5vw) !important;
+    }
+
+    .navbar-nav ul .dropdown-item {
+        font-size: calc(2.5rem + 1.vw) !important;
+    }
+
+    .footer .container a {
+        font-size: 3rem !important;
+    }
+}
+
 .container,
 .container-md,
 .container-sm {
     max-width: 100% !important;
-}
-
-@media screen and (max-width: 800px) {
-
-    .nav-link {
-        font-size: calc(3rem + 1.5vw) !important;
-    }
-
-    .dropdown-item {
-        font-size: calc(2.5rem + 1.5vw) !important;
-    }
-
-    .footer a {
-        font-size: 3rem;
-    }
 }
 
 .bckgrnd-clr {
@@ -39,16 +41,15 @@
     background-attachment: fixed;
     background-position: top center;
 }
+
 .navbar-brand img {
     max-width: 16rem;
 }
 
 .nav-link {
     font-family: "IBM Plex Mono", monospace;
-    /* font-family: "source code pro", monospace; */
     font-weight: 700 !important;
-    font-size: calc(0.9rem + .7vw) !important;
-
+    font-size: calc(0.9rem + .9vw) !important;
 }
 
 .nav-item {
@@ -73,11 +74,6 @@
 
 .bg-light {
     --bs-bg-opacity: 0.7 !important;
-}
-
-.navbar-brand img {
-    margin-left: 3rem;
-    margin-right: 3rem;
 }
 
 .dropdown-menu.show {
@@ -117,7 +113,8 @@
     padding: 0.5rem;
 }
 
-.back-light-wrapper, .back-dark-wrapper {
+.back-light-wrapper,
+.back-dark-wrapper {
     display: block;
     padding: 2rem;
 }
@@ -128,7 +125,7 @@
 .back-dark h2 {
     padding: 1rem 0 1rem 0;
     font-family: 'press start 2p';
-    font-size: calc(2rem + 1.1vw);
+    font-size: calc(2rem + 1.6vw);
 }
 
 .opening-hours {
@@ -141,7 +138,7 @@
     list-style: none;
     text-align: left;
     padding: 0 1.5rem 0 1.5rem;
-    font-size: calc(1rem + 0.9vw);
+    font-size: calc(1rem + 1.2vw);
 }
 
 .back-light-wrapper ul {
@@ -155,7 +152,7 @@
     transition: 0.4s;
     border-style: outset;
     font-family: "source code pro", monospace;
-    font-size: calc(1rem + 0.8vw);
+    font-size: calc(1rem + 1.1vw);
     margin: 0.6rem;
 }
 
@@ -185,12 +182,11 @@
 .footer {
     background: #061D25;
     padding: 10px 0;
-
 }
 
 .footer a {
     color: #70726F;
-    font-size: 25px;
+    font-size: 2vw;
     padding: 10px;
     border-right: 1px solid #70726F;
     transition: all .5s ease;
@@ -203,5 +199,3 @@
 .footer a:hover {
     color: white;
 }
-
-
