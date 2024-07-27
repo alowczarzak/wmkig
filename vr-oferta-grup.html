@@ -5,8 +5,15 @@
     <title>WMKiG</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="additional.css">
-    <!--retro fonts-->
-    <!-- IBM plex -->
+    <!--vr fonts-->
+    <!-- Josefin Sans
+    Play -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Play:wght@400;700&display=swap"
+        rel="stylesheet">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -15,28 +22,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=M+PLUS+Code+Latin:wght@100..700&display=swap"
-        rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=M+PLUS+Code+Latin:wght@100..700&family=Press+Start+2P&display=swap"
-        rel="stylesheet">
-    <!-- M Plus code latin -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wdth,wght@125,100..700&display=swap"
-        rel="stylesheet">
-    <!-- press start 2p -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <!-- source code pro -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
-        rel="stylesheet">
+
+
+
     <!-- bootstrap -->
     <link href="bootstrap.min.css" rel="stylesheet">
     <script src="bootstrap.bundle.min.js"></script>
@@ -48,11 +39,11 @@
 
 </head>
 
-<body class="bckgrnd-clr">
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+<body class="bckgrnd-dark">
+    <nav id="navvr" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <img src="images/logo transparent.png" alt="">
+            <a class="navvr-brand" href="vr-index.html">
+                <img src="images/images.png" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -62,47 +53,39 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="aktualnosci.html">Aktualności</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="cennik.html">Cennik</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="kontakt.html">Kontakt</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="kolekcja.html">Kolekcja</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="zespol.html">Zespół</a>
+                        <a class="nav-link" aria-current="page" href="vr-oferta-ind.html">Oferta Indywidualna</a>
                     </li>
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                            Oferta
+                            Oferty grupowe
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="oferta.html">Dla szkół</a></li>
-                            <li><a class="dropdown-item" href="oferta.html">Dla szkół wyższych</a></li>
-                            <li><a class="dropdown-item" href="#">Game Dev</a></li>
-                            <li><a class="dropdown-item" href="#">Współpraca marketingowa</a></li>
-                            <li><a class="dropdown-item" href="#">Eventy wyjazdowe</a></li>
+                            <li><a class="dropdown-item" href="vr-oferta-grup.html">Imprezy dziecięce</a></li>
+                            <li><a class="dropdown-item" href="vr-oferta-grup.html">Imprezy firmowe</a></li>
+                            <li><a class="dropdown-item" href="#">Wieczory kawalerskie, panieńskie</a></li>
                         </ul>
                     </li>
 
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Gry i sprzęt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Kontakt</a>
+                    </li>
                 </ul>
 
             </div>
         </div>
     </nav>
-    <div id="container-fluid" class="container-fluid bckgrnd-clr ">
+    <div id="container-fluid" class="container-fluid bckgrnd-dark ">
         <div class="container">
-            <section class="back-lighter">
+            <section class="back-dark">
                 <div class="row row-cols-1" style="justify-content: center; margin-top: .5rem;">
                     <div class="col">
                         <div class="card">
-                            <h3>Oferta dla szkół</h3>
+                            <h3>Imprezy dziecięce</h3>
                             <p>
                                 Vivamus ac erat porttitor, venenatis est ut, placerat sem. Nam commodo molestie nisi
                                 vitae bibendum. Praesent
@@ -119,7 +102,7 @@
                 <div class="row row-cols-1" style="justify-content: center; margin-top: .5rem;">
                     <div class="col">
                         <div class="card">
-                            <h3>Oferta dla szkół wyższych</h3>
+                            <h3>Wieczory kawalerskie</h3>
                             <p>
                                 Vivamus ac erat porttitor, venenatis est ut, placerat sem. Nam commodo molestie nisi
                                 vitae bibendum. Praesent
@@ -136,7 +119,7 @@
                 <div class="row row-cols-1" style="justify-content: center; margin-top: .5rem;">
                     <div class="col">
                         <div class="card">
-                            <h3>Game Dev</h3>
+                            <h3>Wieczory panieńskie</h3>
                             <p>
                                 Vivamus ac erat porttitor, venenatis est ut, placerat sem. Nam commodo molestie nisi
                                 vitae bibendum. Praesent
@@ -150,50 +133,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="row row-cols-1" style="justify-content: center; margin-top: .5rem;">
-                    <div class="col">
-                        <div class="card">
-                            <h3>Współpraca marketingowa</h3>
-                            <p>
-                                Vivamus ac erat porttitor, venenatis est ut, placerat sem. Nam commodo molestie nisi
-                                vitae bibendum. Praesent
-                                sed enim consequat, faucibus orci sed, placerat urna. Sed id vehicula orci. Vestibulum
-                                posuere ipsum id
-                                eleifend
-                                accumsan. Suspendisse eu dui eget neque ornare iaculis vel non turpis. Vestibulum
-                                dapibus venenatis venenatis.
-                                Pellentesque egestas luctus orci id rutrum.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row row-cols-1" style="justify-content: center; margin-top: .5rem;">
-                    <div class="col">
-                        <div class="card">
-                            <h3>Eventy wyjazdowe</h3>
-                            <p>
-                                Vivamus ac erat porttitor, venenatis est ut, placerat sem. Nam commodo molestie nisi
-                                vitae bibendum. Praesent
-                                sed enim consequat, faucibus orci sed, placerat urna. Sed id vehicula orci. Vestibulum
-                                posuere ipsum id
-                                eleifend
-                                accumsan. Suspendisse eu dui eget neque ornare iaculis vel non turpis. Vestibulum
-                                dapibus venenatis venenatis.
-                                Pellentesque egestas luctus orci id rutrum.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+
             </section>
+
+
         </div>
     </div>
-
     <footer class="footer fixed-bottom">
         <div class="container text-center">
             <a href="https://www.facebook.com/wmkig/?locale=pl_PL"><i class="fa fa-facebook"></i></a>
             <a href="https://www.instagram.com/wmkigpl/"><i class="fa fa-instagram"></i></a>
             <a href="mailto:kontakt@wmkig.pl"><i class="fa fa-envelope"></i></a>
-            <a href="https://www.youtube.com/@Retrowizja64"><i class="fa fa-youtube"></i></a>
+            <a href="https://www.tiktok.com/@wmkig51"><i class="fa fa-brands fa-tiktok"></i></a>
+            
         </div>
     </footer>
 

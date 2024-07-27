@@ -208,3 +208,7 @@
 .exhibit .picture {
     max-width: 35%;
 }
+
+.bckgrnd-dark    .contact .card a:hover {
+        color: rgb(145, 98, 219);
+    }

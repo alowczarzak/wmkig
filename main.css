@@ -56,7 +56,7 @@
     transition: 0.4s;
 }
 
-.nav-item a:hover {
+.bckgrnd-clr .nav-item a:hover {
     font-weight: 900 !important;
     color: black;
 }
@@ -114,7 +114,8 @@
 }
 
 .back-light-wrapper,
-.back-dark-wrapper {
+.back-dark-wrapper,
+.back-dark-wrap {
     display: block;
     padding: 2rem;
 }
@@ -198,4 +199,109 @@
 
 .footer a:hover {
     color: white;
+}
+
+
+.bckgrnd-dark {
+    background-image: url(images/vrtlo.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ad56ff;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: top center;
+}
+
+#navvr {
+    background: linear-gradient(to top, rgba(248, 249, 250, 0.651), rgba(248, 249, 250, 0.527)), url(images/vrtlo.jpg) no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:  #ad56ff;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: top center;
+    font-family: "Play";
+}
+
+.navvr-brand img{
+    max-width: 10rem;
+    margin: 0 2rem;
+}
+
+.bckgrnd-dark .nav-link {
+    font-family: "Play";
+    font-weight: 700 !important;
+    font-size: calc(0.9rem + .9vw) !important;
+    margin-left: 2rem;
+}
+
+.bckgrnd-dark .dropdown-item {
+    font-family: "Play";
+    font-weight: 400 !important;
+    font-size: calc(0.7rem + 0.7vw) !important;
+    transition: 0.4s;
+    color: #e1cbf7;
+}
+
+.nav-item .dropdown-menu.show :hover {
+  color: black;
+}
+
+.bckgrnd-dark .dropdown-menu.show {    
+    background-color: rgb(65, 26, 102);
+
+}
+
+.bckgrnd-dark .container {
+    font-family: "Play";
+}
+
+.bckgrnd-dark h1,
+.bckgrnd-dark h2,
+.bckgrnd-dark h3,
+.bckgrnd-dark h4 {
+    font-family: "Josefin sans" !important;
+}
+
+.bckgrnd-dark .back-dark-wrap {
+    background-color: #061d259a;
+    color: #e1cbf7;
+    margin:1.5rem;
+}
+
+.bckgrnd-dark .back-dark-wrap button a,
+.bckgrnd-dark .back-dark-wrap p {
+text-decoration: none;
+color: #e1cbf7;
+}
+
+
+.bckgrnd-dark .back-dark-wrap button {
+    padding: 1rem;
+    background-color: rgb(17, 5, 83);
+    border-radius: 3px;
+    transition: 0.4s;
+    border-style: outset;
+    font-family: "play";
+    font-size: calc(1rem + 1.1vw);
+    margin: 0.6rem;
+    border: none;
+}
+
+
+.bckgrnd-dark .back-dark-wrap button:hover {
+    background-color: rgb(65, 26, 102);
+}
+
+
+.bckgrnd-dark h2 {
+font-size: 4rem;
+padding-top: 1.5rem;
+}
+.bckgrnd-dark .back-dark h3 {
+    font-size: calc(2.3rem + 2vw);
+}
+.bckgrnd-dark h4 {
+    font-size: 1rem;
+    margin-top: 2rem;
 }
