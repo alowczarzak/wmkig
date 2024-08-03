@@ -1,49 +1,4 @@
-@media (max-width: 1300px) {
-    .permanent {
-        flex-wrap: wrap;
-    }
 
-    .back-dark .row-cols-2,
-    .back-lighter .row-cols-2 {
-        width: 100%;
-    }
-
-    .permanent .row,
-    .back-dark .row-cols-1,
-    .back-lighter .row-cols-1 {
-        margin-top: .5rem;
-    }
-
-    .back-dark, .back-lighter{
-        font-size: calc(.5rem + 1vw);
-    }
-
-    .price {
-        flex-wrap: wrap;
-    }
-
-    .price .row,
-    .contact .row {
-        width: 100% !important;
-        margin: 0 2rem;
-    }
-
-    .price h4 {
-        font-size: calc(1rem + 2vw) !important;
-    }
-
-    .price h2 {
-        font-size: calc(2rem + 2.5vw) !important;
-    }
-
-    .price ul {
-        margin-left: 2rem;
-    }
-
-    .price li {
-        font-size: calc(1rem + 1.1vw) !important;
-    }
-}
 
 .back-dark {
     /* background-color: #0000009c; */
@@ -171,7 +126,7 @@
 }
 
 .api-map {
-    height: 27vw;
+    height: 49vw;
     opacity: .85;
 }
 
@@ -209,6 +164,6 @@
     max-width: 35%;
 }
 
-.bckgrnd-dark    .contact .card a:hover {
+.bckgrnd-dark .contact .card a:hover {
         color: rgb(145, 98, 219);
     }

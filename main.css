@@ -1,22 +1,3 @@
-@media only screen and (min-width:200px) and (max-width:800px) {
-    .navbar-brand img {
-        max-width: 21rem !important;
-    }
-
-    .navbar-nav ul li {
-        font-size: calc(3rem + 1.5vw) !important;
-    }
-
-    .navbar-nav ul .dropdown-item {
-        font-size: calc(2.5rem + 1.vw) !important;
-    }
-
-    .footer .container a {
-        font-size: 3rem !important;
-    }
-}
-
-.container,
 .container-md,
 .container-sm {
     max-width: 100% !important;
@@ -304,4 +285,104 @@ padding-top: 1.5rem;
 .bckgrnd-dark h4 {
     font-size: 1rem;
     margin-top: 2rem;
+}
+
+
+@media screen and (max-width: 1020px) {
+    .permanent {
+        display: block !important;
+      }
+      .price {
+        display: block !important;
+      }
+      .price .row {
+        width: 100% !important;
+      }
+      .price .row .card li {
+        font-size: 2.5vw;
+    }
+}
+@media only screen and (max-width:800px) {
+    .navbar-brand img {
+        max-width: 17rem !important;
+    }
+
+    .navbar-nav .nav-item {
+        font-size: 4vw !important;
+    }
+
+    .navbar-nav ul .dropdown-item {
+        font-size: 3.8vw !important;
+    }
+
+    .footer .container a i {
+        font-size: 4vw !important;
+    }
+    .bckgrnd-clr .container {
+        max-width: 100% !important;
+    }
+    .price .row .card h4 {
+        font-size: 4vw !important;
+    }
+    .price .row .card li {
+        font-size: 3.5vw;
+    }
+
+}
+
+@media only screen and (max-width: 610px) {
+    .opening-hours ul li {
+        font-size: initial !important;
+    }    
+    .back-light-wrapper button {
+        font-size: 5vw;
+      }
+
+    .back-lighter h3 {
+        font-size: 5vw !important;
+    }
+
+}
+
+@media only screen and (max-width:570px) {
+
+    h2 {
+        font-size: 6.8vw !important;
+    }
+    .container p,
+    .back-dark p {
+        font-size: 5vw !important;
+    }
+    .back-light-wrapper .col {
+        width: 100% !important;
+    }
+
+}
+
+@media only screen and (max-width:450px) {
+    .navbar-brand img {
+        max-width: 10rem !important;
+    }
+    .price .row .card h4, 
+    .price .row .card li {
+font-size: 4vw;
+    }
+
+}
+
+@media only screen and (max-width:360px) {
+    .navbar-brand img {
+        max-width: 8.5rem !important;
+    }
+    h2 {
+        font-size: 4.6vw !important;
+    }
+    .container p,
+    .back-dark p {
+        font-size: 4.8vw;
+    }
+    .contact .row .col .card {
+        padding: 0 !important;
+    }
+
 }
