@@ -1,11 +1,10 @@
-
-
 .back-dark {
     /* background-color: #0000009c; */
     margin: 0.5rem;
     padding: 0.5rem;
     color: rgb(255, 255, 234);
 }
+
 .back-lighter {
     margin: 0.5rem;
     padding: 0.5rem;
@@ -13,7 +12,8 @@
 }
 
 
-.back-dark h3, .back-lighter h3 {
+.back-dark h3,
+.back-lighter h3 {
     font-family: 'press start 2p';
     font-size: calc(1.3rem + 1vw);
 }
@@ -23,6 +23,7 @@
     background-color: #0000009c;
     border-radius: 10px;
 }
+
 .back-lighter .col {
     width: 100%;
     background-color: #fffdf4c5;
@@ -46,7 +47,7 @@
 .price .row-cols-3,
 .back-dark .row-cols-2,
 .back-lighter .row-cols-1,
-.back-lighter .row-cols-2 { 
+.back-lighter .row-cols-2 {
     margin: .4rem;
 }
 
@@ -63,7 +64,7 @@
 
 .back-lighter p {
     font-size: calc(1rem + 0.7vw);
-    color:black;
+    color: black;
 }
 
 .price .row {
@@ -136,12 +137,13 @@
     justify-content: center;
 }
 
-.left-pic {
-    flex-wrap: wrap-reverse;
+.left-pic .exhibit {
+    flex-wrap: wrap;
+
 }
 
-.right-pic {
-    flex-wrap: wrap;
+.right-pic .exhibit {
+    flex-wrap: wrap-reverse;
 }
 
 .exhibit {
@@ -156,14 +158,25 @@
 }
 
 .exhibit .description {
+    min-width: 340px;
     max-width: 65%;
     display: block;
 }
 
 .exhibit .picture {
+    min-width: 210px;
     max-width: 35%;
 }
 
 .bckgrnd-dark .contact .card a:hover {
-        color: rgb(145, 98, 219);
+    color: rgb(145, 98, 219);
+}
+
+
+@media only screen and (max-width:860px) {
+
+    .exhibit .picture,
+    .exhibit .description {
+        min-width: 100% !important;
     }
+}

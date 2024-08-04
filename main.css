@@ -197,14 +197,14 @@
     background: linear-gradient(to top, rgba(248, 249, 250, 0.651), rgba(248, 249, 250, 0.527)), url(images/vrtlo.jpg) no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color:  #ad56ff;
+    background-color: #ad56ff;
     text-align: center;
     background-attachment: fixed;
     background-position: top center;
     font-family: "Play";
 }
 
-.navvr-brand img{
+.navvr-brand img {
     max-width: 10rem;
     margin: 0 2rem;
 }
@@ -225,10 +225,10 @@
 }
 
 .nav-item .dropdown-menu.show :hover {
-  color: black;
+    color: black;
 }
 
-.bckgrnd-dark .dropdown-menu.show {    
+.bckgrnd-dark .dropdown-menu.show {
     background-color: rgb(65, 26, 102);
 
 }
@@ -247,13 +247,13 @@
 .bckgrnd-dark .back-dark-wrap {
     background-color: #061d259a;
     color: #e1cbf7;
-    margin:1.5rem;
+    margin: 1.5rem;
 }
 
 .bckgrnd-dark .back-dark-wrap button a,
 .bckgrnd-dark .back-dark-wrap p {
-text-decoration: none;
-color: #e1cbf7;
+    text-decoration: none;
+    color: #e1cbf7;
 }
 
 
@@ -276,32 +276,57 @@ color: #e1cbf7;
 
 
 .bckgrnd-dark h2 {
-font-size: 4rem;
-padding-top: 1.5rem;
+    font-size: 4rem;
+    padding-top: 1.5rem;
 }
+
 .bckgrnd-dark .back-dark h3 {
     font-size: calc(2.3rem + 2vw);
 }
+
 .bckgrnd-dark h4 {
     font-size: 1rem;
     margin-top: 2rem;
+}
+
+@media screen and (max-width: 1250px) {
+    .dropdown-menu[data-bs-popper] {
+        right: 0 !important;
+        left: auto !important;
+    }
+
+    .bckgrnd-dark .nav-link {
+        font-size: calc(0.9rem + .5vw) !important;
+    }
+
+    .navvr-brand img {
+        max-height: 5rem;
+        margin: 0 2rem;
+    }
 }
 
 
 @media screen and (max-width: 1020px) {
     .permanent {
         display: block !important;
-      }
-      .price {
-        display: block !important;
-      }
-      .price .row {
-        width: 100% !important;
-      }
-      .price .row .card li {
-        font-size: 2.5vw;
     }
+
+    .price {
+        display: block !important;
+    }
+
+    .price .row {
+        width: 100% !important;
+    }
+
+    .price .row .card li {
+        font-size: 2.5vw;
+
+    }
+
+
 }
+
 @media only screen and (max-width:800px) {
     .navbar-brand img {
         max-width: 17rem !important;
@@ -318,28 +343,55 @@ padding-top: 1.5rem;
     .footer .container a i {
         font-size: 4vw !important;
     }
-    .bckgrnd-clr .container {
+
+    .bckgrnd-clr .container,
+    .bckgrnd-dark .container {
         max-width: 100% !important;
     }
+
     .price .row .card h4 {
         font-size: 4vw !important;
     }
+
     .price .row .card li {
         font-size: 3.5vw;
     }
 
+    .footer a {
+        font-size: 6vw;
+    }
+
+    .footer a i::before {
+        font-size: 6vw;
+    }
+
+
+    .bckgrnd-dark .back-dark-wrap {
+        margin: 1.5vw 0;
+    }
+    
+
 }
 
 @media only screen and (max-width: 610px) {
-    .opening-hours ul li {
-        font-size: initial !important;
-    }    
-    .back-light-wrapper button {
+    .bckgrnd-clr .opening-hours ul li {
+        font-size: initial;
+    }
+
+    .back-light-wrapper button,
+    .back-dark button {
         font-size: 5vw;
-      }
+    }
 
     .back-lighter h3 {
         font-size: 5vw !important;
+    }
+
+    .bckgrnd-dark .container .back-dark-wrap,
+    .bckgrnd-dark .container .back-dark-wrapper
+
+    {
+        padding: 1.2vw !important;
     }
 
 }
@@ -349,38 +401,56 @@ padding-top: 1.5rem;
     h2 {
         font-size: 6.8vw !important;
     }
+
     .container p,
     .back-dark p {
         font-size: 5vw !important;
     }
+
     .back-light-wrapper .col {
         width: 100% !important;
     }
 
+    .bckgrnd-clr .opening-hours ul li {
+        font-size: 2.8vw;
+    }
+    .bckgrnd-dark .opening-hours ul li {
+        font-size: 2.6vw !important;
+    }
+
 }
+
 
 @media only screen and (max-width:450px) {
     .navbar-brand img {
         max-width: 10rem !important;
     }
-    .price .row .card h4, 
+
+    .price .row .card h4,
     .price .row .card li {
-font-size: 4vw;
+        font-size: 4vw;
+    }
+
+    .opening-hours ul li {
+        font-size: 1.8vw;
     }
 
 }
 
-@media only screen and (max-width:360px) {
+@media only screen and (max-width:370px) {
     .navbar-brand img {
         max-width: 8.5rem !important;
     }
+
     h2 {
         font-size: 4.6vw !important;
     }
+
     .container p,
     .back-dark p {
         font-size: 4.8vw;
     }
+
     .contact .row .col .card {
         padding: 0 !important;
     }
