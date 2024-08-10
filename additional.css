@@ -16,6 +16,7 @@
 .back-lighter h3 {
     font-family: 'press start 2p';
     font-size: calc(1.3rem + 1vw);
+    margin: 1.2vw;
 }
 
 .back-dark .col {
@@ -172,6 +173,35 @@
     color: rgb(145, 98, 219);
 }
 
+.space-eve {
+    width: 75%;
+    justify-content: space-evenly;
+}
+
+.an-custom h1,
+.an-custom h2,
+.an-custom h3,
+.an-custom h4 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: bold;
+}
+
+.an-custom p {
+    font-family: "merriweather";
+}
+
+.an-custom .back-light {
+    background-color: #c9f8e29c;
+}
+
+.an-custom .back-lighter .col {
+    background-color: #e3fae0c4;
+}
+
+.an-custom .back-lighter h3 {
+    font-size: calc(1.3rem + 1.5vw);
+
+}
 
 @media only screen and (max-width:860px) {
 

@@ -72,6 +72,10 @@
     position: sticky !important;
 }
 
+.bckgrnd-clr .font-an a {
+    font-family: "Sawarabi Mincho", serif;
+}
+
 #container-fluid {
     overflow: auto;
     padding: 12px;
@@ -323,9 +327,16 @@
         font-size: 2.5vw;
 
     }
-
-
 }
+
+
+@media screen and (max-width: 991px) {
+.space-eve {
+    width: 100% !important;
+}
+}
+
+
 
 @media only screen and (max-width:800px) {
     .navbar-brand img {
@@ -347,6 +358,8 @@
     .bckgrnd-clr .container,
     .bckgrnd-dark .container {
         max-width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
 
     .price .row .card h4 {
@@ -365,11 +378,9 @@
         font-size: 6vw;
     }
 
-
     .bckgrnd-dark .back-dark-wrap {
         margin: 1.5vw 0;
     }
-    
 
 }
 
@@ -380,18 +391,29 @@
 
     .back-light-wrapper button,
     .back-dark button {
-        font-size: 5vw;
-    }
-
-    .back-lighter h3 {
         font-size: 5vw !important;
     }
 
-    .bckgrnd-dark .container .back-dark-wrap,
-    .bckgrnd-dark .container .back-dark-wrapper
+    .back-lighter h3 {
+        font-size: 4.9vw !important;
+    }
 
-    {
+    .back-dark h3,
+    .back-lighter h3 {
+        margin: 0.5rem 0 !important;
+    }
+
+    .bckgrnd-dark .container .back-dark-wrap,
+    .bckgrnd-dark .container .back-dark-wrapper {
         padding: 1.2vw !important;
+    }
+
+    .back-dark {
+        padding: 0 !important;
+    }
+
+    .back-dark h3 {
+        font-size: 5.5vw !important;
     }
 
 }
@@ -414,6 +436,7 @@
     .bckgrnd-clr .opening-hours ul li {
         font-size: 2.8vw;
     }
+
     .bckgrnd-dark .opening-hours ul li {
         font-size: 2.6vw !important;
     }
@@ -428,18 +451,27 @@
 
     .price .row .card h4,
     .price .row .card li {
-        font-size: 4vw;
+        font-size: 3.8vw;
     }
 
-    .opening-hours ul li {
-        font-size: 1.8vw;
+    .opening-hours ul {
+        padding: 0 1.5rem 0 0;
+    }
+
+    .back-light-wrapper {
+        padding: 1rem;
+    }
+
+    .back-lighter {
+        padding: 0 !important;
+        margin: 0 !important;
     }
 
 }
 
 @media only screen and (max-width:370px) {
     .navbar-brand img {
-        max-width: 8.5rem !important;
+        max-width:47vw !important;
     }
 
     h2 {
@@ -455,4 +487,14 @@
         padding: 0 !important;
     }
 
+    .opening-hours ul li {
+        font-size: 2vw !important;
+    }
+
+    .back-lighter h3 {
+        font-size: 4.6vw !important;
+    }
+    .navvr-brand img {
+        margin: 0;
+    }
 }
