@@ -1,8 +1,12 @@
 .back-dark {
-    /* background-color: #0000009c; */
     margin: 0.5rem;
     padding: 0.5rem;
     color: rgb(255, 255, 234);
+}
+
+.back-light p,
+.back-lighter p {
+    text-align: justify;
 }
 
 .back-lighter {
@@ -22,7 +26,7 @@
 .back-dark .col {
     width: 100%;
     background-color: #0000009c;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 .back-lighter .col {
@@ -52,6 +56,10 @@
     margin: .4rem;
 }
 
+.back-dark .row-cols-2 {
+    width: 40%;
+}
+
 .back-dark p {
     font-size: calc(1rem + 0.7vw);
     color: rgb(255, 255, 234);
@@ -68,12 +76,12 @@
     color: black;
 }
 
-.price .row {
+.bckgrnd-clr .price .row {
     width: 33.33333333%;
 }
 
 .price .row .col,
-.contact .row .col {
+.bckgrnd-clr .contact .row .col {
     width: 100%;
     border-radius: 10px;
     border: none;
@@ -85,6 +93,32 @@
     padding: .8rem;
     width: 100%;
     justify-content: center;
+}
+
+.back-dark .price .row .col .card {
+    background-color: unset;
+    justify-content: flex-start;
+}
+
+.back-dark .price .row .col .card h1{
+margin-bottom: 2vw;
+}
+
+.back-dark .price .row .col .card h2{
+margin: 0;
+padding: 0;
+font-size: 4vw;
+    }
+
+.back-dark .price h4 {
+    margin-top: 2vw;
+    font-size: 2vw;
+    color: #24ff78;
+}
+
+.back-dark .price ul li {
+    color: #cdb9f3;
+    font-size: 1.5vw;
 }
 
 .price h4 {
@@ -167,6 +201,7 @@
 .exhibit .picture {
     min-width: 210px;
     max-width: 35%;
+    align-items: center;
 }
 
 .bckgrnd-dark .contact .card a:hover {
@@ -205,8 +240,4 @@
 
 @media only screen and (max-width:860px) {
 
-    .exhibit .picture,
-    .exhibit .description {
-        min-width: 100% !important;
-    }
 }

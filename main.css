@@ -1,5 +1,6 @@
 .container-md,
-.container-sm {
+.container-sm,
+.container {
     max-width: 100% !important;
 }
 
@@ -13,8 +14,21 @@
     background-position: top center;
 }
 
+.an-back {
+    background-image: url(images/bar-back.png) !important;
+}
+
+.an-back #navbar {
+    background: linear-gradient(to top, rgba(248, 249, 250, 0.151), rgba(248, 249, 250, 0.527)), url(images/bar-back.png) no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+
+}
+
 #navbar {
-    background: linear-gradient(to top, rgba(248, 249, 250, 0.651), rgba(248, 249, 250, 0.527)), url(images/tuo.jpg) no-repeat;
+    background: linear-gradient(to top, rgba(248, 249, 250, 0.116), rgba(248, 249, 250, 0.527)), url(images/tuo.jpg) no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #f5a85f;
@@ -89,13 +103,14 @@
 
 .container p {
     color: black;
-    font-size: calc(1rem + 0.9vw);
+    font-size: 1.7vw;
 }
 
 .back-light {
     background-color: #fcf1c09c;
     margin: 0.5rem;
-    padding: 0.5rem;
+    padding: 2vw;
+    border-radius: 10px;
 }
 
 .back-light-wrapper,
@@ -161,6 +176,12 @@
     margin: 1rem;
 }
 
+.card img,
+.picture img {
+    max-width: 100%;
+    height: fit-content;
+}
+
 .tabs {
     display: block;
 }
@@ -197,8 +218,13 @@
     background-position: top center;
 }
 
+.bckgrnd-dark .contact .card p {
+    text-align: center !important;
+
+}
+
 #navvr {
-    background: linear-gradient(to top, rgba(248, 249, 250, 0.651), rgba(248, 249, 250, 0.527)), url(images/vrtlo.jpg) no-repeat;
+    background: linear-gradient(to top, rgba(248, 249, 250, 0.171), rgba(248, 249, 250, 0.527)), url(images/vrtlo.jpg) no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #ad56ff;
@@ -206,6 +232,15 @@
     background-attachment: fixed;
     background-position: top center;
     font-family: "Play";
+}
+
+#navvr .dropdown-menu {
+    padding: 0;
+    border-radius: 0;
+}
+
+#navvr .dropdown-item:hover {
+    background-color: #ffffffaf;
 }
 
 .navvr-brand img {
@@ -224,8 +259,9 @@
     font-family: "Play";
     font-weight: 400 !important;
     font-size: calc(0.7rem + 0.7vw) !important;
-    transition: 0.4s;
+    transition: 0.5s;
     color: #e1cbf7;
+    padding: 1.2vw;
 }
 
 .nav-item .dropdown-menu.show :hover {
@@ -254,14 +290,20 @@
     margin: 1.5rem;
 }
 
-.bckgrnd-dark .back-dark-wrap button a,
+.bckgrnd-dark .back-dark-wrap p,
+.bckgrnd-dark .back-dark .card p,
+.bckgrnd-dark .exhibit p {
+    text-align: justify;
+}
+
+.bckgrnd-dark .back-dark-wrap .vr-rez a,
 .bckgrnd-dark .back-dark-wrap p {
     text-decoration: none;
     color: #e1cbf7;
 }
 
 
-.bckgrnd-dark .back-dark-wrap button {
+.bckgrnd-dark .back-dark-wrap .vr-rez {
     padding: 1rem;
     background-color: rgb(17, 5, 83);
     border-radius: 3px;
@@ -274,7 +316,7 @@
 }
 
 
-.bckgrnd-dark .back-dark-wrap button:hover {
+.bckgrnd-dark .back-dark-wrap .vr-rez:hover {
     background-color: rgb(65, 26, 102);
 }
 
@@ -295,7 +337,7 @@
 
 @media screen and (max-width: 1250px) {
     .dropdown-menu[data-bs-popper] {
-        right: 0 !important;
+        right: 2rem !important;
         left: auto !important;
     }
 
@@ -325,176 +367,204 @@
 
     .price .row .card li {
         font-size: 2.5vw;
+    }
 
+    .price .row .card ul {
+        list-style: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .back-dark .card h2 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .back-dark .card h4 {
+
+        padding-top: 4.5vw;
+    }
+    .exhibit .picture,
+    .exhibit .description {
+        min-width: 100% !important;
+        margin: .2rem 0 !important;
     }
 }
 
 
 @media screen and (max-width: 991px) {
-.space-eve {
-    width: 100% !important;
-}
-}
-
-
-
-@media only screen and (max-width:800px) {
-    .navbar-brand img {
-        max-width: 17rem !important;
-    }
-
-    .navbar-nav .nav-item {
-        font-size: 4vw !important;
-    }
-
-    .navbar-nav ul .dropdown-item {
-        font-size: 3.8vw !important;
-    }
-
-    .footer .container a i {
-        font-size: 4vw !important;
-    }
-
-    .bckgrnd-clr .container,
-    .bckgrnd-dark .container {
-        max-width: 100% !important;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-    }
-
-    .price .row .card h4 {
-        font-size: 4vw !important;
-    }
-
-    .price .row .card li {
-        font-size: 3.5vw;
-    }
-
-    .footer a {
-        font-size: 6vw;
-    }
-
-    .footer a i::before {
-        font-size: 6vw;
-    }
-
-    .bckgrnd-dark .back-dark-wrap {
-        margin: 1.5vw 0;
-    }
-
-}
-
-@media only screen and (max-width: 610px) {
-    .bckgrnd-clr .opening-hours ul li {
-        font-size: initial;
-    }
-
-    .back-light-wrapper button,
-    .back-dark button {
-        font-size: 5vw !important;
-    }
-
-    .back-lighter h3 {
-        font-size: 4.9vw !important;
-    }
-
-    .back-dark h3,
-    .back-lighter h3 {
-        margin: 0.5rem 0 !important;
-    }
-
-    .bckgrnd-dark .container .back-dark-wrap,
-    .bckgrnd-dark .container .back-dark-wrapper {
-        padding: 1.2vw !important;
-    }
-
-    .back-dark {
-        padding: 0 !important;
-    }
-
-    .back-dark h3 {
-        font-size: 5.5vw !important;
-    }
-
-}
-
-@media only screen and (max-width:570px) {
-
-    h2 {
-        font-size: 6.8vw !important;
-    }
-
-    .container p,
-    .back-dark p {
-        font-size: 5vw !important;
-    }
-
-    .back-light-wrapper .col {
+    .space-eve {
         width: 100% !important;
     }
 
-    .bckgrnd-clr .opening-hours ul li {
-        font-size: 2.8vw;
-    }
-
-    .bckgrnd-dark .opening-hours ul li {
-        font-size: 2.6vw !important;
+    .container {
+        max-width: 100% !important;
     }
 
 }
 
+    @media only screen and (max-width:800px) {
+        .navbar-brand img {
+            max-width: 17rem !important;
+        }
 
-@media only screen and (max-width:450px) {
-    .navbar-brand img {
-        max-width: 10rem !important;
+        .navbar-nav .nav-item {
+            font-size: 4vw !important;
+        }
+
+        .navbar-nav ul .dropdown-item {
+            font-size: 3.8vw !important;
+        }
+
+        .footer .container a i {
+            font-size: 4vw !important;
+        }
+
+        .bckgrnd-clr .container,
+        .bckgrnd-dark .container {
+            max-width: 100% !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+
+        .price .row .card h4 {
+            font-size: 4vw !important;
+        }
+
+        .price .row .card li {
+            font-size: 3.5vw;
+        }
+
+        .footer a {
+            font-size: 6vw;
+        }
+
+        .footer a i::before {
+            font-size: 6vw;
+        }
+
+        .bckgrnd-dark .back-dark-wrap {
+            margin: 1.5vw 0;
+        }
+
     }
 
-    .price .row .card h4,
-    .price .row .card li {
-        font-size: 3.8vw;
+    @media only screen and (max-width: 610px) {
+        /* .bckgrnd-clr .opening-hours ul li {
+        font-size: initial;
+    } */
+
+        .back-light-wrapper button,
+        .back-dark .vr-rez {
+            font-size: 5vw !important;
+        }
+
+        .back-lighter h3 {
+            font-size: 4.9vw !important;
+        }
+
+        .back-dark h3,
+        .back-lighter h3 {
+            margin: 0.5rem 0 !important;
+        }
+
+        .bckgrnd-dark .container .back-dark-wrap,
+        .bckgrnd-dark .container .back-dark-wrapper {
+            padding: 1.2vw !important;
+        }
+
+        .back-dark {
+            padding: 0 !important;
+        }
+
+        .back-dark h3 {
+            font-size: 5.5vw !important;
+        }
+
     }
 
-    .opening-hours ul {
-        padding: 0 1.5rem 0 0;
+    @media only screen and (max-width:570px) {
+
+        h2 {
+            font-size: 6.8vw !important;
+        }
+
+        p {
+            text-align: center !important;
+        }
+
+        .container p,
+        .back-dark p {
+            font-size: 5vw !important;
+        }
+
+        .back-light-wrapper .col {
+            width: 100% !important;
+        }
+
+        .bckgrnd-clr .opening-hours ul li {
+            font-size: 2.8vw;
+        }
+
+        .bckgrnd-dark .opening-hours ul li {
+            font-size: 3.2vw !important;
+        }
+
     }
 
-    .back-light-wrapper {
-        padding: 1rem;
+
+    @media only screen and (max-width:450px) {
+        .navbar-brand img {
+            max-width: 10rem !important;
+        }
+
+        .price .row .card h4,
+        .price .row .card li {
+            font-size: 3.8vw;
+        }
+
+        .opening-hours ul {
+            padding: 0 1.5rem 0 0;
+        }
+
+        .back-light-wrapper {
+            padding: 1rem;
+        }
+
+        .back-lighter {
+            padding: 0 !important;
+            margin: 0 !important;
+        }
     }
 
-    .back-lighter {
-        padding: 0 !important;
-        margin: 0 !important;
-    }
+    @media only screen and (max-width:370px) {
+        .navbar-brand img {
+            max-width: 47vw !important;
+        }
 
-}
+        h2 {
+            font-size: 4.6vw !important;
+        }
 
-@media only screen and (max-width:370px) {
-    .navbar-brand img {
-        max-width:47vw !important;
-    }
+        .container p,
+        .back-dark p {
+            font-size: 4.8vw;
+        }
 
-    h2 {
-        font-size: 4.6vw !important;
-    }
+        .contact .row .col .card {
+            padding: 0 !important;
+        }
 
-    .container p,
-    .back-dark p {
-        font-size: 4.8vw;
-    }
+        .opening-hours ul li {
+            font-size: 2vw !important;
+        }
 
-    .contact .row .col .card {
-        padding: 0 !important;
-    }
+        .back-lighter h3 {
+            font-size: 4.6vw !important;
+        }
 
-    .opening-hours ul li {
-        font-size: 2vw !important;
+        .navvr-brand img {
+            margin: 0;
+        }
     }
-
-    .back-lighter h3 {
-        font-size: 4.6vw !important;
-    }
-    .navvr-brand img {
-        margin: 0;
-    }
-}
