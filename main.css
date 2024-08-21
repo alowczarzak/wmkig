@@ -94,7 +94,7 @@
     overflow: auto;
     padding: 12px;
     box-sizing: border-box;
-    margin-bottom: 3rem;
+    /* margin-bottom: 3rem; */
 }
 
 .container {
@@ -186,7 +186,7 @@
     display: block;
 }
 
-.footer {
+/* .footer {
     background: #061D25;
     padding: 10px 0;
 }
@@ -206,7 +206,54 @@
 .footer a:hover {
     color: white;
 }
+ */
 
+.footer .col-md-5 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer .bg-light, .footer .order-md-1 {
+    padding: 1.2vw;
+}
+
+.footer a {
+    transition: .4s;
+}
+
+.footer a:hover {
+    color: #c58141 !important;
+}
+
+.footer-dark a:hover {
+    color: #a977fa !important;
+}
+
+.footer-dark {
+ background-color: #061D25;
+}
+
+.footer-dark .bg-dark {
+    padding: 1.2vw;
+}
+
+.footer-dark h4 {
+    font-size: 1.5rem !important;
+    color: #e1cbf7;
+}
+
+.footer-dark address {
+    color: #e1cbf7;
+}
+
+.footer-dark a {
+    color: #e1cbf7;
+}
+
+.footer-dark li {
+    color: #ffe3e3;
+}
 
 .bckgrnd-dark {
     background-image: url(images/vrtlo.jpg) !important;
@@ -220,7 +267,33 @@
 
 .bckgrnd-dark .contact .card p {
     text-align: center !important;
+}
 
+.h1bold {
+    font-family: "press start 2p";
+}
+
+.h1bold h1 {
+    margin-top: 5vw;
+}
+
+.h1bold ul {
+    list-style: none;
+    font-family: "ibm plex mono";
+    font-size: 2.1rem;
+}
+
+.h1bold ul li {
+    transition: .3s;
+}
+
+.h1bold ul a {
+    color: #061D25;
+    text-decoration: none;
+}
+.h1bold ul li:hover {
+    color: black;
+    font-weight: bold;
 }
 
 #navvr {
@@ -342,7 +415,7 @@
     }
 
     .bckgrnd-dark .nav-link {
-        font-size: calc(0.9rem + .5vw) !important;
+        font-size: calc(0.9rem + .4vw) !important;
     }
 
     .navvr-brand img {
@@ -417,9 +490,9 @@
             font-size: 3.8vw !important;
         }
 
-        .footer .container a i {
+        /* .footer .container a i {
             font-size: 4vw !important;
-        }
+        } */
 
         .bckgrnd-clr .container,
         .bckgrnd-dark .container {
@@ -435,14 +508,14 @@
         .price .row .card li {
             font-size: 3.5vw;
         }
-
+/* 
         .footer a {
             font-size: 6vw;
         }
 
         .footer a i::before {
             font-size: 6vw;
-        }
+        } */
 
         .bckgrnd-dark .back-dark-wrap {
             margin: 1.5vw 0;

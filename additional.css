@@ -235,9 +235,4 @@ font-size: 4vw;
 
 .an-custom .back-lighter h3 {
     font-size: calc(1.3rem + 1.5vw);
-
-}
-
-@media only screen and (max-width:860px) {
-
 }
