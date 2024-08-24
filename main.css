@@ -106,7 +106,14 @@
 #aboutr,
 #aboutr .carousel-item,
 #aboutv, #aboutv .carousel-item {
-    max-height: 40vw;
+    height: 40vw;
+}
+
+#aboutr .carousel-item img,
+ #aboutv .carousel-item img {
+    height: 100%;
+    width: fit-content;
+    margin: auto;
 }
 
 .back-light {
@@ -363,6 +370,18 @@
     font-weight: bold;
 }
 
+#central-station,
+#central-station .carousel-item img,
+#gus03,
+#gus03 .carousel-item img,
+#wawelska,
+#wawelska .carousel-item img,
+#gus,
+#gus .carousel-item img{
+    height: 28vw;
+    object-fit: cover;
+    margin: auto;
+}
 
 #central-station,
 #central-station .carousel-item,

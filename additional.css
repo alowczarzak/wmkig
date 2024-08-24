@@ -57,6 +57,44 @@
     background-color: #fffdf4c5;
 }
 
+.offer ul {
+    list-style: circle;
+    text-align: left;
+    font-size: larger;
+}
+
+.offer .back-light a {
+    text-decoration: none;
+    color: black;
+    transition: .4S;
+}
+
+.offer .back-light a:hover {
+    color: #c58141 !important;
+}
+
+.offer .back-dark ul,
+.offer .back-dark p
+ {
+    color: #ebddfa;
+}
+
+.offer .back-dark h4 {
+    font-size: x-large;
+    margin: 0;
+    padding: 0;
+}
+
+.offer .back-dark a {
+    text-decoration: none;
+    color: #cdb9f3;
+    transition: .4s;
+}
+
+.offer .back-dark a:hover {
+    color: #7f8cff;
+}
+
 .permanent .row,
 .back-dark .row-cols-1,
 .price .row-cols-3,
@@ -83,11 +121,6 @@
 .back-lighter .card {
     background: none;
     border: none;
-    color: black;
-}
-
-.back-lighter p {
-    font-size: calc(1rem + 0.7vw);
     color: black;
 }
 
@@ -124,6 +157,7 @@
     padding: 0;
     font-size: 3.4vw;
 }
+
 .bckgrnd-dark .price h4 {
     margin-top: 2vw;
     font-size: 2vw;
