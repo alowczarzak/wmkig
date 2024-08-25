@@ -100,11 +100,24 @@
     <div id="container-fluid" class="container-fluid bckgrnd-clr ">
       <div class="container">
         <section class="inventory">
+          <div class="back-light-wrap">
+<button>
+GRY
+</button>
+<button>
+  SPRZĘT
+</button>
+          </div>
+
+          <!-- <div class="cdb-form" style="width: 100%">
+            <input type="text" class="form-control" id="cdb-autocomplete" name="q" />
+            <label>Email</label>
+          </div> -->
 
           <div class="container">
-            <h2>Filter Anything</h2>
-            <p>Type something in the input field to search for a specific text inside the div element with id="myDIV":</p>
-            <input class="form-control" id="myInput" type="text" placeholder="Search..">
+            <!-- <h2>filtruj</h2> -->
+            <!-- <p>Type something in the input field to search for a specific text inside the div element with id="myDIV":</p> -->
+            <input class="form-control" id="myInput" type="text" placeholder="Szukaj gry...">
             <div id="myDIV">
               <p>search 1</p>             
               <p>search 2</p>
@@ -251,6 +264,53 @@
         });
       });
       </script>
+
+<!-- <script defer type="module">
+  var demo1 = new CDBAutocomplete({
+    selector: '#cdb-autocomplete',
+    minChars: 1,
+    source: function (term, suggest) {
+      term = term.toLowerCase();
+      var choices = [
+        'ActionScript',
+        'AppleScript',
+        'Asp',
+        'Assembly',
+        'BASIC',
+        'Batch',
+        'C',
+        'C++',
+        'CSS',
+        'Clojure',
+        'COBOL',
+        'ColdFusion',
+        'Erlang',
+        'Fortran',
+        'Groovy',
+        'Haskell',
+        'HTML',
+        'Java',
+        'JavaScript',
+        'Lisp',
+        'Perl',
+        'PHP',
+        'PowerShell',
+        'Python',
+        'Ruby',
+        'Scala',
+        'Scheme',
+        'SQL',
+        'TeX',
+        'XML',
+      ];
+      var suggestions = [];
+      for (var i = 0; i < choices.length; i++)
+        if (~choices[i].toLowerCase().indexOf(term))
+          suggestions.push(choices[i]);
+      suggest(suggestions);
+    },
+  });
+</script> -->
 
 </body>
 

@@ -105,12 +105,13 @@
 
 #aboutr,
 #aboutr .carousel-item,
-#aboutv, #aboutv .carousel-item {
+#aboutv,
+#aboutv .carousel-item {
     height: 40vw;
 }
 
 #aboutr .carousel-item img,
- #aboutv .carousel-item img {
+#aboutv .carousel-item img {
     height: 100%;
     width: fit-content;
     margin: auto;
@@ -130,7 +131,7 @@
 }
 
 .bckgrnd-dark .back-dark {
-        color: #e1cbf7;
+    color: #e1cbf7;
 }
 
 .bckgrnd-clr .back-dark {
@@ -182,6 +183,10 @@
     font-family: "source code pro", monospace;
     font-size: calc(1rem + 1.1vw);
     margin: 0.6rem;
+}
+
+.inventory button {
+    width: 300px;
 }
 
 .back-light-wrap button a {
@@ -350,6 +355,7 @@
 .h1bold {
     color: #061D25;
 }
+
 .back-light ul {
     list-style: none;
     font-family: "ibm plex mono";
@@ -367,7 +373,7 @@
 
 .h1bold ul li:hover {
     color: black;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 #central-station,
@@ -377,7 +383,7 @@
 #wawelska,
 #wawelska .carousel-item img,
 #gus,
-#gus .carousel-item img{
+#gus .carousel-item img {
     height: 28vw;
     object-fit: cover;
     margin: auto;
@@ -412,6 +418,7 @@
 
 #navvr .dropdown-item:hover {
     background-color: #ffffffaf;
+
 }
 
 .navvr-brand img {
@@ -424,6 +431,14 @@
     font-weight: 700 !important;
     font-size: calc(0.9rem + .9vw) !important;
     margin-left: 2rem;
+    transition: .3s;
+}
+
+.bckgrnd-dark .nav-link:hover {
+    background-color: #a977fa8e;
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 100%;
+    font-variant-caps: small-caps;
 }
 
 .bckgrnd-dark .dropdown-item {
@@ -468,7 +483,8 @@
 }
 
 
-.bckgrnd-dark .back-dark .vr-rez {
+.bckgrnd-dark .back-dark .vr-rez,
+.bckgrnd-dark .inventory button {
     padding: 1rem;
     background-color: rgb(17, 5, 83);
     border-radius: 3px;
@@ -478,10 +494,12 @@
     font-size: calc(1rem + 1.1vw);
     margin: 0.6rem;
     border: none;
+    color: #e1cbf7;
 }
 
 
-.bckgrnd-dark .back-dark .vr-rez:hover {
+.bckgrnd-dark .back-dark .vr-rez:hover,
+.bckgrnd-dark .inventory button:hover {
     background-color: rgb(65, 26, 102);
 }
 
@@ -509,6 +527,7 @@
 
     .bckgrnd-dark .nav-link {
         font-size: calc(0.9rem + .4vw) !important;
+        padding: 2vw;
     }
 
     .navvr-brand img {
