@@ -174,7 +174,7 @@
     list-style: none;
 }
 
-.back-light-wrap button {
+.back-light-wrap button{
     padding: 1rem;
     background-color: rgb(230, 186, 103);
     border-radius: 3px;
@@ -185,8 +185,39 @@
     margin: 0.6rem;
 }
 
+.inventory .game-form .dropdown{
+    padding: .375rem .75rem;
+    background-color: rgb(230, 186, 103);
+    border-radius: 3px;
+    transition: 0.4s;
+    border-style:unset;
+    font-family: "source code pro", monospace;
+    margin: 0.6rem;
+}
+
 .inventory button {
     width: 300px;
+}
+
+.inventory a {
+text-decoration: none;
+color: #061D25;
+}
+
+.inventory .item {
+    align-self: center;
+}
+.inventory {
+    margin-bottom: 2vw;
+}
+.game-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control {
+    border-radius: 0% !important;
 }
 
 .back-light-wrap button a {
@@ -438,7 +469,6 @@
     background-color: #a977fa8e;
     border-bottom-right-radius: 100%;
     border-top-left-radius: 100%;
-    font-variant-caps: small-caps;
 }
 
 .bckgrnd-dark .dropdown-item {

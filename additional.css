@@ -263,6 +263,10 @@
     color: rgb(145, 98, 219);
 }
 
+
+.game-form .cdb-form {
+    width: 50%;
+}
 .space-eve {
     width: 75%;
     justify-content: space-evenly;
