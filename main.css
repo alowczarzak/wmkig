@@ -484,6 +484,13 @@ color: #061D25;
     color: black;
 }
 
+
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+  
+
 .bckgrnd-dark .dropdown-menu.show {
     background-color: rgb(65, 26, 102);
 

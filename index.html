@@ -284,8 +284,6 @@
           </div>
         </div>
       </section>
-
-
     </div>
   </div>
 
@@ -393,6 +391,15 @@
         );
       }
     });
+    $("#coop .carousel-control-next").on("click", function () {
+      if (scrollPosition >= carouselWidth * 3) {
+        scrollPosition = 0;
+        $("#coop .carousel-inner").animate(
+          { scrollLeft: scrollPosition },
+          600
+        );
+      }
+    });
     $("#coop .carousel-control-prev").on("click", function () {
       if (scrollPosition > 0) {
         scrollPosition -= carouselWidth;
@@ -402,6 +409,7 @@
         );
       }
     });
+    
   } else {
     $(multipleCardCarousel).addClass("slide");
   }
