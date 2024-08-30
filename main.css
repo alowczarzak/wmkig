@@ -773,6 +773,9 @@ color: #061D25;
         padding: 0 !important;
         margin: 0 !important;
     }
+    .price .title img {
+        height: 55px !important;
+    }
 }
 
 @media only screen and (max-width:370px) {

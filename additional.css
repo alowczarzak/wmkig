@@ -186,6 +186,7 @@
 .bckgrnd-clr .price ul li {
     color: #574c3c;
     font-size: .9rem;
+    margin-bottom: .4vw;
 }
 
 .contact .row .col .card {
@@ -294,4 +295,14 @@
 
 .an-custom .back-lighter h3 {
     font-size: calc(1.3rem + 1.5vw);
+}
+
+.price .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title img {
+    max-height: 80px;
+    width: auto;
 }
