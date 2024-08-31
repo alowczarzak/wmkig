@@ -268,6 +268,18 @@
 .game-form .cdb-form {
     width: 50%;
 }
+
+#team .back-light {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#team img {
+    min-width: 4rem;
+}
+#team p {
+    margin: 0 3vw;
+}
 .space-eve {
     width: 75%;
     justify-content: space-evenly;
