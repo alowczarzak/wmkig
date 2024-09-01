@@ -4,16 +4,6 @@
     color: rgb(255, 255, 234);
 }
 
-.back-light p,
-.back-lighter p {
-    text-align: justify;
-}
-
-.back-lighter {
-    margin: 0.5rem;
-    padding: 0.5rem;
-    color: black
-}
 
 .bckgrnd-clr .back-light .card {
     background-color: unset;
@@ -26,13 +16,6 @@
     font-size: calc(1.3rem + 1vw);
     margin: 1.2vw;
 }
-
-.back-lighter .col {
-    width: 100%;
-    background-color: #fffdf4c5;
-    border-radius: 10px;
-}
-
 
 .back-dark .card {
     background: none;
@@ -98,9 +81,7 @@
 .permanent .row,
 .back-dark .row-cols-1,
 .price .row-cols-3,
-.back-dark .row-cols-2,
-.back-lighter .row-cols-1,
-.back-lighter .row-cols-2 {
+.back-dark .row-cols-2 {
     margin: .4rem;
 }
 
@@ -116,12 +97,6 @@
 .bckgrnd-clr .back-dark .row-cols-2 {
     width: 50%;
     background-color: #061d259a;
-}
-
-.back-lighter .card {
-    background: none;
-    border: none;
-    color: black;
 }
 
 .bckgrnd-clr .price .row {
@@ -276,6 +251,7 @@
 }
 #team img {
     min-width: 4rem;
+    max-width: 15rem;
 }
 #team p {
     margin: 0 3vw;
@@ -300,15 +276,6 @@
 .an-custom .back-light {
     background-color: #c9f8e29c;
 }
-
-.an-custom .back-lighter .col {
-    background-color: #e3fae0c4;
-}
-
-.an-custom .back-lighter h3 {
-    font-size: calc(1.3rem + 1.5vw);
-}
-
 .price .title {
     display: flex;
     justify-content: center;

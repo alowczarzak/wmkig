@@ -107,7 +107,7 @@
 #aboutr .carousel-item,
 #aboutv,
 #aboutv .carousel-item {
-    height: 40vw;
+    height: 45vw;
 }
 
 #aboutr .carousel-item img,
@@ -174,7 +174,7 @@
     list-style: none;
 }
 
-.back-light-wrap button{
+.back-light-wrap button {
     padding: 1rem;
     background-color: rgb(230, 186, 103);
     border-radius: 3px;
@@ -185,31 +185,33 @@
     margin: 0.6rem;
 }
 
-.inventory .game-form .dropdown{
+.inventory .game-form .dropdown {
     padding: .375rem .75rem;
     background-color: rgb(230, 186, 103);
     border-radius: 3px;
     transition: 0.4s;
-    border-style:unset;
+    border-style: unset;
     font-family: "source code pro", monospace;
     margin: 0.6rem;
 }
 
 .inventory button {
-    width: 300px;
+    width: 250px;
 }
 
 .inventory a {
-text-decoration: none;
-color: #061D25;
+    text-decoration: none;
+    color: #061D25;
 }
 
 .inventory .item {
     align-self: center;
 }
+
 .inventory {
     margin-bottom: 2vw;
 }
+
 .game-form {
     display: flex;
     justify-content: center;
@@ -250,9 +252,9 @@ color: #061D25;
 }
 
 #coop .container img {
-width: 15rem;
-height: auto;
-margin: 1.7vw;
+    width: 15rem;
+    height: auto;
+    margin: 1.7vw;
 }
 
 /* .footer {
@@ -346,7 +348,7 @@ margin: 1.7vw;
 .back-light ul {
     list-style: none;
     font-family: "ibm plex mono";
-    font-size: 2.1rem;
+    font-size: 1.9rem;
 }
 
 .h1bold ul li {
@@ -371,7 +373,7 @@ margin: 1.7vw;
 #wawelska .carousel-item img,
 #gus,
 #gus .carousel-item img {
-    height: 28vw;
+    height: 30vw;
     object-fit: cover;
     margin: auto;
 }
@@ -384,7 +386,7 @@ margin: 1.7vw;
 #wawelska .carousel-item,
 #gus,
 #gus .carousel-item {
-    max-height: 28vw;
+    max-height: 45vw;
 }
 
 #navvr {
@@ -444,8 +446,8 @@ margin: 1.7vw;
 .swiper {
     width: 600px;
     height: 300px;
-  }
-  
+}
+
 
 .bckgrnd-dark .dropdown-menu.show {
     background-color: rgb(65, 26, 102);
@@ -490,7 +492,6 @@ margin: 1.7vw;
     color: #e1cbf7;
 }
 
-
 .bckgrnd-dark .back-dark .vr-rez:hover,
 .bckgrnd-dark .inventory button:hover {
     background-color: rgb(65, 26, 102);
@@ -533,9 +534,9 @@ margin: 1.7vw;
     }
 }
 
-    .bckgrnd-clr .price .row img {
-        margin: 0 2vw;
-    }
+.bckgrnd-clr .price .row img {
+    margin: 0 2vw;
+}
 
 @media screen and (max-width: 1020px) {
     .permanent {
@@ -619,17 +620,9 @@ margin: 1.7vw;
         border-radius: 2px;
     }
 
-    /* .footer .container a i {
-            font-size: 4vw !important;
-        } */
-    /* 
-        .footer a {
-            font-size: 6vw;
-        }
-
-        .footer a i::before {
-            font-size: 6vw;
-        } */
+    .h1bold ul li {
+        font-size: 3.55vw !important;
+    }
 
     .back-light-wrap button {
         padding: .65rem;
@@ -662,6 +655,7 @@ margin: 1.7vw;
     .footer ul li {
         font-size: var(--bs-body-font-size) !important;
     }
+
 }
 
 @media only screen and (max-width: 610px) {
@@ -692,7 +686,18 @@ margin: 1.7vw;
     .back-dark h3 {
         font-size: 5.5vw !important;
     }
-
+    #central-station,
+    #central-station .carousel-item img,
+    #gus03,
+    #gus03 .carousel-item img,
+    #wawelska,
+    #wawelska .carousel-item img,
+    #gus,
+    #gus .carousel-item img {
+        height: 50vw;
+        object-fit: cover;
+        margin: auto;
+    }
 
 }
 
@@ -714,6 +719,17 @@ margin: 1.7vw;
     .opening-hours table tr {
         font-size: calc(.85rem + 1vw);
     }
+
+    #aboutr,
+    #aboutr .carousel-item,
+    #aboutv,
+    #aboutv .carousel-item {
+        height: 50vw !important;
+    }
+    .h1bold ul {
+        padding-left: 0;
+    }
+
 }
 
 
@@ -739,6 +755,7 @@ margin: 1.7vw;
         padding: 0 !important;
         margin: 0 !important;
     }
+
     .price .title img {
         height: 55px !important;
     }
