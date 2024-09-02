@@ -57,8 +57,7 @@
 }
 
 .offer .back-dark ul,
-.offer .back-dark p
- {
+.offer .back-dark p {
     color: #ebddfa;
 }
 
@@ -201,7 +200,7 @@
 
 .api-map {
     height: 49vw;
-    opacity: .85;
+    opacity: .9;
 }
 
 .left-pic,
@@ -249,13 +248,16 @@
     justify-content: center;
     align-items: center;
 }
+
 #team img {
     min-width: 4rem;
     max-width: 15rem;
 }
+
 #team p {
     margin: 0 3vw;
 }
+
 .space-eve {
     width: 75%;
     justify-content: space-evenly;
@@ -269,18 +271,33 @@
     font-weight: bold;
 }
 
+.bckgrnd-clr .back-green .card a {
+    color: #243d2c;
+}
+.footer .back-green a{
+    color: #426b50;
+}
+.footer .back-green a:hover {
+    color: #1cbb71 !important;
+}
+.bckgrnd-clr .back-green .card a:hover {
+    color: #426b50 !important;
+}
+
 .an-custom p {
     font-family: "merriweather";
 }
 
-.an-custom .back-light {
-    background-color: #c9f8e29c;
+.an-custom .full-width {
+    width: 100%;
 }
+
 .price .title {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .title img {
     max-height: 80px;
     width: auto;

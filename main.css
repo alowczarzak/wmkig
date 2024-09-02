@@ -18,6 +18,7 @@
 
 .an-back {
     background-image: url(images/bar-back.png) !important;
+    background-color: #3a745d;
 }
 
 .an-back #navbar {
@@ -257,28 +258,6 @@
     margin: 1.7vw;
 }
 
-/* .footer {
-    background: #061D25;
-    padding: 10px 0;
-}
-
-.footer a {
-    color: #70726F;
-    font-size: 2vw;
-    padding: 10px;
-    border-right: 1px solid #70726F;
-    transition: all .5s ease;
-}
-
-.footer a:first-child {
-    border-left: 1px solid #70726F;
-}
-
-.footer a:hover {
-    color: white;
-}
- */
-
 .footer .col-md-5 {
     display: flex;
     justify-content: center;
@@ -506,6 +485,11 @@
 .bckgrnd-dark h4 {
     font-size: 1rem;
     margin-top: 2rem;
+}
+
+.back-green {
+    font-family:"merriweather";
+    background-color: #b0e3cba8;
 }
 
 @media screen and (max-width: 1250px) {
