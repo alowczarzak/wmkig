@@ -565,6 +565,9 @@
         min-width: 100% !important;
         margin: .2rem 0 !important;
     }
+    .news .row {
+        width: auto !important;
+    }
 }
 
 

@@ -243,7 +243,7 @@
     width: 50%;
 }
 
-#team .back-light {
+#team .back-light, #team .back-dark {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -301,4 +301,11 @@
 .title img {
     max-height: 80px;
     width: auto;
+}
+
+.news .row {
+    width: 33%;
+}
+.news .row .card {
+    width: 100%;
 }
