@@ -309,3 +309,45 @@
 .news .row .card {
     width: 100%;
 }
+ 
+#rgames img {
+ width: 19vw;
+ 
+}
+
+#rgames .back-dark {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: rgba(0, 0, 0, 0.521);
+
+}
+
+#rgames td,
+#rgames th{
+    font-size: x-large;
+}
+
+#rgames .back-dark th,
+#rgames .back-dark .th-inner,
+#rgames .back-dark td
+ {
+    background-color: transparent;
+    color: #fffdf4c5;
+    border: none;
+}
+
+.rgenres {
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rgenres ul {
+    padding: 0 2vw;
+}
+
+.game-form .dropdown-menu.show {
+    display: flex;
+}

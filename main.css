@@ -186,7 +186,8 @@
     margin: 0.6rem;
 }
 
-.inventory .game-form .dropdown {
+.inventory .game-form .dropdown,
+.bckgrnd-clr .form-control {
     padding: .375rem .75rem;
     background-color: rgb(230, 186, 103);
     border-radius: 3px;
@@ -214,15 +215,11 @@
 }
 
 .game-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   float: left;
 }
-
-.form-control {
-    border-radius: 0% !important;
+.form-control:focus {
+    background-color: rgb(235, 181, 130) !important;
 }
-
 .back-light-wrap button a {
     color: #061D25;
     text-decoration: none;
@@ -567,6 +564,13 @@
     }
     .news .row {
         width: auto !important;
+    }
+    #rgames .back-dark {
+        padding: 0 !important;
+
+    }
+    #rgames td, #rgames th {
+        font-size: small !important;
     }
 }
 
