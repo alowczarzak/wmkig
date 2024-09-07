@@ -310,12 +310,12 @@
     width: 100%;
 }
  
-#rgames img {
+#rgames img, #vrgames img {
  width: 19vw;
  
 }
 
-#rgames .back-dark {
+#rgames .back-dark, #vrgames .back-dark {
 
     display: flex;
     justify-content: space-between;
@@ -325,13 +325,16 @@
 }
 
 #rgames td,
-#rgames th{
+#rgames th, #vrgames td, #vrgames th{
     font-size: x-large;
 }
 
 #rgames .back-dark th,
 #rgames .back-dark .th-inner,
-#rgames .back-dark td
+#rgames .back-dark td,
+#vrgames .back-dark th,
+#vrgames .back-dark .th-inner,
+#vrgames .back-dark td
  {
     background-color: transparent;
     color: #fffdf4c5;

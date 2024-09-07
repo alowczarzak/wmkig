@@ -1,4 +1,4 @@
-const retroGames =
+const vrgames =
     [
         {
             "title": "Tennis Cup",
@@ -1563,8 +1563,8 @@ const retroGames =
     ]
 
 $(document).ready(function () {
-    var tableBody = $('#rgames tbody');
-    $.each(retroGames, function (index, item) {
+    var tableBody = $('#vrgames tbody');
+    $.each(vrgames, function (index, item) {
         var row = $('<tr class="back-dark">');
         row.append($('<td>').html(`<img src="${item.imageCover}">`));
         row.append($('<td>').text(`${item.title}`));
@@ -1577,7 +1577,7 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
-    $('#rgames').bootstrapTable({
+    $('#vrgames').bootstrapTable({
         search: true,
         columns: [
             {

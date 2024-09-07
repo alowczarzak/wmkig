@@ -217,8 +217,11 @@
 .game-form {
    float: left;
 }
-.form-control:focus {
+.bckgrnd-clr .form-control:focus {
     background-color: rgb(235, 181, 130) !important;
+}
+.bckgrnd-dark .form-control:focus {
+    background-color: rgb(180, 161, 216) !important;
 }
 .back-light-wrap button a {
     color: #061D25;
