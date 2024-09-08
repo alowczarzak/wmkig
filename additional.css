@@ -354,3 +354,13 @@
 .game-form .dropdown-menu.show {
     display: flex;
 }
+
+.footer .tiktok-icon svg {
+    width: 20px;
+    fill: white;
+    transition: .3s;
+}
+
+.footer .tiktok-icon svg:hover {
+    fill: #a977fa !important;
+}
