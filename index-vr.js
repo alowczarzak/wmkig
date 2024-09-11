@@ -155,13 +155,55 @@ const vrgames =
             "description": "Nie chcesz wyjść zagrać w golfa? Zrób to u nas! Nie wychodząc nigdzie!"
         },
         {
-            "title": "Walkabout Mini Golf",
-            "genre": "sport",
+            "title": "To the Top",
+            "genre": "sport, zręcznościowe",
             "ageCategory": "7+",
             "multiplayer": "no",
-            "producer": "Mighty Coconut",
-            "description": "Nie chcesz wyjść zagrać w golfa? Zrób to u nas! Nie wychodząc nigdzie!"
+            "producer": "Panic Button Games",
+            "description": "Czy uda ci się wspiąć na szczyt szybciej od innych?"
         },
+        {
+            "title": "Hellsplit: Arena",
+            "genre": "RPG, action",
+            "ageCategory": "18+",
+            "multiplayer": "no",
+            "producer": "Deep Type Games",
+            "description": "Demony i nieumarli znów atakują. Pora pokazać im, gdzie ich miejsce!"
+        },
+        {
+            "title": "The Thrill of the Fight",
+            "genre": "sport, simulator",
+            "ageCategory": "12+",
+            "multiplayer": "no",
+            "producer": "Sealost Interactive",
+            "description": "Zostań mistrzem Boksu!"
+        },
+        {
+            "title": "All in One Sports",
+            "genre": "sport",
+            "ageCategory": "7+",
+            "multiplayer": "yes",
+            "producer": "APPNORI",
+            "description": "Boks to za mało? Dzięki All in One Sports, twoje ulubione dyscypliny są na wyciągnięcie ręki!"
+        },
+        {
+            "title": "Epic Roller Coasters",
+            "genre": "Rekreacyjna",
+            "ageCategory": "7+",
+            "multiplayer": "no",
+            "producer": "B4T Games",
+            "description": "Jazda kolejką górską, której potrzebowałeś!"
+        },
+        {
+            "title": "I Expect You To Die",
+            "genre": "Zagadkowa, logiczna",
+            "ageCategory": "12+",
+            "multiplayer": "no",
+            "producer": "Schell Games",
+            "description": "Czy uda ci się rozwiązać zagadki zanim skończy ci się czas? Agencie?"
+        },
+       
+
     ]
 
 $(document).ready(function () {
@@ -171,7 +213,10 @@ $(document).ready(function () {
         row.append($('<td>').html(`<img src="${item.imageCover}">`));
         row.append($('<td>').text(`${item.title}`));
         row.append($('<td>').text(`${item.genre}`));
-        row.append($('<td>').text(`${item.platform}`));
+        row.append($('<td>').text(`${item.ageCategory}`));
+        row.append($('<td>').text(`${item.multiplayer}`));
+        row.append($('<td>').text(`${item.producer}`));
+        row.append($('<td>').text(`${item.description}`));
         tableBody.append(row);
     });
 

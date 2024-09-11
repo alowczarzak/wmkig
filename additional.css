@@ -170,7 +170,7 @@
 }
 
 .contact .row .col .card p {
-    font-size: 1.7vw;
+    font-size: 2vw;
 }
 
 .contact .row {
@@ -269,6 +269,10 @@
 .an-custom h4 {
     font-family: "Libre Baskerville", serif;
     font-weight: bold;
+}
+
+.back-green .card {
+    background: transparent;
 }
 
 .bckgrnd-clr .back-green .card a {

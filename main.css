@@ -659,12 +659,7 @@
         font-size: 5vw !important;
     }
 
-    .back-lighter h3 {
-        font-size: 4.9vw !important;
-    }
-
-    .back-dark h3,
-    .back-lighter h3 {
+    .back-dark h3 {
         margin: 0.5rem 0 !important;
     }
 
@@ -766,10 +761,6 @@
 
     .contact .row .col .card {
         padding: 0 !important;
-    }
-
-    .back-lighter h3 {
-        font-size: 4.6vw !important;
     }
 
     .navvr-brand img {
