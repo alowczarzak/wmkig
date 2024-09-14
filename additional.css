@@ -368,3 +368,7 @@
 .footer .tiktok-icon svg:hover {
     fill: #a977fa !important;
 }
+
+#business, #academy {
+    background-color: #040607d0;
+}
