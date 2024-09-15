@@ -250,7 +250,8 @@ const vrgames =
             "ageCategory": "18+",
             "multiplayer": "no",
             "producer": "Straight Back Games",
-            "description": "Wierny członek kultu i opętani ciekawscy, których trzeba uratować? Co może pójść nie tak?"
+            "description": "Wierny członek kultu i opętani ciekawscy, których trzeba uratować? Co może pójść nie tak?",
+            "imageCover": "https://static.muve.pl/uploads/product-cover/0222/6853/devour-okladka-gra-pc-muve.JPG"
         },
         {
             "title": "Arizona Sunshine",
@@ -258,7 +259,8 @@ const vrgames =
             "ageCategory": "18+",
             "multiplayer": "no",
             "producer": "Vertigo Games",
-            "description": "Skąpana w słońcu Arizona… To miały być wakacje wolne od Zombi, ale… wiadomo jak to w takiej opowieści bywa."
+            "description": "Skąpana w słońcu Arizona… To miały być wakacje wolne od zombie, ale… wiadomo jak to w takiej opowieści bywa.",
+            "imageCover": "https://i.ytimg.com/vi/Nw5YzBqk01I/maxresdefault.jpg"
         },
         {
             "title": "Pistol Whip",
@@ -266,7 +268,8 @@ const vrgames =
             "ageCategory": "12+",
             "multiplayer": "no",
             "producer": "Cloudhead Games",
-            "description": "Wstrzel się w rytm! Uważaj przy okazji, na przeciwników, oni także tańczą w twoim stylu!"
+            "description": "Wstrzel się w rytm! Uważaj przy okazji, na przeciwników, oni także tańczą w twoim stylu!",
+            "imageCover" : "https://i.ytimg.com/vi/Nw5YzBqk01I/maxresdefault.jpg"
         },
         {
             "title": "Aircar",
@@ -274,7 +277,8 @@ const vrgames =
             "ageCategory": "7+",
             "multiplayer": "no",
             "producer": "Giant Form Entertainment",
-            "description": "Spójrz na przyszłość z zupełnie innej, niezwykle pięknej perspektywy"
+            "description": "Spójrz na przyszłość z zupełnie innej, niezwykle pięknej perspektywy",
+            "imageCover": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVgBHGJV7cuYqQlnD784xqd5rG3iC68YusRh6yFdoAAWk_EV43RL0qq4_0G497PlXfvvN_emruw09EUB7cnOA-5Gn6lQ7bP_PAvzhNTdvqruFE8ora4Bw-jH1imwEiOZjHkyuHLOn5NxeajmfV91RtLJh6qwXfLSz5nqtOizrpwqWudzN3c_rr9idx2UE/s1600/ac1.JPG"
         },
         {
             "title": "Warplanes: WW1 Fighters",
@@ -282,7 +286,8 @@ const vrgames =
             "ageCategory": "12+",
             "multiplayer": "no",
             "producer": "Home Net Games",
-            "description": "Kokpit twojego dwupłatowca, karabin i wróg. Czas na morderczą wojnę na frontach I Wojny Światowej"
+            "description": "Kokpit twojego dwupłatowca, karabin i wróg. Czas na morderczą wojnę na frontach I Wojny Światowej",
+            "imageCover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1546500/capsule_616x353.jpg?t=1701714170"
         },
         {
             "title": "Half-Life Alyx",
@@ -290,7 +295,8 @@ const vrgames =
             "ageCategory": "18+",
             "multiplayer": "no",
             "producer": "Valve",
-            "description": "Czas… znów stawić czoła miastu 17 Pani… Vance."
+            "description": "Czas… znów stawić czoła miastu 17 Pani… Vance.",
+            "imageCover": "https://www.purepc.pl/files/Image/ArtykulHeadlines/27618.jpg"
         },
 
     ]
