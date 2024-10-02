@@ -15,7 +15,7 @@ const vrgames =
             "ageCategory": "7+",
             "multiplayer": "no",
             "producer": "Wandev Studio",
-            "description": "Zagrzej do boju okręt wikingów, dudniąc bębnami rytmy twoich ulubionych kawałków rockowych",
+            "description": "Zagrzej do boju okręt wikingów, dudniąc bębnami rytmy twoich ulubionych kawałków rockowych.",
             "imageCover": "https://products.eneba.games/resized-products/-W6wf925yic61DLxSvvVlG7xKl6UOFg5f1O1uPbqWl4_350x200_2x-0.jpeg"
         },
         {
@@ -24,11 +24,11 @@ const vrgames =
             "ageCategory": "18+",
             "multiplayer": "no",
             "producer": "WarpFrog",
-            "description": "Poznać tajemnice pradawnych, władaj mieczem i magią!",
+            "description": "Poznaj tajemnice pradawnych, władaj mieczem i magią!",
             "imageCover": "https://gaming-cdn.com/images/products/6327/616x353/blade-and-sorcery-vr-edition-pc-game-steam-cover.jpg?v=1709117450"
         },
         {
-            "title": "DOOM VFR",
+            "title": "DOOM VR",
             "genre": "action FPS",
             "ageCategory": "18+",
             "multiplayer": "no",
@@ -42,7 +42,7 @@ const vrgames =
             "ageCategory": "10+",
             "multiplayer": "yes",
             "producer": "Wenkly Studio",
-            "description": "Walczcie z Hordami zielonoskórych. Czy podołacie obronie miasta?",
+            "description": "Walcz z hordami zielonoskórych. Czy podołasz obronie miasta?",
             "imageCover": "https://scontent.oculuscdn.com/v/t64.5771-25/75556281_3372025449610589_1206488216322750101_n.png?_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=0MlUVNXL-JgQ7kNvgFsrok7&_nc_ht=scontent.oculuscdn.com&oh=00_AYAog5g4t903l1s8j8o8eiA7Wun4RAGCujEGFIHowb7wBg&oe=66E79538"
         },
         {
@@ -78,7 +78,7 @@ const vrgames =
             "ageCategory": "12+",
             "multiplayer": "no",
             "producer": "Unknonw Worlds Entertainment",
-            "description": "Zanurz się w morskich głębinach planety 4546B",
+            "description": "Zanurz się w morskich głębinach planety 4546B!",
             "imageCover": "https://e.snmc.io/lk/l/x/204f11a2806fe996b00230fd5eba2f49/7749030"
         },
         {
@@ -87,7 +87,7 @@ const vrgames =
             "ageCategory": "12+",
             "multiplayer": "no",
             "producer": "SUPERHOT Team",
-            "description": "Wściekle grywalna strzelanka, w której każdy twój ruch, ma znaczenie!",
+            "description": "Wściekle grywalna strzelanka, w której każdy Twój ruch ma znaczenie!",
             "imageCover": "https://m.media-amazon.com/images/I/41T+XT1catL._AC_UF1000,1000_QL80_.jpg"
         },
         {
@@ -114,7 +114,7 @@ const vrgames =
             "ageCategory": "7+",
             "multiplayer": "no",
             "producer": "Playerthree Limited",
-            "description": "Męcząca praca dla firmy przesyłkowej jeszcze nigdy nie była tak zabawna",
+            "description": "Męcząca praca dla firmy przesyłkowej jeszcze nigdy nie była tak zabawna!",
             "imageCover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2339570/header.jpg?t=1686559908"
         },
         {
@@ -123,7 +123,7 @@ const vrgames =
             "ageCategory": "12+",
             "multiplayer": "no",
             "producer": "Chronospace/IPN",
-            "description": "Historyczna gra zagadkowa, w której poznasz niezwykłą historię polskich kryptologów",
+            "description": "Historyczna gra zagadkowa, w której poznasz niezwykłą historię polskich kryptologów.",
             "imageCover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1978470/header_polish.jpg?t=1719930371"
         },
         {
@@ -132,7 +132,7 @@ const vrgames =
             "ageCategory": "12+",
             "multiplayer": "no",
             "producer": "Chronospace/IPN",
-            "description": "Historyczna gra zagadkowa, w której poznasz losy polskich pilotów II WŚ",
+            "description": "Historyczna gra zagadkowa, w której poznasz losy polskich pilotów II Wojny Światowej.",
             "imageCover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2707150/header_polish.jpg?t=1720819186"
         },
         {
@@ -141,7 +141,7 @@ const vrgames =
             "ageCategory": "7+",
             "multiplayer": "yes",
             "producer": "Rec Room",
-            "description": "Baw się i rozmawiaj ze znajomymi z całego świata",
+            "description": "Baw się i rozmawiaj ze znajomymi z całego świata!",
             "imageCover": "https://www.internetmatters.org/wp-content/uploads/2022/07/rec-room-image.png"
         },
 
@@ -151,7 +151,7 @@ const vrgames =
             "ageCategory": "7+",
             "multiplayer": "no",
             "producer": "PlayWay",
-            "description": "Kupuj, naprawiaj i sprzedawaj domy niczym prawdziwy Warszawski deweloper mieszkaniowy",
+            "description": "Kupuj, naprawiaj i sprzedawaj domy niczym prawdziwy warszawski deweloper mieszkaniowy.",
             "imageCover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1194700/capsule_616x353.jpg?t=1725883947"
         },
         {
@@ -241,7 +241,7 @@ const vrgames =
             "ageCategory": "18+",
             "multiplayer": "no",
             "producer": "Wandev Studio",
-            "description": "Walcz, broń się, przetrwaj ataki nieumarłych. Sprawdź czy boisz się ciemności?",
+            "description": "Walcz, broń się, przetrwaj ataki nieumarłych. Sprawdź, czy boisz się ciemności?",
             "imageCover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1363430/capsule_616x353.jpg?t=1665754444"
         },
         {
@@ -268,7 +268,7 @@ const vrgames =
             "ageCategory": "12+",
             "multiplayer": "no",
             "producer": "Cloudhead Games",
-            "description": "Wstrzel się w rytm! Uważaj przy okazji, na przeciwników, oni także tańczą w twoim stylu!",
+            "description": "Wstrzel się w rytm! Uważaj przy okazji na przeciwników, oni także tańczą w twoim stylu!",
             "imageCover" : "https://i.ytimg.com/vi/Nw5YzBqk01I/maxresdefault.jpg"
         },
         {
@@ -277,7 +277,7 @@ const vrgames =
             "ageCategory": "7+",
             "multiplayer": "no",
             "producer": "Giant Form Entertainment",
-            "description": "Spójrz na przyszłość z zupełnie innej, niezwykle pięknej perspektywy",
+            "description": "Spójrz na przyszłość z zupełnie innej, niezwykle pięknej perspektywy.",
             "imageCover": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVgBHGJV7cuYqQlnD784xqd5rG3iC68YusRh6yFdoAAWk_EV43RL0qq4_0G497PlXfvvN_emruw09EUB7cnOA-5Gn6lQ7bP_PAvzhNTdvqruFE8ora4Bw-jH1imwEiOZjHkyuHLOn5NxeajmfV91RtLJh6qwXfLSz5nqtOizrpwqWudzN3c_rr9idx2UE/s1600/ac1.JPG"
         },
         {
@@ -286,7 +286,7 @@ const vrgames =
             "ageCategory": "12+",
             "multiplayer": "no",
             "producer": "Home Net Games",
-            "description": "Kokpit twojego dwupłatowca, karabin i wróg. Czas na morderczą wojnę na frontach I Wojny Światowej",
+            "description": "Kokpit twojego dwupłatowca, karabin i wróg. Czas na morderczą wojnę na frontach I Wojny Światowej.",
             "imageCover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1546500/capsule_616x353.jpg?t=1701714170"
         },
         {
@@ -295,7 +295,7 @@ const vrgames =
             "ageCategory": "18+",
             "multiplayer": "no",
             "producer": "Valve",
-            "description": "Czas… znów stawić czoła miastu 17 Pani… Vance.",
+            "description": "Czas… znów stawić czoła miastu 17, pani Vance.",
             "imageCover": "https://www.purepc.pl/files/Image/ArtykulHeadlines/27618.jpg"
         },
 

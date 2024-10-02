@@ -315,8 +315,18 @@
 }
  
 #rgames img, #vrgames img {
- width: 19vw;
+ width: 10vw;
  
+}
+
+.bckgrnd-clr .no-records-found {
+  border: none;
+}
+
+.bckgrnd-clr .no-records-found td {
+    font-family: 'ibm plex mono';
+    background-color: rgb(230, 186, 103);
+border-radius: 8px;
 }
 
 #rgames .back-dark, #vrgames .back-dark {
@@ -329,8 +339,11 @@
 }
 
 #rgames td,
-#rgames th, #vrgames td, #vrgames th{
+#rgames th{
     font-size: x-large;
+}
+#vrgames td, #vrgames th {
+    font-size: large;
 }
 
 #rgames .back-dark th,
@@ -343,6 +356,10 @@
     background-color: transparent;
     color: #fffdf4c5;
     border: none;
+}
+#rgames .back-dark td,
+#vrgames .back-dark td {
+    width: 20%;
 }
 
 .rgenres {

@@ -106,12 +106,15 @@
 
 #aboutr,
 #aboutr .carousel-item,
+#offerr,
+#offerr .carousel-item,
 #aboutv,
 #aboutv .carousel-item {
     height: 45vw;
 }
 
 #aboutr .carousel-item img,
+#offerr .carousel-item img,
 #aboutv .carousel-item img {
     height: 100%;
     width: fit-content;
@@ -711,6 +714,9 @@
 
     #aboutr,
     #aboutr .carousel-item,
+    
+    #offerr,
+    #offerr .carousel-item,
     #aboutv,
     #aboutv .carousel-item {
         height: 50vw !important;

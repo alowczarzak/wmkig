@@ -787,6 +787,12 @@ const retroGames =
             "imageCover": "https:\/\/d29xot63vimef3.cloudfront.net\/image\/bestselling-games-2006\/2324-1.jpg"
         },
         {
+            "title": "Tekken 5",
+            "genre": "Fighter",
+            "platform": "PS2",
+            "imageCover": "https://assetsio.gnwcdn.com/co45jq.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp"
+        },
+        {
             "title": "Colin McRae 04",
             "genre": "Racing",
             "platform": "PS2",
