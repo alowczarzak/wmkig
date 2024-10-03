@@ -735,187 +735,187 @@ const retroGames =
         {
             "title": "Tomb Raider IV",
             "genre": "Action",
-            "platform": "PS1",
+            "platform": "PS1", "alt": "playstation",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/6816223-uefa-champions-league-season-19992000-playstation-front-cover.jpg"
         },
         {
             "title": "Uefa Champions league season 2000",
             "genre": "Sports tfu",
-            "platform": "PS1",
+            "platform": "PS1", "alt": "playstation",
             "imageCover": "https:\/\/a.allegroimg.com\/s1024\/0c5264\/bcdd5bd24671947f13e8b33b9623"
         },
         {
             "title": "Tekken 3",
             "genre": "Fighter",
-            "platform": "PS1",
+            "platform": "PS1", "alt": "playstation",
             "imageCover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/9\/98\/Tekken3Box.jpg\/220px-Tekken3Box.jpg"
         },
         {
             "title": "Crash Team Racing",
             "genre": "Racing",
-            "platform": "PS1",
+            "platform": "PS1", "alt": "playstation",
             "imageCover": "https:\/\/d29xot63vimef3.cloudfront.net\/image\/playstation-games\/154-1.jpg"
         },
         {
             "title": "Killzone",
             "genre": "FPS",
-            "platform": "PS2",
+            "platform": "PS2", "alt": "playstation",
             "imageCover": "https:\/\/d29xot63vimef3.cloudfront.net\/image\/bestselling-games-2006\/1006-1.jpg"
         },
         {
             "title": "WWE SmackDown! Shut your mouth",
             "genre": "Sport",
-            "platform": "PS2",
+            "platform": "PS2", "alt": "playstation",
             "imageCover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/c\/c7\/WWESmackDownShutYourMouth.jpg"
         },
         {
             "title": "Resident Evil: Code Veronica Red",
             "genre": "Survival Horror",
-            "platform": "PS2",
+            "platform": "PS2", "alt": "playstation",
             "imageCover": "https:\/\/static.wikia.nocookie.net\/residentevil\/images\/e\/e5\/RECVXPS2HD.jpg\/revision\/latest?cb=20161208165436"
         },
         {
             "title": "Virtua Fighter 4: Evolution",
             "genre": "Fighter",
-            "platform": "PS2",
+            "platform": "PS2", "alt": "playstation",
             "imageCover": "https:\/\/pliki.ppe.pl\/storage\/8a8549e631d1b04d9c34\/8a8549e631d1b04d9c34.jpg"
         },
         {
             "title": "Tekken 4",
             "genre": "Fighter",
-            "platform": "PS2",
+            "platform": "PS2", "alt": "playstation",
             "imageCover": "https:\/\/d29xot63vimef3.cloudfront.net\/image\/bestselling-games-2006\/2324-1.jpg"
         },
         {
             "title": "Tekken 5",
             "genre": "Fighter",
-            "platform": "PS2",
+            "platform": "PS2", "alt": "playstation",
             "imageCover": "https://assetsio.gnwcdn.com/co45jq.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp"
         },
         {
             "title": "Colin McRae 04",
             "genre": "Racing",
-            "platform": "PS2",
+            "platform": "PS2", "alt": "playstation",
             "imageCover": "https:\/\/www.gry-online.pl\/galeria\/gry13\/365844078.jpg"
         },
         {
             "title": "Hot Wheels Beat That",
             "genre": "Racing",
-            "platform": "PS2",
+            "platform": "PS2", "alt": "playstation",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/4895062-hot-wheels-beat-that-playstation-2-manual.jpg"
         },
         {
             "title": "Tiger Woods PGA Tour 06",
             "genre": "Sport",
-            "platform": "PS2",
+            "platform": "PS2", "alt": "playstation",
             "imageCover": "https:\/\/d29xot63vimef3.cloudfront.net\/image\/bestselling-games-2006\/2512-1.jpg"
         },
         {
             "title": "Medal of Honor: Vanguard",
             "genre": "FPS",
-            "platform": "PS2",
+            "platform": "PS2", "alt": "playstation",
             "imageCover": "https:\/\/media.cdn.videotesty.pl\/media\/pliki\/produkty\/2011\/09\/08\/Gra-PS2-Medal-of-Honor-Vanguard_1.jpeg"
         },
         {
             "title": "FIFA Street 2",
             "genre": "Sport",
-            "platform": "PS2",
+            "platform": "PS2", "alt": "playstation",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/4274010-fifa-street-playstation-2-front-cover.jpg"
         },
         {
             "title": "Black",
             "genre": "Action Adventure",
-            "platform": "PS2",
+            "platform": "PS2", "alt": "playstation",
             "imageCover": "https:\/\/a.allegroimg.com\/s720\/118ec7\/8f8f8c0144a082d16cf3abb51082\/Black-PS2-Uzywana-ALLPLAY"
         },
         {
             "title": "The Warriors",
             "genre": "Beat'em Up",
-            "platform": "PS2",
+            "platform": "PS2", "alt": "playstation",
             "imageCover": "https:\/\/www.thevideogamecompany.com\/cdn\/shop\/products\/the-warriors-sony-playstation-2-ps2-710425271632-cover-art.jpg?v=1656651635"
         },
         {
             "title": "Project Snowblind",
             "genre": "FPS",
-            "platform": "PS2",
+            "platform": "PS2", "alt": "playstation",
             "imageCover": "https:\/\/image.konsolenkost.de\/item\/images\/1016571\/full\/Playstation-2-Project-Snowblind-e-0.jpg"
         },
         {
             "title": "Medal of Honor:Frontline",
             "genre": "FPS",
-            "platform": "PS2",
+            "platform": "PS2", "alt": "playstation",
             "imageCover": "https:\/\/a.allegroimg.com\/original\/1102cc\/72a16eef4f04b9cc03c1e07d1999\/Gra-MEDAL-OF-HONOR-FRONTLINE-Sony-PlayStation-2-PS2"
         },
         {
             "title": "Battlefield 2: Modern Combat",
             "genre": "FPS",
-            "platform": "PS2",
+            "platform": "PS2", "alt": "playstation",
             "imageCover": "https:\/\/image.ceneostatic.pl\/data\/products\/157532\/i-battlefield-2-modern-combat-gra-ps2.jpg"
         },
         {
             "title": "The Sims",
             "genre": "Simulator",
-            "platform": "PS2",
+            "platform": "PS2", "alt": "playstation",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/8694755-the-sims-playstation-2-front-cover.png"
         },
         {
             "title": "Midnight Club 2",
             "genre": "Racing",
-            "platform": "PS2",
+            "platform": "PS2", "alt": "playstation",
             "imageCover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/1\/13\/Midnight_Club_II_Coverart.jpg\/220px-Midnight_Club_II_Coverart.jpg"
         },
         {
             "title": "True Crime NYC",
             "genre": "Action Adventure",
-            "platform": "PS2",
+            "platform": "PS2", "alt": "playstation",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/4311444-true-crime-new-york-city-playstation-2-front-cover.jpg"
         },
         {
             "title": "James Bond 007: Nightfire",
             "genre": "FPS",
-            "platform": "PS2",
+            "platform": "PS2", "alt": "playstation",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/3889528-007-nightfire-playstation-2-front-cover.jpg"
         },
         {
             "title": "Need For Speed: Most Wanted",
             "genre": "Racing",
-            "platform": "PS2",
+            "platform": "PS2", "alt": "playstation",
             "imageCover": "https:\/\/uk.static.webuy.com\/product_images\/Gaming\/Playstation2%20Software\/5030930046095_l.jpg"
         },
         {
             "title": "Burnout Revenge",
             "genre": "Racing",
-            "platform": "PS2",
+            "platform": "PS2", "alt": "playstation",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/4256016-burnout-revenge-playstation-2-front-cover.jpg"
         },
         {
             "title": "Lego Star Wars",
             "genre": "Action Adventure",
-            "platform": "PS2",
+            "platform": "PS2", "alt": "playstation",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/4366480-lego-star-wars-the-video-game-playstation-2-front-cover.jpg"
         },
         {
             "title": "Medal of Honor: European Assault",
             "genre": "FPS",
-            "platform": "PS2",
+            "platform": "PS2", "alt": "playstation",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/4425392-medal-of-honor-european-assault-playstation-2-front-cover.jpg"
         },
         {
             "title": "Lego Batman",
             "genre": "Action Adventure",
-            "platform": "PS2",
+            "platform": "PS2", "alt": "playstation",
             "imageCover": "https:\/\/a.allegroimg.com\/s720\/115b3b\/89c45ccc424797e57ec80aac9412\/Gra-LEGO-Batman-The-Videogame-Sony-PlayStation-2-PS2"
         },
         {
             "title": "Harry Potter: Quiddich World Cup",
             "genre": "Sport",
-            "platform": "PS2",
+            "platform": "PS2", "alt": "playstation",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/4248946-harry-potter-quidditch-world-cup-playstation-2-front-cover.jpg"
         },
         {
             "title": "Mercenaries",
             "genre": "Action Adventure",
-            "platform": "PS2",
+            "platform": "PS2", "alt": "playstation",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/684348-mercenaries-playground-of-destruction-playstation-2-front-cover.jpg"
         },
         {
@@ -1149,313 +1149,313 @@ const retroGames =
         {
             "title": "Dungeon Keeper",
             "genre": "RTS",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/3950971-dungeon-keeper-dos-front-cover.jpg"
         },
         {
             "title": "S\u0105siedzi z Piek\u0142a Rodem",
             "genre": "Puzzle",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/4240970-neighbors-from-hell-windows-front-cover.jpg"
         },
         {
             "title": "S\u0105siedzi z Piek\u0142a Rodem 2",
             "genre": "Puzzle",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/4630036-neighbors-from-hell-on-vacation-windows-front-cover.jpg"
         },
         {
             "title": "Prince of Persia",
             "genre": "Platformer",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/9482296-prince-of-persia-apple-ii-front-cover.jpg"
         },
         {
             "title": "Dizzy 2",
             "genre": "Platformer",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/4251963-treasure-island-dizzy-zx-spectrum-front-cover.jpg"
         },
         {
             "title": "Sammy Suricate",
             "genre": "Platformer",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/fwcdn.pl\/fpo\/73\/91\/627391\/7393885_1.3.jpg"
         },
         {
             "title": "Deluxe Ski Jump 2",
             "genre": "Sportowa",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/static.wikia.nocookie.net\/videogames\/images\/8\/81\/Dsj2.jpg\/revision\/latest?cb=20140525111242&path-prefix=pl"
         },
         {
             "title": "Tetris ",
             "genre": "Puzzle",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcTA7y_bLBvKJBRa030FT7g9OFKjcIKDnbOzsQ&s"
         },
         {
             "title": "Lemmings",
             "genre": "Puzzle",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/0\/0c\/Lemmings-BoxScan.jpg"
         },
         {
             "title": "Mamba",
             "genre": "Puzzle",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcR0hZYmmjO5HJ6hYFkrmHlhwAgDkCFl87ZVig&s"
         },
         {
             "title": "Doom",
             "genre": "FPS",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/3947919-doom-dos-front-cover.jpg"
         },
         {
             "title": "Quake",
             "genre": "FPS",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/4611955-quake-dos-front-cover.jpg"
         },
         {
             "title": "Stronghold",
             "genre": "RTS",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/static.wikia.nocookie.net\/stronghold\/images\/1\/17\/Stronghold_1.jpg\/revision\/latest?cb=20081211191453"
         },
         {
             "title": "Bolek i Lolek: Zwariowana Olimpiada",
             "genre": "Sport",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/a.allegroimg.com\/s512\/11d814\/c809c4fd4ad1a3751b236343cfc5\/Bolek-i-Lolek-Zwariowana-Olimpiada-PC-UNIKAT"
         },
         {
             "title": "Heroes of Might And Magic 3 Complete",
             "genre": "TBS",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/3965079-heroes-of-might-and-magic-iii-complete-collectors-edition-window.jpg"
         },
         {
             "title": "3d Bubble Bobble",
             "genre": "Puzzle",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/www.instalki.pl\/wp-content\/uploads\/gra\/3\/3d-bubble-bobble.jpg"
         },
         {
             "title": "Warblade",
             "genre": "Shoot'em Up",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/img.dobreprogramy.pl\/Images\/Tools\/96129\/4d9a06ed-3ca5-4e0a-8034-e3a52b0aa62b.jpg"
         },
         {
             "title": "Karting Race",
             "genre": "Sport",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": null
         },
         {
             "title": "Kyodai Mahjongg",
             "genre": "Puzzle",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/img.dobreprogramy.pl\/Images\/ToolIcon\/97281\/503fe037-43a0-4d29-a532-4c691ea1957b.jpg"
         },
         {
             "title": "Rollercoaster Tycoon Deluxe",
             "genre": "CMS",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/cdn.mobygames.com\/05a78d8e-abfb-11ed-98b0-02420a000130.webp"
         },
         {
             "title": "Pekka Kana 2",
             "genre": "Platformer",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/pistegamez.net\/PK2\/SHOT1.gif"
         },
         {
             "title": "Pinball",
             "genre": "Pinball",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/classicreload.com\/sites\/default\/files\/win9x-3d-pinball-space-cadet-screen.png"
         },
         {
             "title": "Skoki Narciarskie 2004",
             "genre": "Sport",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/a.allegroimg.com\/original\/11d335\/a60b3e1548a0ac1ccf78f77e01ef\/PC-SKOKI-NARCIARSKIE-2004-WERSJA-2-0-UNIKAT"
         },
         {
             "title": "Super Tux",
             "genre": "Platformer",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/shared.akamai.steamstatic.com\/store_item_assets\/steam\/apps\/1572920\/capsule_616x353.jpg?t=1642785170"
         },
         {
             "title": "Santa Claus",
             "genre": "Platformer",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/cdn.mobygames.com\/e2a8cad2-c27a-11ed-bae4-02420a0001a1.webp"
         },
         {
             "title": "1st Go Warkanoid",
             "genre": "Block breaker",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcRpt3r3Q0WKKcAoX3UsTSiZ9z1VAHhw5lDlWg&s"
         },
         {
             "title": "Roads of Fantasy",
             "genre": "Puzzle",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/www.bigfishgames.com\/content\/dam\/bigfish\/games\/en\/r\/en_roadsoffantasy\/screen1.jpg"
         },
         {
             "title": "Plasma Pong",
             "genre": "Simulator",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/img.utdstc.com\/screen\/2eb\/4ff\/2eb4ffb4c2fc14b0d8605c6005399feeb233309718f2bfec2685a126ff4ae8e5:600"
         },
         {
             "title": "Triptych",
             "genre": "Puzzle",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/www.giantbomb.com\/a\/uploads\/scale_medium\/10\/103881\/1780484-tt.jpg"
         },
         {
             "title": "Sky Bubble 3 Deluxe",
             "genre": "Puzzle",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/i.wpimg.pl\/460x345\/m.komorkomania.pl\/sky-bubble-mobile-game-6e48bb959.jpg"
         },
         {
             "title": "Cadog Adventures",
             "genre": "Platformer",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/img.dobreprogramy.pl\/Images\/Tools\/61205\/20150825160404_1.jpg"
         },
         {
             "title": "Deluxe Ski Jump 3",
             "genre": "Sport",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/cdn.mobygames.com\/e186af98-c2a7-11ed-bae4-02420a0001a1.webp"
         },
         {
             "title": "Rollercoaster Tycoon 2",
             "genre": "CMS",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/3866692-rollercoaster-tycoon-2-windows-front-cover.jpg"
         },
         {
             "title": "Grand Theft Auto ",
             "genre": "Action Adventure",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/4515867-grand-theft-auto-dos-front-cover.jpg"
         },
         {
             "title": "Grand Theft Auto 2",
             "genre": "Action Adventure",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/43353-grand-theft-auto-2-windows-front-cover.jpg"
         },
         {
             "title": "Max Payne",
             "genre": "TPS",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/5509858-max-payne-windows-front-cover.png"
         },
         {
             "title": "Red Faction",
             "genre": "FPS",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/cdn.mobygames.com\/15880cae-abb7-11ed-8048-02420a000198.webp"
         },
         {
             "title": "Battle Painters",
             "genre": "Arcade",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/cdn.mobygames.com\/35162ee6-c39c-11ed-9226-02420a000121.webp"
         },
         {
             "title": "Doom 2",
             "genre": "FPS",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/3947530-doom-ii-dos-front-cover.jpg"
         },
         {
             "title": "Worms",
             "genre": "TBS",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/5220820-worms-dos-front-cover.jpg"
         },
         {
             "title": "Wolfenstein 3d",
             "genre": "FPS",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/4147968-wolfenstein-3d-dos-front-cover.jpg"
         },
         {
             "title": "Fallout 2",
             "genre": "RPG",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/5848658-fallout-2-windows-front-cover.jpg"
         },
         {
             "title": "Jazz JackRabbit 2",
             "genre": "Platformer",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/3975858-jazz-jackrabbit-2-windows-front-cover.jpg"
         },
         {
             "title": "Reksio Ufo",
             "genre": "Point and click",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/fwcdn.pl\/fpo\/89\/58\/618958\/7376722_1.3.jpg"
         },
         {
             "title": "Scooby Doo i Miasto duch\u00f3w!",
             "genre": "Point and click",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/fwcdn.pl\/fpo\/76\/67\/607667\/7350254_2.3.jpg"
         },
         {
             "title": "Supaplex",
             "genre": "Puzzle",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/41251-supaplex-dos-front-cover.jpg"
         },
         {
             "title": "Simcity",
             "genre": "Strategy",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/4022551-simcity-dos-front-cover.jpg"
         },
         {
             "title": "Lines",
             "genre": "Puzzle",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/cdn.mobygames.com\/f4b288de-abec-11ed-9c12-02420a00012f.webp"
         },
         {
             "title": "Saper",
             "genre": "Puzzle",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/saper-pro.pl\/media\/saper.png"
         },
         {
             "title": "Blast Pong",
             "genre": "Simulator",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": null
         },
         {
             "title": "Dynablaster",
             "genre": "Puzzle",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/steemitimages.com\/DQmVPkTJEGPYD4RNowHNmsN8DkG9B35rWEQ85k44Jhi4uJX\/adsad.png"
         },
         {
             "title": "Prehistorik 2",
             "genre": "Platformer",
-            "platform": "PC",
+            "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/8357617-prehistorik-2-dos-front-cover.jpg"
         },
         {
@@ -1576,6 +1576,7 @@ $(document).ready(function () {
         row.append($('<td>').text(`${item.title}`));
         row.append($('<td>').text(`${item.genre}`));
         row.append($('<td>').text(`${item.platform}`));
+        row.append($('<td style="display: none;">').text(`${item.alt}`));
         tableBody.append(row);
     });
 
@@ -1603,7 +1604,77 @@ $(document).ready(function () {
                 field: 'platform',
                 title: 'platforma',
             },
-           ]
+            {
+                field: 'alt',
+                title: 'alt',
+            },
+        ]
     });
 });
 
+
+const rconsoles = [
+    
+      {  "title": "Amiga 500",
+
+        "platform": "Amiga 500",
+        },
+    {
+        "title": "Commodore64",
+       
+        "platform": "Commodore64",
+            },
+    {
+        "title": "Atari",
+       
+        "platform": "Atari",
+        }
+]
+
+
+
+
+
+
+$(document).ready(function () {
+    var tableBody = $('#rconsoles tbody');
+    $.each(retroGames, function (index, item) {
+        var row = $('<tr class="back-dark">');
+     
+        row.append($('<td>').text(`${item.title}`));
+
+        row.append($('<td>').text(`${item.platform}`));
+
+        tableBody.append(row);
+    });
+
+});
+
+
+$(document).ready(function () {
+    $('#ronsoles').bootstrapTable({
+        search: true,
+        columns: [
+         
+            {
+                field: 'title',
+                title: 'tytuł',
+            },
+         {
+                field: 'platform',
+                title: 'platforma',
+            },
+          
+        ]
+    });
+});
+
+document.getElementById('rtoggleGames').addEventListener('click', () => {
+    $('#rgamesTab').collapse('toggle');
+    $('#rconsolesTab').collapse('hide');
+});
+
+document.getElementById('rtoggleConsoles').addEventListener('click', () => {
+    $('#rconsolesTab').collapse('toggle');
+    $('#rgamesTab').collapse('hide');
+});

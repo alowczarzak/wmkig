@@ -50,6 +50,7 @@
 
 </head>
 
+
 <body class="bckgrnd-clr">
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
@@ -103,14 +104,15 @@
         <div class="container">
             <section class="inventory">
                 <div class="back-light-wrap">
-                    <button>
+                    <button class="btn btn-primary" id="rtoggleGames" data-bs-toggle="collapse" data-bs-target="#rgamesTab" >
+                    <!-- <button class="btn-primary" id="rtoggleGames"> -->
                         GRY
                     </button>
-                    <button>
+                    <button class=" btn btn-secondary" id="rtoggleConsoles" data-bs-toggle="collapse" data-bs-target="#rconsolesTab" >
                         SPRZĘT
                     </button>
                 </div>
-                <section class="game-form">
+                <!-- <section class="game-form">
                     <div class="item dropdown">
                         <a class="dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
@@ -118,13 +120,13 @@
                         </a>
                        <table>
                         gatunek
-                        kategoria wiekowa
+                        platforma
                        </table>
                     </div>
-                </section>
+                </section> -->
             </section>
 
-            <div class="container mt-5">
+            <div id="rgamesTab" class="container mt-5">
 
                 <table id="rgames" data-toggle="table" data-search="true" class="table table-bordered">
                     <thead>
@@ -141,7 +143,23 @@
                 </table>
 
             </div>
-           
+           <div id="rconsolesTab" class="container mt-5">
+
+            <table id="rconsoles" data-toggle="table" data-search="true" class="table table-bordered">
+                <thead>
+                    <tr class="back-dark ibm">
+                        
+                        <th data-field="title"></th>
+                        
+                        <th data-field="platform"></th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+
+        </div>
         </div>
     </div>
 
