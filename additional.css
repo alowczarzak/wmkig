@@ -314,7 +314,7 @@
     width: 100%;
 }
  
-#rgames img, #vrgames img {
+#rgames img, #vrgames img, #rconsoles img {
  width: 10vw;
  
 }
@@ -329,7 +329,7 @@
 border-radius: 8px;
 }
 
-#rgames .back-dark, #vrgames .back-dark {
+#rgames .back-dark, #vrgames .back-dark, #rconsoles .back-dark {
 
     display: flex;
     justify-content: space-between;
@@ -339,7 +339,8 @@ border-radius: 8px;
 }
 
 #rgames td,
-#rgames th{
+#rgames th,
+#rconsoles td{
     font-size: x-large;
 }
 #vrgames td, #vrgames th {
@@ -351,7 +352,9 @@ border-radius: 8px;
 #rgames .back-dark td,
 #vrgames .back-dark th,
 #vrgames .back-dark .th-inner,
-#vrgames .back-dark td
+#vrgames .back-dark td,
+#rconsoles .back-dark .th-inner,
+#rconsoles .back-dark td
  {
     background-color: transparent;
     color: #fffdf4c5;
@@ -366,6 +369,9 @@ border-radius: 8px;
     display: none;
 }
 
+#rconsoles thead tr, #rgames thead tr {
+    display: none !important;
+}
 
 .rgenres {
     width: 50vw;
