@@ -100,7 +100,7 @@
         </div>
     </nav>
 
-    <div id="container-fluid" class="container-fluid bckgrnd-clr ">
+    <!-- <div id="container-fluid" class="container-fluid bckgrnd-clr ">
         <div class="container">
             <section class="inventory">
                 <div class="back-light-wrap">
@@ -111,7 +111,7 @@
                         SPRZĘT
                     </button>
                 </div>
-                <!-- <section class="game-form">
+                <section class="game-form">
                     <div class="item dropdown">
                         <a class="dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
@@ -122,7 +122,7 @@
                         platforma
                        </table>
                     </div>
-                </section> -->
+   
             </section>
 
             <div id="rgamesTab" class="container mt-5">
@@ -160,9 +160,40 @@
 
         </div>
         </div>
+    </div> -->
+
+
+    <div class="container">
+        <div>
+            <div>
+                <div class="form-group">
+                    <label for="genreFilter">Gatunek</label>
+                    <select id="genreFilter" class="form-control">
+                        <option value="">wszystkie</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="platformFilter">Platforma</label>
+                    <select id="platformFilter" class="form-control">
+                        <option value="">wszystkie</option>
+                    </select>
+                </div>
+            </div>           
+        </div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Genre</th>
+                    <th>Platform</th>
+                </tr>
+            </thead>
+            <tbody id="gameTable">
+
+            </tbody>
+        </table>
     </div>
 
-    </div>
 
     <script>
         $(document).ready(function () {

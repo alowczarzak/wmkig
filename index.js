@@ -8,13 +8,13 @@ const retroGames =
         },
         {
             "title": "Flashback",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "Amiga 500",
             "imageCover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/8\/8d\/Flashback_cover.png"
         },
         {
             "title": "Jim Power",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "Amiga 500",
             "imageCover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/8\/8c\/Jim_Power_in_Mutant_Planet_Coverart.png"
         },
@@ -44,13 +44,13 @@ const retroGames =
         },
         {
             "title": "Sir Fred",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "Amiga 500",
             "imageCover": "https:\/\/openretro.org\/image\/626d71ca744da8e2e5088436b0e0b65d705fcb8e?s=512&f=jpg"
         },
         {
             "title": "Robocop",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "Amiga 500",
             "imageCover": "https:\/\/www.retroplace.com\/pics\/amiga\/packshots\/30590--robocop.png"
         },
@@ -74,7 +74,7 @@ const retroGames =
         },
         {
             "title": "Toki",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "Amiga 500",
             "imageCover": "https:\/\/www.retronagazie.eu\/wp-content\/uploads\/2020\/05\/cover-317x381.jpg"
         },
@@ -86,7 +86,7 @@ const retroGames =
         },
         {
             "title": "Turrican",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "Amiga 500",
             "imageCover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/5\/51\/Front_Cover_of_Turrican_Game_Box%2C_May_2014.jpg"
         },
@@ -104,7 +104,7 @@ const retroGames =
         },
         {
             "title": "Rick Dangerous",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "Amiga 500",
             "imageCover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/d\/df\/Rickdangerousboxart.jpg"
         },
@@ -146,7 +146,7 @@ const retroGames =
         },
         {
             "title": "Soccer Kid",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "Amiga 500",
             "imageCover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/6\/61\/Soccer_Kid_Coverart.png"
         },
@@ -164,7 +164,7 @@ const retroGames =
         },
         {
             "title": "Impossamole",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "Amiga 500",
             "imageCover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/1\/19\/Impossamole_cover.jpg"
         },
@@ -212,13 +212,13 @@ const retroGames =
         },
         {
             "title": "Rick Dangerous 2",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "Amiga 500",
             "imageCover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/6\/6c\/Rickdangerous2inlay.jpg"
         },
         {
             "title": "James Pond 2",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "Amiga 500",
             "imageCover": "https:\/\/myheadisretro.wordpress.com\/wp-content\/uploads\/2015\/04\/61-pond_cover.jpg"
         },
@@ -272,7 +272,7 @@ const retroGames =
         },
         {
             "title": "Takashi Meijin no Bugutte Honey",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "Famicom",
             "imageCover": "https:\/\/static.wikia.nocookie.net\/wonderboy\/images\/1\/15\/Takahashi_Meijin_no_Bug-tte_Honey_-_01.jpg\/revision\/latest?cb=20211115075332"
         },
@@ -302,7 +302,7 @@ const retroGames =
         },
         {
             "title": "Shin Junrui: The New Type",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "Famicom",
             "imageCover": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcSzdbZcr-w3VfdBakrTALw2vQGLGDT-Vk6W2g&s"
         },
@@ -326,7 +326,7 @@ const retroGames =
         },
         {
             "title": "Pocket Saurus Jyuouken no Nazo",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "Famicom",
             "imageCover": "https:\/\/cdn.wikimg.net\/en\/strategywiki\/images\/9\/90\/Pocket_Zaurus_FC_box.jpg"
         },
@@ -344,7 +344,7 @@ const retroGames =
         },
         {
             "title": "Kame no Ongaeshi: Urashi ma Densetsu",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "Famicom",
             "imageCover": "https:\/\/www.retroplace.com\/pics\/fc\/packshots\/1876--kame-no-ongaeshi-urashima-densetsu.png"
         },
@@ -374,7 +374,7 @@ const retroGames =
         },
         {
             "title": "Fantastic World",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "Famicom",
             "imageCover": "https:\/\/static.wikia.nocookie.net\/nintendo\/images\/7\/79\/Magical_Tarur%C5%ABto-kun_Fantastic_World_%28NES%29_%28JP%29.jpg\/revision\/latest?cb=20230209223110&path-prefix=en"
         },
@@ -398,13 +398,13 @@ const retroGames =
         },
         {
             "title": "Makaimura",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "Famicom",
             "imageCover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/2\/29\/Wonderswanfront.jpg"
         },
         {
             "title": "Donkey Kong Jr.",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "Famicom",
             "imageCover": "https:\/\/static.wikia.nocookie.net\/famicom\/images\/2\/29\/Donkey_Kong_Jr.jpg\/revision\/latest?cb=20140927030959"
         },
@@ -416,7 +416,7 @@ const retroGames =
         },
         {
             "title": "SuperContra Negaduck. Darkwing Duck 2",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "Famicom",
             "imageCover": "https:\/\/www.video-games-museum.com\/en\/boxart\/Nes\/28112-Darkwing-Duck-2.jpg"
         },
@@ -464,7 +464,7 @@ const retroGames =
         },
         {
             "title": "Super Mario Land",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "Game Boy",
             "imageCover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/2\/22\/Super-mario-land-gameboy-boxart.png"
         },
@@ -482,7 +482,7 @@ const retroGames =
         },
         {
             "title": "Donkey Kong Land",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "Game Boy",
             "imageCover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/8\/8c\/Donkey_Kong_Land_Coverart.png"
         },
@@ -518,7 +518,7 @@ const retroGames =
         },
         {
             "title": "Super Mario Bros3",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "NES",
             "imageCover": "https:\/\/i.etsystatic.com\/6824854\/r\/il\/680a60\/585888595\/il_fullxfull.585888595_e51b.jpg"
         },
@@ -554,7 +554,7 @@ const retroGames =
         },
         {
             "title": "Super Mario\/Duck Hunt",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "NES",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/10599545-super-mario-bros-duck-hunt-nes-manual.png"
         },
@@ -656,19 +656,19 @@ const retroGames =
         },
         {
             "title": "Two in One. Ninja Turtles II i III",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "Pegasus",
             "imageCover": "https:\/\/a.allegroimg.com\/original\/1eb7e2\/d7f396dd47d3ade242dd8ee4cee4"
         },
         {
             "title": "Super Mario Bros 2",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "Pegasus",
             "imageCover": "https:\/\/a.allegroimg.com\/original\/11dd86\/ca42dfb64179a6117d9b1985a8ad\/Super-Mario-Bros-2-PLAYERS-Pegasus-Famicom-NES"
         },
         {
             "title": "Rocking Kats",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "Pegasus",
             "imageCover": "https:\/\/tzzad.wordpress.com\/wp-content\/uploads\/2013\/09\/szlam_slider_pegasus13.jpg"
         },
@@ -680,13 +680,13 @@ const retroGames =
         },
         {
             "title": "Ninja Gaiden",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "Pegasus",
             "imageCover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/9\/9b\/Ninja_Gaiden_%28NES%29.jpg"
         },
         {
             "title": "Kickmaster",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "Pegasus",
             "imageCover": "https:\/\/2.allegroimg.com\/s1024\/0c7c68\/fcb8125e4da3a7e96635dfbb97a2"
         },
@@ -704,7 +704,7 @@ const retroGames =
         },
         {
             "title": "Tom & Jerry:  Ultimate Game of Cat and Mouse",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "Pegasus",
             "imageCover": "https:\/\/static.wikia.nocookie.net\/nintendo\/images\/5\/59\/Tom_Jerry_NES.jpg\/revision\/latest?cb=20221011061904&path-prefix=en"
         },
@@ -920,7 +920,7 @@ const retroGames =
         },
         {
             "title": "Sonic The Hedgehog 2",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "Sega Master System",
             "imageCover": "https:\/\/cdn.mobygames.com\/covers\/4275037-sonic-the-hedgehog-2-sega-master-system-front-cover.jpg"
         },
@@ -944,7 +944,7 @@ const retroGames =
         },
         {
             "title": "Super Mario All Stars \/ World",
-            "genre": "Platfomer",
+            "genre": "Platformer",
             "platform": "SNES",
             "imageCover": "https:\/\/cdn.mobygames.com\/ec89df08-ab70-11ed-b165-02420a000198.webp"
         },
@@ -1016,7 +1016,7 @@ const retroGames =
         },
         {
             "title": "Asteroids 2",
-            "genre": "hoot 'em Up",
+            "genre": "Shoot'em up",
             "platform": "Atari 800XE",
             "imageCover": "https:\/\/www.atarimania.com\/8bit\/boxes\/hi_res\/asteroids_cart_2.jpg"
         },
@@ -1034,7 +1034,7 @@ const retroGames =
         },
         {
             "title": "Centipede",
-            "genre": "Shoot 'em Up",
+            "genre": "Shoot'em up",
             "platform": "Atari 800XE",
             "imageCover": "https:\/\/www.atarimania.com\/8bit\/boxes\/hi_res\/centipede_1982_i.jpg"
         },
@@ -1052,7 +1052,7 @@ const retroGames =
         },
         {
             "title": "Fort Apocalypse",
-            "genre": "Shoot 'em Up",
+            "genre": "Shoot'em up",
             "platform": "Atari 800XE",
             "imageCover": "https:\/\/www.atarimania.com\/8bit\/boxes\/hi_res\/ft_apokalypse_cart.jpg"
         },
@@ -1064,7 +1064,7 @@ const retroGames =
         },
         {
             "title": "Gyruss",
-            "genre": "Shoot 'em Up",
+            "genre": "Shoot'em up",
             "platform": "Atari 800XE",
             "imageCover": "https:\/\/archive.org\/download\/a8b_Gyruss_1984_Parker_Brothers_US\/00cover_itemimage.jpg"
         },
@@ -1118,7 +1118,7 @@ const retroGames =
         },
         {
             "title": "River Raid",
-            "genre": "Shoot 'em Up",
+            "genre": "Shoot'em up",
             "platform": "Atari 800XE",
             "imageCover": "https:\/\/www.atarimania.com\/8bit\/boxes\/hi_res\/RiverRaid_cart_2.jpg"
         },
@@ -1130,7 +1130,7 @@ const retroGames =
         },
         {
             "title": "SWAT",
-            "genre": "Shoot 'em Up",
+            "genre": "Shoot'em up",
             "platform": "Atari 800XE",
             "imageCover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/1\/11\/LA_SWAT_cover.jpg"
         },
@@ -1244,7 +1244,7 @@ const retroGames =
         },
         {
             "title": "Warblade",
-            "genre": "Shoot'em Up",
+            "genre": "Shoot'em up",
             "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/img.dobreprogramy.pl\/Images\/Tools\/96129\/4d9a06ed-3ca5-4e0a-8034-e3a52b0aa62b.jpg"
         },
@@ -1693,5 +1693,43 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize the display states
     div1.style.display = 'block';
     div2.style.display = 'none';
+});
+
+
+
+
+
+
+
+$(document).ready(function() {
+
+
+    const genres = [...new Set(retroGames.map(game => game.genre))];
+    const platforms = [...new Set(retroGames.map(game => game.platform))];
+
+    genres.forEach(genre => {
+        $('#genreFilter').append(`<option value="${genre}">${genre}</option>`);
+    });
+
+    platforms.forEach(platform => {
+        $('#platformFilter').append(`<option value="${platform}">${platform}</option>`);
+    });
+
+    function filterGames() {
+        const genre = $('#genreFilter').val();
+        const platform = $('#platformFilter').val();
+        const filteredGames = retroGames.filter(game => {
+            return (genre === "" || game.genre === genre) && (platform === "" || game.platform === platform);
+        });
+
+        $('#gameTable').empty();
+        filteredGames.forEach(game => {
+            $('#gameTable').append(`<tr><td>${game.title}</td><td>${game.genre}</td><td>${game.platform}</td></tr>`);
+        });
+    }
+
+    $('#genreFilter, #platformFilter').change(filterGames);
+
+    filterGames(); // Initial population of the table
 });
 
