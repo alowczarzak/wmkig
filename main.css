@@ -192,16 +192,41 @@
 .inventory .game-form .dropdown,
 .bckgrnd-clr .form-control {
     padding: .375rem .75rem;
-    background-color: rgb(230, 186, 103);
-    border-radius: 3px;
     transition: 0.4s;
     border-style: unset;
-    font-family: "source code pro", monospace;
     margin: 0.6rem;
 }
 
+.rgamesbck .form-control,
+.rgamesbck #filterButton {
+    font-family: "source code pro", monospace;
+    background-color: rgb(230, 186, 103);
+    border-radius: 3px;
+    border: unset;
+    color: #212529;
+}
+
+.inventory .form-group #genreFilter,
+.inventory .form-group #platformFilter,
+.inventory .form-group label {
+    text-align: left;
+    margin: .2rem 2rem;
+}
+
+.inventory .form-group {
+    border-radius: 10px;
+    background-color: #fcf1c09c;
+    padding: .4rem;
+    height: fit-content;
+}
+
+.inventory .gameslab {
+padding: 0.5rem 1.5rem;
+font-weight: bold;
+}
+
 .inventory button {
-    width: 250px;
+    width: 220px;
 }
 
 .inventory a {
@@ -218,14 +243,17 @@
 }
 
 .game-form {
-   float: left;
+    float: left;
 }
+
 .bckgrnd-clr .form-control:focus {
     background-color: rgb(235, 181, 130) !important;
 }
+
 .bckgrnd-dark .form-control:focus {
     background-color: rgb(180, 161, 216) !important;
 }
+
 .back-light-wrap button a {
     color: #061D25;
     text-decoration: none;
@@ -491,7 +519,7 @@
 }
 
 .back-green {
-    font-family:"merriweather";
+    font-family: "merriweather";
     background-color: #b0e3cba8;
 }
 
@@ -568,14 +596,18 @@
         min-width: 100% !important;
         margin: .2rem 0 !important;
     }
+
     .news .row {
         width: auto !important;
     }
+
     #rgames .back-dark {
         padding: 0 !important;
 
     }
-    #rgames td, #rgames th {
+
+    #rgames td,
+    #rgames th {
         font-size: small !important;
     }
 }
@@ -678,6 +710,7 @@
     .back-dark h3 {
         font-size: 5.5vw !important;
     }
+
     #central-station,
     #central-station .carousel-item img,
     #gus03,
@@ -714,13 +747,14 @@
 
     #aboutr,
     #aboutr .carousel-item,
-    
+
     #offerr,
     #offerr .carousel-item,
     #aboutv,
     #aboutv .carousel-item {
         height: 50vw !important;
     }
+
     .h1bold ul {
         padding-left: 0;
     }
@@ -775,5 +809,10 @@
 
     .back-light-wrap button {
         padding: .35rem;
+    }
+
+    #rgames .gamesTable td,
+    #vrgames .gamesTable td {
+        font-size: xx-small !important;
     }
 }

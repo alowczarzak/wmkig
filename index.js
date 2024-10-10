@@ -1184,7 +1184,7 @@ const retroGames =
         },
         {
             "title": "Deluxe Ski Jump 2",
-            "genre": "Sportowa",
+            "genre": "Sport",
             "platform": "PC", "alt": "komputer",
             "imageCover": "https:\/\/static.wikia.nocookie.net\/videogames\/images\/8\/81\/Dsj2.jpg\/revision\/latest?cb=20140525111242&path-prefix=pl"
         },
@@ -1706,11 +1706,11 @@ $(document).ready(function() {
     const platforms = [...new Set(retroGames.map(game => game.platform))];
 
     genres.forEach(genre => {
-        $('#genreFilter').append(`<label><input type="checkbox" value="${genre}"> ${genre}</label>`);
+        $('#genreFilter').append(`<label><input type="checkbox" class="sc-gJwTLC ikxBAC" value="${genre}"> ${genre}</label>`);
     });
 
     platforms.forEach(platform => {
-        $('#platformFilter').append(`<label><input type="checkbox" value="${platform}"> ${platform}</label>`);
+        $('#platformFilter').append(`<label><input type="checkbox" class="sc-gJwTLC ikxBAC" value="${platform}"> ${platform}</label>`);
     });
 
     function filterGames() {
@@ -1722,9 +1722,13 @@ $(document).ready(function() {
             return $(this).val();
         }).get();
         
+        
+        const genreMatchAll = selectedGenres.length === 0;
+        const platformMatchAll = selectedPlatforms.length === 0;
+        
         const filteredGames = retroGames.filter(game => {
-            const genreMatch = selectedGenres.includes("") || selectedGenres.includes(game.genre);
-            const platformMatch = selectedPlatforms.includes("") || selectedPlatforms.includes(game.platform);
+            const genreMatch = genreMatchAll || selectedGenres.includes("") || selectedGenres.includes(game.genre);
+            const platformMatch = platformMatchAll || selectedPlatforms.includes("") || selectedPlatforms.includes(game.platform);
             return genreMatch && platformMatch;
         });
 

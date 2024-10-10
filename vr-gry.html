@@ -34,7 +34,6 @@
     <script src="bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="retro-games.json"></script>
     <script src="index-vr.js"></script>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.18.3/bootstrap-table.min.js"></script>
@@ -88,34 +87,104 @@
     <div id="container-fluid" class="container-fluid bckgrnd-dark ">
         <div class="container">
             <section class="inventory">
-                <div>
-                    <button>
+                <div class="back-light-wrap">
+                    <button id="vrtoggleGames" data-bs-toggle="collapse" data-bs-target="#vrgamesTab">
                         GRY
                     </button>
-                    <button>
+                    <button id="vrtoggleConsoles" data-bs-toggle="collapse" data-bs-target="#vrconsolesTab">
                         SPRZĘT
                     </button>
                 </div>
-        </div>
-        </section>
-           <div class="container mt-5">
-            <table id="vrgames" data-toggle="table" data-search="true" class="table table-bordered">
+            </section>
+            <div id="vrgamesTab" class="container mt-5">
+                <div class="filter-container">
+                    <button id="vrFilterButton" class="btn btn-primary">Filtruj</button>
+                </div>
+                <div class="filter-options" style="display: none;">
+                    <div class="form-group">
+                        <label for="vrGenreFilter">Gatunek</label>
+                        <div id="vrGenreFilter">
+                            <label><input type="checkbox" value="" checked> wszystkie</label>
+                            <!-- Add your genre checkboxes here -->
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="vrMultiplayerFilter">Multiplayer</label>
+                        <div id="vrMultiplayerFilter">
+                            <label><input type="checkbox" value="true">tak</label>
+                            <label><input type="checkbox" value="false">nie</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="vrAgeCategoryFilter">Kategoria wiekowa</label>
+                        <div id="vrAgeCategoryFilter">
+                            <label><input type="checkbox" value="" checked> wszystkie</label>
+                            <!-- Add your age category checkboxes here -->
+                        </div>
+                    </div>
+                </div>
+                <table id="vrgames" data-toggle="table" data-search="true" class="table table-bordered">
+                    <thead>
+                        <tr class="back-dark">
+                            <th data-field="imageCover">okładka</th>
+                            <th data-field="title">tytuł</th>
+                            <th data-field="producer">producent</th>
+                            <th data-field="genre">gatunek</th>
+                            <th data-field="multiplayer">multiplayer</th>
+                            <th data-field="ageCategory">kategoria wiekowa</th>
+                            <th data-field="description">opis</th>
+                        </tr>
+                    </thead>
+                    <tbody class="gamesTable">
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="vrconsolesTab" class="container mt-5"></div>
+            <!-- <table id="vrgames" data-toggle="table" data-search="true" class="table table-bordered">
                 <thead>
-                    <!-- <tr class="back-dark">
-                        <th data-field="imageCover"></th>
-                        <th data-field="title"></th>
-                        <th data-field="genre"></th>
-                        <th data-field="platform"></th>
-                    </tr> -->
+                    <tr class="back-dark">
+                        <th data-field="imageCover">okładka</th>
+                        <th data-field="title">tytuł</th>
+                        <th data-field="producer">producent</th>
+                        <th data-field="genre">gatunek</th>
+                        <th data-field="multiplayer">multiplayer</th>
+                        <th data-field="ageCategory">kategoria wiekowa</th>
+
+                    </tr>
                 </thead>
-                <tbody>
-
+                <tbody class="vrconsolesTable">
                 </tbody>
-            </table>
-
+            </table> -->
         </div>
+
+        <style>
+            .filter-container {
+                display: flex;
+                justify-content: flex-start;
+                margin-bottom: 10px;
+            }
+
+            .filter-options {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 10px;
+            }
+
+            .form-group {
+                flex: 1;
+                margin-right: 10px;
+            }
+
+            .form-group label {
+                display: block;
+            }
+        </style>
+
+
+
     </div>
-    </div>
+
     <footer class="footer footer-dark">
         <section class="bg-dark py-xl-8 border-top border-dark">
             <div class="container overflow-hidden">
@@ -130,7 +199,8 @@
                             <div class="social-media-wrapper">
                                 <ul class="list-unstyled m-0 p-0 d-flex justify-content-center justify-content-md-end">
                                     <li class="me-3">
-                                        <a href="https://www.facebook.com/wmkig/?locale=pl_PL" class="link-light link-opacity-75-hover">
+                                        <a href="https://www.facebook.com/wmkig/?locale=pl_PL"
+                                            class="link-light link-opacity-75-hover">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
                                                 <path
@@ -139,16 +209,17 @@
                                         </a>
                                     </li>
                                     <li class="me-3">
-                                        <a href="https://www.tiktok.com/@wmkig51" class=" tiktok-icon link-light link-opacity-75-hover">
-                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 448 512">
+                                        <a href="https://www.tiktok.com/@wmkig51"
+                                            class=" tiktok-icon link-light link-opacity-75-hover">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                                                 <path
                                                     d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z" />
                                             </svg>
                                         </a>
                                     </li>
                                     <li class="me-3">
-                                        <a href="https://www.instagram.com/wmkigpl/" class="link-light link-opacity-75-hover">
+                                        <a href="https://www.instagram.com/wmkigpl/"
+                                            class="link-light link-opacity-75-hover">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
                                                 <path

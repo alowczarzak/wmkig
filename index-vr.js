@@ -2,7 +2,10 @@ const vrgames =
     [
         {
             "title": "Beat Saber",
-            "genre": "muzyczne zręcznościowe",
+            "genre": [
+                "muzyczne",
+                "zręcznościowe",
+            ],
             "ageCategory": "7+",
             "multiplayer": "yes",
             "producer": "Beat Games",
@@ -11,7 +14,10 @@ const vrgames =
         },
         {
             "title": "Ragnaröck",
-            "genre": "muzyczne zręcznościowe",
+            "genre": [
+                "muzyczne",
+                "zręcznościowe",
+            ],
             "ageCategory": "7+",
             "multiplayer": "no",
             "producer": "Wandev Studio",
@@ -20,7 +26,10 @@ const vrgames =
         },
         {
             "title": "Blade & Sorcery",
-            "genre": "action RPG",
+            "genre": [
+                "akcja",
+                "RPG",
+            ],
             "ageCategory": "18+",
             "multiplayer": "no",
             "producer": "WarpFrog",
@@ -29,7 +38,10 @@ const vrgames =
         },
         {
             "title": "DOOM VR",
-            "genre": "action FPS",
+            "genre": [
+                "akcja",
+                "FPS",
+            ],
             "ageCategory": "18+",
             "multiplayer": "no",
             "producer": "Id Software",
@@ -38,7 +50,10 @@ const vrgames =
         },
         {
             "title": "Elven Assassin",
-            "genre": "Wave defender FPS",
+            "genre": [
+                "wave defender",
+                "FPS",
+            ],
             "ageCategory": "10+",
             "multiplayer": "yes",
             "producer": "Wenkly Studio",
@@ -47,7 +62,10 @@ const vrgames =
         },
         {
             "title": "Pavlov VR",
-            "genre": "action FPS",
+            "genre": [
+                "akcja",
+                "FPS",
+            ],
             "ageCategory": "18+",
             "multiplayer": "yes",
             "producer": "Vankrupt Games",
@@ -56,7 +74,7 @@ const vrgames =
         },
         {
             "title": "Richie’s Plank Experience",
-            "genre": "rekreacyjna",
+            "genre": ["rekreacyjne"],
             "ageCategory": "7+",
             "multiplayer": "no",
             "producer": "TOAST",
@@ -65,7 +83,7 @@ const vrgames =
         },
         {
             "title": "Santa Simulator",
-            "genre": "simulator",
+            "genre": ["symulator"],
             "ageCategory": "7+",
             "multiplayer": "no",
             "producer": "TOAST",
@@ -74,7 +92,7 @@ const vrgames =
         },
         {
             "title": "Subnautica",
-            "genre": "simulator",
+            "genre": ["symulator"],
             "ageCategory": "12+",
             "multiplayer": "no",
             "producer": "Unknonw Worlds Entertainment",
@@ -83,7 +101,8 @@ const vrgames =
         },
         {
             "title": "Superhot VR",
-            "genre": "FPS zręcznościowe",
+            "genre":
+                ["FPS", "zręcznościowe"],
             "ageCategory": "12+",
             "multiplayer": "no",
             "producer": "SUPERHOT Team",
@@ -92,7 +111,7 @@ const vrgames =
         },
         {
             "title": "VRChat",
-            "genre": "Społecznościowe",
+            "genre": ["społecznościowe"],
             "ageCategory": "12+",
             "multiplayer": "yes",
             "producer": "VRChat",
@@ -101,7 +120,7 @@ const vrgames =
         },
         {
             "title": "COMPOUND",
-            "genre": "FPS Rogelike",
+            "genre": ["FPS", "roguelike"],
             "ageCategory": "12+",
             "multiplayer": "no",
             "producer": "Bevan McKechnie",
@@ -110,7 +129,7 @@ const vrgames =
         },
         {
             "title": "DHL Box Stacker Pro",
-            "genre": "simulator",
+            "genre": ["symulator"],
             "ageCategory": "7+",
             "multiplayer": "no",
             "producer": "Playerthree Limited",
@@ -119,7 +138,7 @@ const vrgames =
         },
         {
             "title": "Gra Szyfrów",
-            "genre": "Zagadkowe, historyczne",
+            "genre": ["zagadkowe", "historyczne"],
             "ageCategory": "12+",
             "multiplayer": "no",
             "producer": "Chronospace/IPN",
@@ -128,7 +147,7 @@ const vrgames =
         },
         {
             "title": "Lotnicy",
-            "genre": "Zagadkowe, historyczne",
+            "genre": ["zagadkowe", "historyczne"],
             "ageCategory": "12+",
             "multiplayer": "no",
             "producer": "Chronospace/IPN",
@@ -137,7 +156,7 @@ const vrgames =
         },
         {
             "title": "Rec Room",
-            "genre": "Zagadkowe, historyczne",
+            "genre": ["zagadkowe", "historyczne"],
             "ageCategory": "7+",
             "multiplayer": "yes",
             "producer": "Rec Room",
@@ -147,7 +166,7 @@ const vrgames =
 
         {
             "title": "House Flipper VR",
-            "genre": "simulator",
+            "genre": ["symulator"],
             "ageCategory": "7+",
             "multiplayer": "no",
             "producer": "PlayWay",
@@ -156,7 +175,7 @@ const vrgames =
         },
         {
             "title": "Thief Simulator VR",
-            "genre": "simulator",
+            "genre": ["symulator"],
             "ageCategory": "12+",
             "multiplayer": "no",
             "producer": "PlayWay",
@@ -165,7 +184,7 @@ const vrgames =
         },
         {
             "title": "Walkabout Mini Golf",
-            "genre": "sport",
+            "genre": ["sport"],
             "ageCategory": "7+",
             "multiplayer": "no",
             "producer": "Mighty Coconut",
@@ -174,16 +193,16 @@ const vrgames =
         },
         {
             "title": "To the Top",
-            "genre": "sport, zręcznościowe",
+            "genre": ["sport", "zręcznościowe"],
             "ageCategory": "7+",
             "multiplayer": "no",
             "producer": "Panic Button Games",
             "description": "Czy uda ci się wspiąć na szczyt szybciej od innych?",
-        "imageCover": "https://cdn.sidequestvr.com/file/8776/SideQuest.jpg"
+            "imageCover": "https://cdn.sidequestvr.com/file/8776/SideQuest.jpg"
         },
         {
             "title": "Hellsplit: Arena",
-            "genre": "RPG, action",
+            "genre": ["RPG", "akcja"],
             "ageCategory": "18+",
             "multiplayer": "no",
             "producer": "Deep Type Games",
@@ -192,7 +211,7 @@ const vrgames =
         },
         {
             "title": "The Thrill of the Fight",
-            "genre": "sport, simulator",
+            "genre": ["sport", "symulator"],
             "ageCategory": "12+",
             "multiplayer": "no",
             "producer": "Sealost Interactive",
@@ -201,7 +220,7 @@ const vrgames =
         },
         {
             "title": "All in One Sports",
-            "genre": "sport",
+            "genre": ["sport"],
             "ageCategory": "7+",
             "multiplayer": "yes",
             "producer": "APPNORI",
@@ -210,7 +229,7 @@ const vrgames =
         },
         {
             "title": "Epic Roller Coasters",
-            "genre": "Rekreacyjna",
+            "genre": ["rekreacyjna"],
             "ageCategory": "7+",
             "multiplayer": "no",
             "producer": "B4T Games",
@@ -219,7 +238,7 @@ const vrgames =
         },
         {
             "title": "I Expect You To Die",
-            "genre": "Zagadkowa, logiczna",
+            "genre": ["zagadkowe", "logiczne"],
             "ageCategory": "12+",
             "multiplayer": "no",
             "producer": "Schell Games",
@@ -228,7 +247,7 @@ const vrgames =
         },
         {
             "title": "Tales of Escape",
-            "genre": "Zagadkowa, horror",
+            "genre": ["zagadkowe", "horror"],
             "ageCategory": "18+",
             "multiplayer": "no",
             "producer": "OnSkull Games",
@@ -237,7 +256,7 @@ const vrgames =
         },
         {
             "title": "Propagation",
-            "genre": "Horror, FPS",
+            "genre": ["horror", "FPS"],
             "ageCategory": "18+",
             "multiplayer": "no",
             "producer": "Wandev Studio",
@@ -246,7 +265,7 @@ const vrgames =
         },
         {
             "title": "Devour",
-            "genre": "Survival, Horror",
+            "genre": ["survival", "horror"],
             "ageCategory": "18+",
             "multiplayer": "no",
             "producer": "Straight Back Games",
@@ -255,7 +274,7 @@ const vrgames =
         },
         {
             "title": "Arizona Sunshine",
-            "genre": "adventure, FPS, Horror",
+            "genre": ["adventure", "FPS", "horror"],
             "ageCategory": "18+",
             "multiplayer": "no",
             "producer": "Vertigo Games",
@@ -264,16 +283,16 @@ const vrgames =
         },
         {
             "title": "Pistol Whip",
-            "genre": "FPS, Muzyczna",
+            "genre": ["FPS", "muzyczne"],
             "ageCategory": "12+",
             "multiplayer": "no",
             "producer": "Cloudhead Games",
             "description": "Wstrzel się w rytm! Uważaj przy okazji na przeciwników, oni także tańczą w twoim stylu!",
-            "imageCover" : "https://i.ytimg.com/vi/Nw5YzBqk01I/maxresdefault.jpg"
+            "imageCover": "https://i.ytimg.com/vi/Nw5YzBqk01I/maxresdefault.jpg"
         },
         {
             "title": "Aircar",
-            "genre": "Rekreacyjna",
+            "genre": ["rekreacyjne"],
             "ageCategory": "7+",
             "multiplayer": "no",
             "producer": "Giant Form Entertainment",
@@ -282,7 +301,7 @@ const vrgames =
         },
         {
             "title": "Warplanes: WW1 Fighters",
-            "genre": "simulator, Lotnicze",
+            "genre": ["symulator", "lotnicze"],
             "ageCategory": "12+",
             "multiplayer": "no",
             "producer": "Home Net Games",
@@ -291,7 +310,7 @@ const vrgames =
         },
         {
             "title": "Half-Life Alyx",
-            "genre": "action, adventure, FPS",
+            "genre": ["akcja", "adventure", "FPS"],
             "ageCategory": "18+",
             "multiplayer": "no",
             "producer": "Valve",
@@ -301,45 +320,136 @@ const vrgames =
 
     ]
 
+// $(document).ready(function () {
+//     var tableBody = $('#vrgames tbody');
+//     $.each(vrgames, function (index, item) {
+//         var row = $('<tr class="back-dark">');
+//         row.append($('<td>').html(`<img src="${item.imageCover}">`));
+//         row.append($('<td>').text(`${item.title}`));
+//         row.append($('<td>').text(`${item.genre}`));
+//         // row.append($('<td>').text(`${item.ageCategory}`));
+//         // row.append($('<td>').text(`${item.multiplayer}`));
+//         row.append($('<td>').text(`${item.producer}`));
+//         row.append($('<td>').text(`${item.description}`));
+//         tableBody.append(row);
+//     });
+
+// });
+
+
 $(document).ready(function () {
-    var tableBody = $('#vrgames tbody');
-    $.each(vrgames, function (index, item) {
-        var row = $('<tr class="back-dark">');
-        row.append($('<td>').html(`<img src="${item.imageCover}">`));
-        row.append($('<td>').text(`${item.title}`));
-        row.append($('<td>').text(`${item.genre}`));
-        // row.append($('<td>').text(`${item.ageCategory}`));
-        // row.append($('<td>').text(`${item.multiplayer}`));
-        row.append($('<td>').text(`${item.producer}`));
-        row.append($('<td>').text(`${item.description}`));
-        tableBody.append(row);
+    const genres = [...new Set(vrgames.flatMap(game => game.genre))];
+    const ageCategories = [...new Set(vrgames.map(game => game.ageCategory))];
+
+    genres.forEach(genre => {
+        $('#vrGenreFilter').append(`<label><input type="checkbox" value="${genre}"> ${genre}</label>`);
     });
 
-});
+    ageCategories.forEach(ageCategory => {
+        $('#vrAgeCategoryFilter').append(`<label><input type="checkbox" value="${ageCategory}"> ${ageCategory}</label>`);
+    });
 
+    function filterVRGames() {
+        const selectedGenres = $('#vrGenreFilter input:checked').map(function () {
+            return $(this).val();
+        }).get();
 
-$(document).ready(function () {
+        const selectedMultiplayer = $('#vrMultiplayerFilter input:checked').map(function () {
+            return $(this).val();
+        }).get();
+
+        const selectedAgeCategories = $('#vrAgeCategoryFilter input:checked').map(function () {
+            return $(this).val();
+        }).get();
+
+        const filteredGames = vrgames.filter(game => {
+            const genreArray = game.genre;  // Assuming game.genre is always an array now
+            const genreMatch = selectedGenres.length === 0 || selectedGenres.includes("") || genreArray.some(g => selectedGenres.includes(g));
+            const multiplayerMatch = selectedMultiplayer.length === 0 || selectedMultiplayer.includes("") || selectedMultiplayer.includes(game.multiplayer.toString());
+            const ageCategoryMatch = selectedAgeCategories.length === 0 || selectedAgeCategories.includes("") || selectedAgeCategories.includes(game.ageCategory);
+            return genreMatch && multiplayerMatch && ageCategoryMatch;
+        });
+
+        $('#vrgames tbody').empty();
+        filteredGames.forEach(game => {
+            $('#vrgames tbody').append(`<tr>
+                <td><img src="${game.imageCover}" alt="${game.title}">
+                <td>${game.title}</td>
+                <td>${game.producer}</td>
+                <td>${game.genre.join(', ')}</td>
+                <td>${game.multiplayer ? "Yes" : "No"}</td>
+                <td>${game.ageCategory}</td>
+                <td>${game.description}</td>
+                </tr>`);
+        });
+    }
+
+    $('#vrFilterButton').click(function () {
+        $('.filter-options').toggle();
+    });
+
+    $('#vrGenreFilter, #vrMultiplayerFilter, #vrAgeCategoryFilter').change(filterVRGames);
+
+    filterVRGames(); // Initial population of the table
+
     $('#vrgames').bootstrapTable({
         search: true,
         columns: [
-            {
-                field: 'imageCover',
-                title: 'okładka',
-                searchable: false
-            },
+
             {
                 field: 'title',
                 title: 'tytuł',
+            },
+            {
+                field: 'producer',
+                title: 'producent',
+
             },
             {
                 field: 'genre',
                 title: 'gatunek',
             },
             {
-                field: 'platform',
-                title: 'platforma',
+                field: 'multiplayer',
+                title: 'multiplayer',
             },
+            {
+                field: 'ageCategory',
+                title: 'kategoria wiekowa',
+            },
+        
+            {
+                field: 'description',
+                title: 'opis',
+
+            },
+
+            
         ]
     });
 });
 
+
+document.addEventListener('DOMContentLoaded', function () {
+    const button1 = document.getElementById('vrtoggleGames');
+    const button2 = document.getElementById('vrtoggleConsoles');
+    const div1 = document.getElementById('vrgamesTab');
+    const div2 = document.getElementById('vrconsolesTab');
+
+    button1.addEventListener('click', function () {
+        if (div2.style.display === 'block') {
+            div2.style.display = 'none';
+            div1.style.display = 'block';
+        }
+    });
+
+    button2.addEventListener('click', function () {
+        if (div1.style.display === 'block') {
+            div1.style.display = 'none';
+            div2.style.display = 'block';
+        }
+    });
+
+    div1.style.display = 'block';
+    div2.style.display = 'none';
+});

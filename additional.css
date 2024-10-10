@@ -243,7 +243,8 @@
     width: 50%;
 }
 
-#team .back-light, #team .back-dark {
+#team .back-light,
+#team .back-dark {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -278,12 +279,15 @@
 .bckgrnd-clr .back-green .card a {
     color: #243d2c;
 }
-.footer .back-green a{
+
+.footer .back-green a {
     color: #426b50;
 }
+
 .footer .back-green a:hover {
     color: #1cbb71 !important;
 }
+
 .bckgrnd-clr .back-green .card a:hover {
     color: #426b50 !important;
 }
@@ -310,66 +314,88 @@
 .news .row {
     width: 33%;
 }
+
 .news .row .card {
     width: 100%;
 }
- 
-#rgames img, #vrgames img, #rconsoles img {
- width: 10vw;
- 
+
+#rgames img,
+#vrgames img,
+#rconsoles img {
+    width: 10vw;
+
 }
 
 .bckgrnd-clr .no-records-found {
-  border: none;
+    border: none;
 }
 
 .bckgrnd-clr .no-records-found td {
     font-family: 'ibm plex mono';
     background-color: rgb(230, 186, 103);
-border-radius: 8px;
+    border-radius: 8px;
 }
 
-#rgames .back-dark, #vrgames .back-dark, #rconsoles .back-dark {
-
+#rgames tr,
+#vrgames tr,
+#rconsoles .back-dark {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border: rgba(0, 0, 0, 0.521);
+}
 
+.gamesTable {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color: rgb(255, 255, 234);
+    border: 10px;
+}
+
+.gamesTable tr {
+    background-color: rgba(0, 0, 0, 0.521);
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+.rGamesStyle tr {
+    border-radius: 10px;
 }
 
 #rgames td,
 #rgames th,
-#rconsoles td{
+#rconsoles td {
     font-size: x-large;
 }
-#vrgames td, #vrgames th {
+
+#vrgames td,
+#vrgames th {
     font-size: large;
 }
 
-#rgames .back-dark th,
-#rgames .back-dark .th-inner,
-#rgames .back-dark td,
-#vrgames .back-dark th,
-#vrgames .back-dark .th-inner,
-#vrgames .back-dark td,
+#rgames th,
+#rgames .th-inner,
+#rgames td,
+#vrgames th,
+#vrgames .th-inner,
+#vrgames td,
 #rconsoles .back-dark .th-inner,
-#rconsoles .back-dark td
- {
+#rconsoles .back-dark td {
     background-color: transparent;
     color: #fffdf4c5;
     border: none;
 }
-#rgames .back-dark td,
-#vrgames .back-dark td {
+
+#rgames td,
+#vrgames td {
     width: 20%;
 }
 
-#rgames .back-dark th:last-child {
+#rgames th:last-child, #vrgames th:last-child {
     display: none;
 }
 
-#rconsoles thead tr, #rgames thead tr {
+#rconsoles thead tr,
+#rgames thead tr{
     display: none !important;
 }
 
@@ -379,6 +405,7 @@ border-radius: 8px;
     justify-content: space-between;
     align-items: center;
 }
+
 .rgenres ul {
     padding: 0 2vw;
 }
@@ -397,6 +424,72 @@ border-radius: 8px;
     fill: #a977fa !important;
 }
 
-#business, #academy {
+#business,
+#academy {
     background-color: #040607d0;
 }
+
+
+
+.ikxBAC {
+    appearance: none;
+    background-color: #dfe1e4;
+    border-radius: 72px;
+    border-style: none;
+    flex-shrink: 0;
+    height: 20px;
+    margin: 0;
+    position: relative;
+    width: 30px;
+  }
+
+.ikxBAC::before {
+    bottom: -6px;
+    content: "";
+    left: -6px;
+    position: absolute;
+    right: -6px;
+    top: -6px;
+  }
+
+   .ikxBAC,
+.ikxBAC::after {
+    transition: all 100ms ease-out;
+  }
+
+.ikxBAC::after {
+    background-color: #fff;
+    border-radius: 50%;
+    content: "";
+    height: 14px;
+    left: 3px;
+    position: absolute;
+    top: 3px;
+    width: 14px;
+  }
+
+  .ikxBAC input[type=checkbox] {
+    cursor: default;
+  }
+
+ .ikxBAC:hover {
+    background-color: #c9cbcd;
+    transition-duration: 0s;
+  }
+
+.ikxBAC:checked {
+    background-color: #c9a1ad;
+  }
+
+  .ikxBAC:checked::after {
+    background-color: #fff;
+    left: 13px;
+  }
+
+  .ikxBAC:focus:not(.focus-visible) {
+    outline: 0;
+  }
+
+ .ikxBAC:checked:hover {
+    background-color: #d3c9ad;
+  }

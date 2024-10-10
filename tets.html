@@ -102,7 +102,7 @@
 
     <div id="container-fluid" class="container-fluid bckgrnd-clr ">
         <div class="container">
-            <section class="inventory">
+            <section class="inventory ibm rgamesbck">
                 <div class="back-light-wrap">
                     <button id="rtoggleGames" data-bs-toggle="collapse" data-bs-target="#rgamesTab">
                         GRY
@@ -114,20 +114,20 @@
     
                 <div id="rgamesTab" class="container mt-5">
                     <div class="filter-container">
-                        <button id="filterButton" class="btn btn-primary">Filter</button>
+                        <button id="filterButton" class="btn btn-primary">Filtruj</button>
                     </div>
                     <div class="filter-options" style="display: none;">
                         <div class="form-group">
-                            <label for="genreFilter">Gatunek</label>
-                            <div id="genreFilter">
-                                <label><input type="checkbox" value="" checked> wszystkie</label>
+                            <label for="genreFilter" class="gameslab">Gatunek</label>
+                            <div id="genreFilter">            
+                                <label><input type="checkbox"  class="sc-gJwTLC ikxBAC" value="" checked> wszystkie</label>
                                 <!-- Add your genre checkboxes here -->
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="platformFilter">Platforma</label>
+                            <label for="platformFilter" class="gameslab">Platforma</label>
                             <div id="platformFilter">
-                                <label><input type="checkbox" value="" checked> wszystkie</label>
+                                <label><input type="checkbox"  class="sc-gJwTLC ikxBAC" value="" checked> wszystkie</label>
                                 <!-- Add your platform checkboxes here -->
                             </div>
                         </div>
@@ -141,8 +141,8 @@
                                 <th data-field="platform"></th>
                             </tr>
                         </thead>
-                        <tbody>
-    
+                        <tbody class="gamesTable rGamesStyle" >
+                            
                         </tbody>
                     </table>
                 </div>
@@ -184,16 +184,6 @@
         }
     </style>
 
-    <script>
-        $(document).ready(function () {
-            $("#myInput").on("keyup", function () {
-                var value = $(this).val().toLowerCase();
-                $("#myDIV *").filter(function () {
-                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-                });
-            });
-        });
-    </script>
 </body>
 
 </html>
