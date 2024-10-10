@@ -1702,31 +1702,41 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 $(document).ready(function() {
-
-
     const genres = [...new Set(retroGames.map(game => game.genre))];
     const platforms = [...new Set(retroGames.map(game => game.platform))];
 
     genres.forEach(genre => {
-        $('#genreFilter').append(`<option value="${genre}">${genre}</option>`);
+        $('#genreFilter').append(`<label><input type="checkbox" value="${genre}"> ${genre}</label>`);
     });
 
     platforms.forEach(platform => {
-        $('#platformFilter').append(`<option value="${platform}">${platform}</option>`);
+        $('#platformFilter').append(`<label><input type="checkbox" value="${platform}"> ${platform}</label>`);
     });
 
     function filterGames() {
-        const genre = $('#genreFilter').val();
-        const platform = $('#platformFilter').val();
+        const selectedGenres = $('#genreFilter input:checked').map(function() {
+            return $(this).val();
+        }).get();
+        
+        const selectedPlatforms = $('#platformFilter input:checked').map(function() {
+            return $(this).val();
+        }).get();
+        
         const filteredGames = retroGames.filter(game => {
-            return (genre === "" || game.genre === genre) && (platform === "" || game.platform === platform);
+            const genreMatch = selectedGenres.includes("") || selectedGenres.includes(game.genre);
+            const platformMatch = selectedPlatforms.includes("") || selectedPlatforms.includes(game.platform);
+            return genreMatch && platformMatch;
         });
 
-        $('#gameTable').empty();
+        $('#rgames tbody').empty();
         filteredGames.forEach(game => {
-            $('#gameTable').append(`<tr><td>${game.title}</td><td>${game.genre}</td><td>${game.platform}</td></tr>`);
+            $('#rgames tbody').append(`<tr><td><img src="${game.imageCover}" alt="${game.title}"></td><td>${game.title}</td><td>${game.genre}</td><td>${game.platform}</td></tr>`);
         });
     }
+
+    $('#filterButton').click(function() {
+        $('.filter-options').toggle();
+    });
 
     $('#genreFilter, #platformFilter').change(filterGames);
 

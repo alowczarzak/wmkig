@@ -100,100 +100,89 @@
         </div>
     </nav>
 
-    <!-- <div id="container-fluid" class="container-fluid bckgrnd-clr ">
+    <div id="container-fluid" class="container-fluid bckgrnd-clr ">
         <div class="container">
             <section class="inventory">
                 <div class="back-light-wrap">
                     <button id="rtoggleGames" data-bs-toggle="collapse" data-bs-target="#rgamesTab">
                         GRY
                     </button>
-                    <button id="rtoggleConsoles" data-bs-toggle="collapse" data-bs-target="#rconsolesTab" >
+                    <button id="rtoggleConsoles" data-bs-toggle="collapse" data-bs-target="#rconsolesTab">
                         SPRZĘT
                     </button>
                 </div>
-                <section class="game-form">
-                    <div class="item dropdown">
-                        <a class="dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            filtruj gry:
-                        </a>
-                       <table>
-                        gatunek
-                        platforma
-                       </table>
+    
+                <div id="rgamesTab" class="container mt-5">
+                    <div class="filter-container">
+                        <button id="filterButton" class="btn btn-primary">Filter</button>
                     </div>
-   
+                    <div class="filter-options" style="display: none;">
+                        <div class="form-group">
+                            <label for="genreFilter">Gatunek</label>
+                            <div id="genreFilter">
+                                <label><input type="checkbox" value="" checked> wszystkie</label>
+                                <!-- Add your genre checkboxes here -->
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="platformFilter">Platforma</label>
+                            <div id="platformFilter">
+                                <label><input type="checkbox" value="" checked> wszystkie</label>
+                                <!-- Add your platform checkboxes here -->
+                            </div>
+                        </div>
+                    </div>  
+                    <table id="rgames" data-toggle="table" data-search="true" class="table table-bordered">
+                        <thead>
+                            <tr class="back-dark ibm">
+                                <th data-field="imageCover"></th>
+                                <th data-field="title"></th>
+                                <th data-field="genre"></th>
+                                <th data-field="platform"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+    
+                        </tbody>
+                    </table>
+                </div>
+    
+                <div id="rconsolesTab" class="container mt-5">
+                    <table id="rconsoles" data-toggle="table" data-search="true" class="table table-bordered">
+                        <thead>
+                            <tr class="back-dark ibm">
+                                <th data-field="title"></th>
+                                <th data-field="platform"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+    
+                        </tbody>
+                    </table>
+                </div>
             </section>
-
-            <div id="rgamesTab" class="container mt-5">
-
-                <table id="rgames" data-toggle="table" data-search="true" class="table table-bordered">
-                    <thead>
-                        <tr class="back-dark ibm">
-                            <th data-field="imageCover"></th>
-                            <th data-field="title"></th>
-                            <th data-field="genre"></th>
-                            <th data-field="platform"></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-
-                    </tbody>
-                </table>
-
-            </div>
-           <div id="rconsolesTab" class="container mt-5">
-
-            <table id="rconsoles" data-toggle="table" data-search="true" class="table table-bordered">
-                <thead>
-                    <tr class="back-dark ibm">
-                        
-                        <th data-field="title"></th>
-                        
-                        <th data-field="platform"></th>
-                    </tr>
-                </thead>
-                <tbody>
-
-                </tbody>
-            </table>
-
         </div>
-        </div>
-    </div> -->
-
-
-    <div class="container">
-        <div>
-            <div>
-                <div class="form-group">
-                    <label for="genreFilter">Gatunek</label>
-                    <select id="genreFilter" class="form-control">
-                        <option value="">wszystkie</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="platformFilter">Platforma</label>
-                    <select id="platformFilter" class="form-control">
-                        <option value="">wszystkie</option>
-                    </select>
-                </div>
-            </div>           
-        </div>
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Genre</th>
-                    <th>Platform</th>
-                </tr>
-            </thead>
-            <tbody id="gameTable">
-
-            </tbody>
-        </table>
     </div>
-
+    
+    <style>
+        .filter-container {
+            display: flex;
+            justify-content: flex-start;
+            margin-bottom: 10px;
+        }
+        .filter-options {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .form-group {
+            flex: 1;
+            margin-right: 10px;
+        }
+        .form-group label {
+            display: block;
+        }
+    </style>
 
     <script>
         $(document).ready(function () {
