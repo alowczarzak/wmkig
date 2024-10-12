@@ -43,7 +43,7 @@
 .offer ul {
     list-style: circle;
     text-align: left;
-    font-size: larger;
+    font-size: 1.33rem;
 }
 
 .offer .back-light a {
@@ -62,7 +62,7 @@
 }
 
 .offer .back-dark h4 {
-    font-size: x-large;
+    font-size: 2.4vw;
     margin: 0;
     padding: 0;
 }
@@ -170,7 +170,7 @@
 }
 
 .contact .row .col .card p {
-    font-size: 2vw;
+    font-size: 1.8vw;
 }
 
 .contact .row {
@@ -321,7 +321,8 @@
 
 #rgames img,
 #vrgames img,
-#rconsoles img {
+#rconsoles img,
+#vrconsoles img {
     width: 10vw;
 
 }
@@ -338,7 +339,8 @@
 
 #rgames tr,
 #vrgames tr,
-#rconsoles .back-dark {
+#rconsoles .back-dark,
+#vrconsoles tr {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -368,7 +370,7 @@
 }
 
 #vrgames td,
-#vrgames th {
+#vrgames th, #vrconsoles td, #vrconsoles th {
     font-size: large;
 }
 
@@ -379,7 +381,9 @@
 #vrgames .th-inner,
 #vrgames td,
 #rconsoles .back-dark .th-inner,
-#rconsoles .back-dark td {
+#rconsoles .back-dark td,
+#vrconsoles .back-dark .th-inner,
+#vrconsoles .back-dark td {
     background-color: transparent;
     color: #fffdf4c5;
     border: none;
@@ -390,12 +394,13 @@
     width: 20%;
 }
 
-#rgames th:last-child, #vrgames th:last-child {
+#rgames th:last-child {
     display: none;
 }
 
 #rconsoles thead tr,
-#rgames thead tr{
+#rgames thead tr,
+#vrconsoles thead{
     display: none !important;
 }
 
@@ -478,7 +483,7 @@
   }
 
 .ikxBAC:checked {
-    background-color: #c9a1ad;
+    background-color: #72b8a3;
   }
 
   .ikxBAC:checked::after {
@@ -491,5 +496,18 @@
   }
 
  .ikxBAC:checked:hover {
-    background-color: #d3c9ad;
+    background-color: #72b8a3;
+  }
+
+
+  .landing {
+    width: 100%;
+    height: 100%;
+    background-color: #0c1418;
+  }
+  .mainpart {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }

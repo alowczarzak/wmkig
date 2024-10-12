@@ -320,33 +320,38 @@ const vrgames =
 
     ]
 
-// $(document).ready(function () {
-//     var tableBody = $('#vrgames tbody');
-//     $.each(vrgames, function (index, item) {
-//         var row = $('<tr class="back-dark">');
-//         row.append($('<td>').html(`<img src="${item.imageCover}">`));
-//         row.append($('<td>').text(`${item.title}`));
-//         row.append($('<td>').text(`${item.genre}`));
-//         // row.append($('<td>').text(`${item.ageCategory}`));
-//         // row.append($('<td>').text(`${item.multiplayer}`));
-//         row.append($('<td>').text(`${item.producer}`));
-//         row.append($('<td>').text(`${item.description}`));
-//         tableBody.append(row);
-//     });
+$(document).ready(function () {
+    var tableBody = $('#vrgames tbody');
+    $.each(vrgames, function (index, item) {
+        var row = $('<tr class="back-dark">');
+        row.append($('<td>').html(`<img src="${item.imageCover}">`));
+        row.append($('<td>').text(`${item.title}`));
+        row.append($('<td>').text(`${item.genre}`));
+        row.append($('<td>').text(`${item.ageCategory}`));
+        row.append($('<td>').text(`${item.multiplayer}`));
+        row.append($('<td>').text(`${item.producer}`));
+        row.append($('<td>').text(`${item.description}`));
+        tableBody.append(row);
+    });
 
-// });
+});
 
 
 $(document).ready(function () {
     const genres = [...new Set(vrgames.flatMap(game => game.genre))];
+    const multiplayers = [...new Set(vrgames.map(game => game.multiplayer))];
     const ageCategories = [...new Set(vrgames.map(game => game.ageCategory))];
 
     genres.forEach(genre => {
-        $('#vrGenreFilter').append(`<label><input type="checkbox" value="${genre}"> ${genre}</label>`);
+        $('#vrGenreFilter').append(`<label><input type="checkbox"  class="sc-gJwTLC ikxBAC" value="${genre}"> ${genre}</label>`);
     });
 
     ageCategories.forEach(ageCategory => {
-        $('#vrAgeCategoryFilter').append(`<label><input type="checkbox" value="${ageCategory}"> ${ageCategory}</label>`);
+        $('#vrAgeCategoryFilter').append(`<label><input type="checkbox"  class="sc-gJwTLC ikxBAC" value="${ageCategory}"> ${ageCategory}</label>`);
+    });
+
+    multiplayers.forEach(multiplayer => {
+        $('#vrMultiplayerFilter').append(`<label><input type="checkbox"  class="sc-gJwTLC ikxBAC" value="${multiplayer}"> ${multiplayer}</label>`);
     });
 
     function filterVRGames() {
@@ -365,7 +370,7 @@ $(document).ready(function () {
         const filteredGames = vrgames.filter(game => {
             const genreArray = game.genre;  // Assuming game.genre is always an array now
             const genreMatch = selectedGenres.length === 0 || selectedGenres.includes("") || genreArray.some(g => selectedGenres.includes(g));
-            const multiplayerMatch = selectedMultiplayer.length === 0 || selectedMultiplayer.includes("") || selectedMultiplayer.includes(game.multiplayer.toString());
+            const multiplayerMatch = selectedMultiplayer.length === 0 || selectedMultiplayer.includes("") || selectedMultiplayer.includes(game.multiplayer);
             const ageCategoryMatch = selectedAgeCategories.length === 0 || selectedAgeCategories.includes("") || selectedAgeCategories.includes(game.ageCategory);
             return genreMatch && multiplayerMatch && ageCategoryMatch;
         });
@@ -377,25 +382,31 @@ $(document).ready(function () {
                 <td>${game.title}</td>
                 <td>${game.producer}</td>
                 <td>${game.genre.join(', ')}</td>
-                <td>${game.multiplayer ? "Yes" : "No"}</td>
+                <td>${game.multiplayer}</td>
                 <td>${game.ageCategory}</td>
                 <td>${game.description}</td>
                 </tr>`);
         });
     }
 
-    $('#vrFilterButton').click(function () {
-        $('.filter-options').toggle();
-    });
 
-    $('#vrGenreFilter, #vrMultiplayerFilter, #vrAgeCategoryFilter').change(filterVRGames);
+$('#vrFilterButton').click(function () {
+    $('.filter-options').toggle();
+});
 
-    filterVRGames(); // Initial population of the table
+$('#vrGenreFilter, #vrMultiplayerFilter, #vrAgeCategoryFilter').change(filterVRGames);
 
+filterVRGames(); // Initial population of the table
+
+$(document).ready(function () {
     $('#vrgames').bootstrapTable({
         search: true,
         columns: [
-
+            {
+                field: 'imageCover',
+                title: 'okładka',
+                searchable: false
+            },
             {
                 field: 'title',
                 title: 'tytuł',
@@ -403,7 +414,6 @@ $(document).ready(function () {
             {
                 field: 'producer',
                 title: 'producent',
-
             },
             {
                 field: 'genre',
@@ -415,18 +425,15 @@ $(document).ready(function () {
             },
             {
                 field: 'ageCategory',
-                title: 'kategoria wiekowa',
+                title: 'kat.wiek.',
             },
-        
             {
                 field: 'description',
                 title: 'opis',
-
             },
-
-            
         ]
     });
+});
 });
 
 
@@ -453,3 +460,60 @@ document.addEventListener('DOMContentLoaded', function () {
     div1.style.display = 'block';
     div2.style.display = 'none';
 });
+
+
+
+
+
+const vrconsoles = [
+    
+    {  "title": "Amiga 500",
+
+      "platform": "Amiga 500",
+      },
+  {
+      "title": "Commodore64",
+     
+      "platform": "Commodore64",
+          },
+  {
+      "title": "Atari",
+     
+      "platform": "Atari",
+      }
+]
+
+$(document).ready(function () {
+    var vrcontableBody = $('#vrconsoles tbody');
+    $.each(vrconsoles, function (index, item) {
+        var row = $('<tr class="back-dark">');
+     
+        row.append($('<td>').text(`${item.title}`));
+
+        row.append($('<td>').text(`${item.platform}`));
+
+        vrcontableBody.append(row);
+    });
+
+});
+
+$(document).ready(function () {
+    $('#vrconsoles').bootstrapTable({
+        search: true,
+        columns: [
+         
+            {
+                field: 'title',
+                title: 'tytuł',
+            },
+         {
+                field: 'platform',
+                title: 'platforma',
+            },
+          
+        ]
+    });
+});
+
+
+

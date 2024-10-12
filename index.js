@@ -1657,7 +1657,6 @@ $(document).ready(function () {
         columns: [
          
             {
-                field: 'platform',
                 field: 'title',
                 title: 'tytuł',
             },
@@ -1747,3 +1746,20 @@ $(document).ready(function() {
     filterGames(); // Initial population of the table
 });
 
+
+document.addEventListener("DOMContentLoaded", function() {
+    const navPlaceholder = document.getElementById("nav-placeholder");
+    fetch("navretro.html")
+        .then(response => response.text())
+        .then(data => navPlaceholder.innerHTML = data)
+        .catch(error => console.error("Error loading navigation:", error));
+});
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    const footerPlaceholder = document.getElementById("footer-placeholder");
+    fetch("footer-retro.html")
+        .then(response => response.text())
+        .then(data => footerPlaceholder.innerHTML = data)
+        .catch(error => console.error("Error loading navigation:", error));
+});

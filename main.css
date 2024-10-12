@@ -206,6 +206,27 @@
     color: #212529;
 }
 
+
+.inventory #vrFilterButton {
+    background-color: rgb(17, 5, 83);
+    border: unset;
+    color: #e1cbf7;
+ padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+ margin: 0;
+    font-size: var(--bs-btn-font-size);
+}
+
+.vrgamesbck .form-control {
+    padding: .375rem .75rem;
+    transition: 0.4s;
+    border-style: unset;
+    margin: 0.6rem;
+    background-color: #e1cbf7;
+   
+    border: unset;
+    font-size: var(--bs-btn-font-size);
+}
+
 .inventory .form-group #genreFilter,
 .inventory .form-group #platformFilter,
 .inventory .form-group label {
@@ -213,9 +234,16 @@
     margin: .2rem 2rem;
 }
 
-.inventory .form-group {
+.rgamesbck .form-group {
     border-radius: 10px;
     background-color: #fcf1c09c;
+    padding: .4rem;
+    height: fit-content;
+}
+
+.vrgamesbck .form-group {
+    border-radius: 10px;
+    background-color: #8ca6d69c;
     padding: .4rem;
     height: fit-content;
 }
@@ -526,7 +554,7 @@ font-weight: bold;
 @media screen and (max-width: 1250px) {
 
     .container p {
-        font-size: 2.2vw;
+        font-size: 2vw;
     }
 
     .dropdown-menu[data-bs-popper] {
@@ -623,7 +651,7 @@ font-weight: bold;
     }
 
     .container p {
-        font-size: 2.7vw;
+        font-size: 2.5vw;
     }
 
     .footer ul li {
@@ -788,6 +816,9 @@ font-weight: bold;
     .price .title img {
         height: 55px !important;
     }
+#rconsoles td {
+        font-size: xx-small !important;
+    }
 }
 
 @media only screen and (max-width:370px) {
@@ -811,8 +842,8 @@ font-weight: bold;
         padding: .35rem;
     }
 
-    #rgames .gamesTable td,
-    #vrgames .gamesTable td {
+    #rgames .gamesTable td, #rconsoles td,
+    #vrgames .gamesTable td, #vrconsoles td {
         font-size: xx-small !important;
     }
 }

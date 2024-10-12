@@ -84,7 +84,7 @@
             </div>
         </div>
     </nav>
-    <div id="container-fluid" class="container-fluid bckgrnd-dark ">
+    <!-- <div id="container-fluid" class="container-fluid bckgrnd-dark ">
         <div class="container">
             <section class="inventory">
                 <div class="back-light-wrap">
@@ -105,7 +105,6 @@
                         <label for="vrGenreFilter">Gatunek</label>
                         <div id="vrGenreFilter">
                             <label><input type="checkbox" value="" checked> wszystkie</label>
-                            <!-- Add your genre checkboxes here -->
                         </div>
                     </div>
                     <div class="form-group">
@@ -119,7 +118,6 @@
                         <label for="vrAgeCategoryFilter">Kategoria wiekowa</label>
                         <div id="vrAgeCategoryFilter">
                             <label><input type="checkbox" value="" checked> wszystkie</label>
-                            <!-- Add your age category checkboxes here -->
                         </div>
                     </div>
                 </div>
@@ -141,7 +139,7 @@
             </div>
 
             <div id="vrconsolesTab" class="container mt-5"></div>
-            <!-- <table id="vrgames" data-toggle="table" data-search="true" class="table table-bordered">
+           <table id="vrgames" data-toggle="table" data-search="true" class="table table-bordered">
                 <thead>
                     <tr class="back-dark">
                         <th data-field="imageCover">okładka</th>
@@ -155,35 +153,84 @@
                 </thead>
                 <tbody class="vrconsolesTable">
                 </tbody>
-            </table> -->
+            </table>
         </div>
-
-        <style>
-            .filter-container {
-                display: flex;
-                justify-content: flex-start;
-                margin-bottom: 10px;
-            }
-
-            .filter-options {
-                display: flex;
-                justify-content: space-between;
-                margin-bottom: 10px;
-            }
-
-            .form-group {
-                flex: 1;
-                margin-right: 10px;
-            }
-
-            .form-group label {
-                display: block;
-            }
-        </style>
+    </div> -->
 
 
 
+    <div id="container-fluid" class="container-fluid bckgrnd-dark">
+        <div class="container">
+            <section class="inventory vrgamesbck">
+                <div>
+                    <button id="vrtoggleGames" data-bs-toggle="collapse" data-bs-target="#vrgamesTab">
+                        GRY
+                    </button>
+                    <button id="vrtoggleConsoles" data-bs-toggle="collapse" data-bs-target="#vrconsolesTab">
+                        SPRZĘT
+                    </button>
+                </div>
+
+                <div id="vrgamesTab" class="container mt-5">
+                    <div class="filter-container">
+                        <button id="vrFilterButton" class="btn btn-primary">Filtruj</button>
+                    </div>
+                    <div class="filter-options" style="display: none;">
+                        <div class="form-group">
+                            <label for="vrGenreFilter" class="gameslab">Gatunek</label>
+                            <div id="vrGenreFilter">
+                                <label><input type="checkbox" class="sc-gJwTLC ikxBAC" value="" checked>wszystkie</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="vrMultiplayerFilter" class="gameslab">Multiplayer</label>
+                            <div id="vrMultiplayerFilter">
+                                <label><input type="checkbox" class="sc-gJwTLC ikxBAC" value="" checked>wszystkie</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="vrAgeCategoryFilter" class="gameslab">Kategoria wiekowa</label>
+                            <div id="vrAgeCategoryFilter">
+                                <label><input type="checkbox" class="sc-gJwTLC ikxBAC" value="" checked>wszystkie</label>
+                            </div>
+                        </div>
+                    </div>
+                    <table id="vrgames" data-toggle="table" data-search="true" class="table table-bordered">
+                        <thead>
+                            <tr class="back-dark">
+                                <th data-field="imageCover">okładka</th>
+                                <th data-field="title">tytuł</th>
+                                <th data-field="producer">producent</th>
+                                <th data-field="genre">gatunek</th>
+                                <th data-field="multiplayer">multiplayer</th>
+                                <th data-field="ageCategory">kategoria wiekowa</th>
+                                <th data-field="description">opis</th>
+                            </tr>
+                        </thead>
+                        <tbody class="gamesTable vrGamesStyle">
+
+                        </tbody>
+                    </table>
+                </div>
+
+                <div id="vrconsolesTab" class="container mt-5">
+                    <table id="vrconsoles" data-toggle="table" class="table table-bordered">
+                        <thead>
+                            <tr class="back-dark">
+                                <th data-field="title"></th>
+                                <th data-field="platform"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
     </div>
+
+
 
     <footer class="footer footer-dark">
         <section class="bg-dark py-xl-8 border-top border-dark">
@@ -270,7 +317,28 @@
         </div>
         </div>
     </footer>
+    <style>
+        .filter-container {
+            display: flex;
+            justify-content: flex-start;
+            margin-bottom: 10px;
+        }
 
+        .filter-options {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .form-group {
+            flex: 1;
+            margin-right: 10px;
+        }
+
+        .form-group label {
+            display: block;
+        }
+    </style>
 </body>
 
 </html>
