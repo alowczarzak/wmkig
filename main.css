@@ -556,6 +556,9 @@ font-weight: bold;
     .container p {
         font-size: 2vw;
     }
+    .bckgrnd-dark .offer ul {
+        font-size: 1.85vw !important;
+    }
 
     .dropdown-menu[data-bs-popper] {
         right: 2rem !important;
@@ -654,6 +657,10 @@ font-weight: bold;
         font-size: 2.5vw;
     }
 
+    .bckgrnd-dark .offer ul {
+        font-size: 2.3vw !important;
+    }
+
     .footer ul li {
         font-size: 1.7vw;
     }
@@ -713,6 +720,9 @@ font-weight: bold;
         font-size: var(--bs-body-font-size) !important;
     }
 
+    .bckgrnd-clr .offer ul li {
+        font-size: 2.6vw !important;
+    }
 }
 
 @media only screen and (max-width: 610px) {
@@ -738,6 +748,7 @@ font-weight: bold;
     .back-dark h3 {
         font-size: 5.5vw !important;
     }
+    
 
     #central-station,
     #central-station .carousel-item img,
@@ -751,7 +762,9 @@ font-weight: bold;
         object-fit: cover;
         margin: auto;
     }
-
+    .offer .back-dark h4 {
+        font-size: 1.4rem !important;
+    }
 }
 
 @media only screen and (max-width:570px) {
@@ -762,7 +775,7 @@ font-weight: bold;
 
     p {
         text-align: center !important;
-        font-size: 4vw !important;
+        font-size: 3.5vw !important;
     }
 
     .back-light-wrap .col {
@@ -786,7 +799,10 @@ font-weight: bold;
     .h1bold ul {
         padding-left: 0;
     }
-
+    .bckgrnd-dark .offer ul {
+        font-size: .8rem;
+    }
+    
 }
 
 
@@ -794,7 +810,9 @@ font-weight: bold;
     .navbar-brand img {
         max-width: 10rem !important;
     }
-
+    .back-light h3 {
+        font-size: calc(1.1rem + 0.8vw) !important;
+    }
     .price .row .card h4,
     .price .row .card li {
         font-size: 3.8vw;

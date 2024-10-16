@@ -396,7 +396,7 @@ $('#vrFilterButton').click(function () {
 
 $('#vrGenreFilter, #vrMultiplayerFilter, #vrAgeCategoryFilter').change(filterVRGames);
 
-filterVRGames(); // Initial population of the table
+filterVRGames(); 
 
 $(document).ready(function () {
     $('#vrgames').bootstrapTable({
