@@ -1633,9 +1633,6 @@ const rconsoles = [
 
 
 
-
-
-
 $(document).ready(function () {
     var rcontableBody = $('#rconsoles tbody');
     $.each(rconsoles, function (index, item) {
@@ -1689,7 +1686,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Initialize the display states
     div1.style.display = 'block';
     div2.style.display = 'none';
 });
@@ -1743,7 +1739,7 @@ $(document).ready(function() {
 
     $('#genreFilter, #platformFilter').change(filterGames);
 
-    filterGames(); // Initial population of the table
+    filterGames(); 
 });
 
 
@@ -1752,14 +1748,5 @@ document.addEventListener("DOMContentLoaded", function() {
     fetch("navretro.html")
         .then(response => response.text())
         .then(data => navPlaceholder.innerHTML = data)
-        .catch(error => console.error("Error loading navigation:", error));
-});
-
-
-document.addEventListener("DOMContentLoaded", function() {
-    const footerPlaceholder = document.getElementById("footer-placeholder");
-    fetch("footer-retro.html")
-        .then(response => response.text())
-        .then(data => footerPlaceholder.innerHTML = data)
         .catch(error => console.error("Error loading navigation:", error));
 });

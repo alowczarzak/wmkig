@@ -7,7 +7,7 @@ const vrgames =
                 "zręcznościowe",
             ],
             "ageCategory": "7+",
-            "multiplayer": "yes",
+            "multiplayer": "2 osoby",
             "producer": "Beat Games",
             "description": "Tnij, ćwicz i baw się w rytmie ulubionych kawałków!",
             "imageCover": "https://about.fb.com/wp-content/uploads/2019/12/Beat-Games-Joins-Oculus.png"
@@ -19,7 +19,7 @@ const vrgames =
                 "zręcznościowe",
             ],
             "ageCategory": "7+",
-            "multiplayer": "no",
+            "multiplayer": "nie",
             "producer": "Wandev Studio",
             "description": "Zagrzej do boju okręt wikingów, dudniąc bębnami rytmy twoich ulubionych kawałków rockowych.",
             "imageCover": "https://products.eneba.games/resized-products/-W6wf925yic61DLxSvvVlG7xKl6UOFg5f1O1uPbqWl4_350x200_2x-0.jpeg"
@@ -31,7 +31,7 @@ const vrgames =
                 "RPG",
             ],
             "ageCategory": "18+",
-            "multiplayer": "no",
+            "multiplayer": "nie",
             "producer": "WarpFrog",
             "description": "Poznaj tajemnice pradawnych, władaj mieczem i magią!",
             "imageCover": "https://gaming-cdn.com/images/products/6327/616x353/blade-and-sorcery-vr-edition-pc-game-steam-cover.jpg?v=1709117450"
@@ -43,7 +43,7 @@ const vrgames =
                 "FPS",
             ],
             "ageCategory": "18+",
-            "multiplayer": "no",
+            "multiplayer": "nie",
             "producer": "Id Software",
             "description": "Rozrywaj i zabijaj",
             "imageCover": "https://www.thevrgrid.com/wp-content/uploads/2017/11/Doom-Header-copy.jpg"
@@ -55,7 +55,7 @@ const vrgames =
                 "FPS",
             ],
             "ageCategory": "10+",
-            "multiplayer": "yes",
+            "multiplayer": "4 osoby",
             "producer": "Wenkly Studio",
             "description": "Walcz z hordami zielonoskórych. Czy podołasz obronie miasta?",
             "imageCover": "https://scontent.oculuscdn.com/v/t64.5771-25/75556281_3372025449610589_1206488216322750101_n.png?_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=0MlUVNXL-JgQ7kNvgFsrok7&_nc_ht=scontent.oculuscdn.com&oh=00_AYAog5g4t903l1s8j8o8eiA7Wun4RAGCujEGFIHowb7wBg&oe=66E79538"
@@ -67,7 +67,7 @@ const vrgames =
                 "FPS",
             ],
             "ageCategory": "18+",
-            "multiplayer": "yes",
+            "multiplayer": "4 osoby",
             "producer": "Vankrupt Games",
             "description": "Realizm obsługi broni palnej, o jakim marzyłeś!",
             "imageCover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/555160/header.jpg?t=1713276232"
@@ -76,7 +76,7 @@ const vrgames =
             "title": "Richie’s Plank Experience",
             "genre": ["rekreacyjne"],
             "ageCategory": "7+",
-            "multiplayer": "no",
+            "multiplayer": "nie",
             "producer": "TOAST",
             "description": "Czy jesteś w stanie przezwyciężyć strach przed wysokością?",
             "imageCover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/517160/capsule_616x353.jpg?t=1703141651"
@@ -85,7 +85,7 @@ const vrgames =
             "title": "Santa Simulator",
             "genre": ["symulator"],
             "ageCategory": "7+",
-            "multiplayer": "no",
+            "multiplayer": "nie",
             "producer": "TOAST",
             "description": "Najlepszy symulator najpopularniejszego świętego na świecie!",
             "imageCover": "https://escapecentrumlimburg.nl/wp-content/uploads/vr-experience-sittard-limburg-santa.jpg.webp"
@@ -94,7 +94,7 @@ const vrgames =
             "title": "Subnautica",
             "genre": ["symulator"],
             "ageCategory": "12+",
-            "multiplayer": "no",
+            "multiplayer": "nie",
             "producer": "Unknonw Worlds Entertainment",
             "description": "Zanurz się w morskich głębinach planety 4546B!",
             "imageCover": "https://e.snmc.io/lk/l/x/204f11a2806fe996b00230fd5eba2f49/7749030"
@@ -104,7 +104,7 @@ const vrgames =
             "genre":
                 ["FPS", "zręcznościowe"],
             "ageCategory": "12+",
-            "multiplayer": "no",
+            "multiplayer": "nie",
             "producer": "SUPERHOT Team",
             "description": "Wściekle grywalna strzelanka, w której każdy Twój ruch ma znaczenie!",
             "imageCover": "https://m.media-amazon.com/images/I/41T+XT1catL._AC_UF1000,1000_QL80_.jpg"
@@ -113,7 +113,7 @@ const vrgames =
             "title": "VRChat",
             "genre": ["społecznościowe"],
             "ageCategory": "12+",
-            "multiplayer": "yes",
+            "multiplayer": "4 osoby",
             "producer": "VRChat",
             "description": "Rozmawiaj, spotykaj się i baw z ludźmi z całego świata. Bądź kim lub czym chcesz!",
             "imageCover": "https://nptunnel.com/npimg/d427ce76ec52f88a2d3f8b28640b3ba5.jpeg"
@@ -122,7 +122,7 @@ const vrgames =
             "title": "COMPOUND",
             "genre": ["FPS", "roguelike"],
             "ageCategory": "12+",
-            "multiplayer": "no",
+            "multiplayer": "nie",
             "producer": "Bevan McKechnie",
             "description": "Pora ustrzelić parę robotów wrogich korporacji!",
             "imageCover": "https://thumbnails.pcgamingwiki.com/5/55/New_cover.png/300px-New_cover.png"
@@ -131,7 +131,7 @@ const vrgames =
             "title": "DHL Box Stacker Pro",
             "genre": ["symulator"],
             "ageCategory": "7+",
-            "multiplayer": "no",
+            "multiplayer": "nie",
             "producer": "Playerthree Limited",
             "description": "Męcząca praca dla firmy przesyłkowej jeszcze nigdy nie była tak zabawna!",
             "imageCover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2339570/header.jpg?t=1686559908"
@@ -140,7 +140,7 @@ const vrgames =
             "title": "Gra Szyfrów",
             "genre": ["zagadkowe", "historyczne"],
             "ageCategory": "12+",
-            "multiplayer": "no",
+            "multiplayer": "nie",
             "producer": "Chronospace/IPN",
             "description": "Historyczna gra zagadkowa, w której poznasz niezwykłą historię polskich kryptologów.",
             "imageCover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1978470/header_polish.jpg?t=1719930371"
@@ -149,7 +149,7 @@ const vrgames =
             "title": "Lotnicy",
             "genre": ["zagadkowe", "historyczne"],
             "ageCategory": "12+",
-            "multiplayer": "no",
+            "multiplayer": "nie",
             "producer": "Chronospace/IPN",
             "description": "Historyczna gra zagadkowa, w której poznasz losy polskich pilotów II Wojny Światowej.",
             "imageCover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2707150/header_polish.jpg?t=1720819186"
@@ -158,7 +158,7 @@ const vrgames =
             "title": "Rec Room",
             "genre": ["zagadkowe", "historyczne"],
             "ageCategory": "7+",
-            "multiplayer": "yes",
+            "multiplayer": "4 osoby",
             "producer": "Rec Room",
             "description": "Baw się i rozmawiaj ze znajomymi z całego świata!",
             "imageCover": "https://www.internetmatters.org/wp-content/uploads/2022/07/rec-room-image.png"
@@ -168,7 +168,7 @@ const vrgames =
             "title": "House Flipper VR",
             "genre": ["symulator"],
             "ageCategory": "7+",
-            "multiplayer": "no",
+            "multiplayer": "nie",
             "producer": "PlayWay",
             "description": "Kupuj, naprawiaj i sprzedawaj domy niczym prawdziwy warszawski deweloper mieszkaniowy.",
             "imageCover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1194700/capsule_616x353.jpg?t=1725883947"
@@ -177,7 +177,7 @@ const vrgames =
             "title": "Thief Simulator VR",
             "genre": ["symulator"],
             "ageCategory": "12+",
-            "multiplayer": "no",
+            "multiplayer": "nie",
             "producer": "PlayWay",
             "description": "Panie władzo! Ja tego WCALE nie ukradłem! Leżało to zabrałem.",
             "imageCover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1019550/header.jpg?t=1725022682"
@@ -186,7 +186,7 @@ const vrgames =
             "title": "Walkabout Mini Golf",
             "genre": ["sport"],
             "ageCategory": "7+",
-            "multiplayer": "no",
+            "multiplayer": "nie",
             "producer": "Mighty Coconut",
             "description": "Nie chcesz wyjść zagrać w golfa? Zrób to u nas! Nie wychodząc nigdzie!",
             "imageCover": "https://image.api.playstation.com/vulcan/ap/rnd/202212/2218/zwXQOE3YMJoqC6fS1Jxo8shH.png"
@@ -195,7 +195,7 @@ const vrgames =
             "title": "To the Top",
             "genre": ["sport", "zręcznościowe"],
             "ageCategory": "7+",
-            "multiplayer": "no",
+            "multiplayer": "nie",
             "producer": "Panic Button Games",
             "description": "Czy uda ci się wspiąć na szczyt szybciej od innych?",
             "imageCover": "https://cdn.sidequestvr.com/file/8776/SideQuest.jpg"
@@ -204,7 +204,7 @@ const vrgames =
             "title": "Hellsplit: Arena",
             "genre": ["RPG", "akcja"],
             "ageCategory": "18+",
-            "multiplayer": "no",
+            "multiplayer": "nie",
             "producer": "Deep Type Games",
             "description": "Demony i nieumarli znów atakują. Pora pokazać im, gdzie ich miejsce!",
             "imageCover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1039880/capsule_616x353.jpg?t=1713632726"
@@ -213,7 +213,7 @@ const vrgames =
             "title": "The Thrill of the Fight",
             "genre": ["sport", "symulator"],
             "ageCategory": "12+",
-            "multiplayer": "no",
+            "multiplayer": "nie",
             "producer": "Sealost Interactive",
             "description": "Zostań mistrzem Boksu!",
             "imageCover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/494150/capsule_616x353.jpg?t=1671395787"
@@ -222,7 +222,7 @@ const vrgames =
             "title": "All in One Sports",
             "genre": ["sport"],
             "ageCategory": "7+",
-            "multiplayer": "yes",
+            "multiplayer": "2 osoby",
             "producer": "APPNORI",
             "description": "Boks to za mało? Dzięki All in One Sports, twoje ulubione dyscypliny są na wyciągnięcie ręki!",
             "imageCover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1514840/capsule_616x353.jpg?t=1722833566"
@@ -231,7 +231,7 @@ const vrgames =
             "title": "Epic Roller Coasters",
             "genre": ["rekreacyjna"],
             "ageCategory": "7+",
-            "multiplayer": "no",
+            "multiplayer": "nie",
             "producer": "B4T Games",
             "description": "Jazda kolejką górską, której potrzebowałeś!",
             "imageCover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/787790/header.jpg?t=1721849645"
@@ -240,7 +240,7 @@ const vrgames =
             "title": "I Expect You To Die",
             "genre": ["zagadkowe", "logiczne"],
             "ageCategory": "12+",
-            "multiplayer": "no",
+            "multiplayer": "nie",
             "producer": "Schell Games",
             "description": "Czy uda ci się rozwiązać zagadki zanim skończy ci się czas, agencie?",
             "imageCover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/587430/header.jpg?t=1725025973"
@@ -249,7 +249,7 @@ const vrgames =
             "title": "Tales of Escape",
             "genre": ["zagadkowe", "horror"],
             "ageCategory": "18+",
-            "multiplayer": "no",
+            "multiplayer": "nie",
             "producer": "OnSkull Games",
             "description": "Escape room i horror? Na VR?! Musisz tego spróbować!",
             "imageCover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/587860/capsule_616x353.jpg?t=1723187307"
@@ -258,7 +258,7 @@ const vrgames =
             "title": "Propagation",
             "genre": ["horror", "FPS"],
             "ageCategory": "18+",
-            "multiplayer": "no",
+            "multiplayer": "nie",
             "producer": "Wandev Studio",
             "description": "Walcz, broń się, przetrwaj ataki nieumarłych. Sprawdź, czy boisz się ciemności?",
             "imageCover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1363430/capsule_616x353.jpg?t=1665754444"
@@ -267,7 +267,7 @@ const vrgames =
             "title": "Devour",
             "genre": ["survival", "horror"],
             "ageCategory": "18+",
-            "multiplayer": "no",
+            "multiplayer": "nie",
             "producer": "Straight Back Games",
             "description": "Wierny członek kultu i opętani ciekawscy, których trzeba uratować? Co może pójść nie tak?",
             "imageCover": "https://static.muve.pl/uploads/product-cover/0222/6853/devour-okladka-gra-pc-muve.JPG"
@@ -276,7 +276,7 @@ const vrgames =
             "title": "Arizona Sunshine",
             "genre": ["adventure", "FPS", "horror"],
             "ageCategory": "18+",
-            "multiplayer": "no",
+            "multiplayer": "nie",
             "producer": "Vertigo Games",
             "description": "Skąpana w słońcu Arizona… To miały być wakacje wolne od zombie, ale… wiadomo jak to w takiej opowieści bywa.",
             "imageCover": "https://i.ytimg.com/vi/Nw5YzBqk01I/maxresdefault.jpg"
@@ -285,7 +285,7 @@ const vrgames =
             "title": "Pistol Whip",
             "genre": ["FPS", "muzyczne"],
             "ageCategory": "12+",
-            "multiplayer": "no",
+            "multiplayer": "nie",
             "producer": "Cloudhead Games",
             "description": "Wstrzel się w rytm! Uważaj przy okazji na przeciwników, oni także tańczą w twoim stylu!",
             "imageCover": "https://i.ytimg.com/vi/Nw5YzBqk01I/maxresdefault.jpg"
@@ -294,7 +294,7 @@ const vrgames =
             "title": "Aircar",
             "genre": ["rekreacyjne"],
             "ageCategory": "7+",
-            "multiplayer": "no",
+            "multiplayer": "nie",
             "producer": "Giant Form Entertainment",
             "description": "Spójrz na przyszłość z zupełnie innej, niezwykle pięknej perspektywy.",
             "imageCover": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVgBHGJV7cuYqQlnD784xqd5rG3iC68YusRh6yFdoAAWk_EV43RL0qq4_0G497PlXfvvN_emruw09EUB7cnOA-5Gn6lQ7bP_PAvzhNTdvqruFE8ora4Bw-jH1imwEiOZjHkyuHLOn5NxeajmfV91RtLJh6qwXfLSz5nqtOizrpwqWudzN3c_rr9idx2UE/s1600/ac1.JPG"
@@ -303,7 +303,7 @@ const vrgames =
             "title": "Warplanes: WW1 Fighters",
             "genre": ["symulator", "lotnicze"],
             "ageCategory": "12+",
-            "multiplayer": "no",
+            "multiplayer": "nie",
             "producer": "Home Net Games",
             "description": "Kokpit twojego dwupłatowca, karabin i wróg. Czas na morderczą wojnę na frontach I Wojny Światowej.",
             "imageCover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1546500/capsule_616x353.jpg?t=1701714170"
@@ -312,7 +312,7 @@ const vrgames =
             "title": "Half-Life Alyx",
             "genre": ["akcja", "adventure", "FPS"],
             "ageCategory": "18+",
-            "multiplayer": "no",
+            "multiplayer": "nie",
             "producer": "Valve",
             "description": "Czas… znów stawić czoła miastu 17, pani Vance.",
             "imageCover": "https://www.purepc.pl/files/Image/ArtykulHeadlines/27618.jpg"
@@ -516,4 +516,23 @@ $(document).ready(function () {
 });
 
 
+document.addEventListener("DOMContentLoaded", function() {
+    const navPlaceholder = document.getElementById("vnav-placeholder");
+    fetch("navvr.html")
+        .then(response => response.text())
+        .then(data => navPlaceholder.innerHTML = data)
+        .catch(error => console.error("Error loading navigation:", error));
+});
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    const footerPlaceholder = document.getElementById("vfooter-placeholder");
+    fetch("footer-vr.html")
+        .then(response => response.text())
+        .then(data => {
+            footerPlaceholder.innerHTML = data;
+            console.log("Footer Content Loaded:", data);
+        })
+        .catch(error => console.error("Error loading footer:", error));
+});
 
