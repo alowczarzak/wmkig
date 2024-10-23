@@ -59,34 +59,13 @@
         </p>
       </section>
       <section class="back-light">
-        <div id="aboutr" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#aboutr" data-bs-slide-to="0" class="active" aria-current="true"
-              aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#aboutr" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#aboutr" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="images/dcim/5d8b6a7dcb5ad_o_medium-1.jpg" class="d-block" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="images/dcim/60c48e6fcc4dd_o_full.jpg" class="d-block" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="images/dcim/DSC_3731-1024x627-1.jpg" class="d-block" alt="...">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#aboutr" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#aboutr" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </section>
+
+        <video id="retroVideo">
+          <source src="images/dcim/Muzeum Ready Master 2.mp4" type="video/mp4">
+       
+        </video>
+        <button id="muteButton">Wycisz</button>
+     </section>
       <section class="back-light">
         <p> Chcemy, by każda wizyta u nas była podróżą w przeszłość, która pozwala młodym
           pokoleniom graczy odkrywać historię, a starszym przypomnieć sobie czasy, gdy
@@ -283,5 +262,25 @@
     </section>
   </footer>
 </body>
-
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+      const video = document.getElementById('retroVideo');
+      const muteButton = document.getElementById('muteButton');
+      
+      video.play().catch(error => {
+          console.error('Autoplay prevented:', error);
+      });
+      
+      muteButton.addEventListener('click', function() {
+          if (video.muted) {
+              video.muted = false;
+              muteButton.textContent = 'Wycisz';
+          } else {
+              video.muted = true;
+              muteButton.textContent = 'Wyłącz wyciszenie';
+          }
+      });
+  });
+  </script>
+  
 </html>

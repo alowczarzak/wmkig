@@ -558,6 +558,23 @@
     text-align: center;
 }
 
+
+#retroVideo {
+    width: 100%;
+    height: fit-content;
+}
+
+#muteButton {
+    padding: 1rem;
+    background-color: rgb(230, 186, 103);
+    border-radius: 3px;
+    transition: 0.4s;
+    border-style: outset;
+    font-family: "source code pro", monospace;
+    font-size: calc(1rem + 1.1vw);
+    margin: 0.6rem;
+}
+
 .landing {
     display: flex;
     flex-direction: column;
