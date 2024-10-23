@@ -106,15 +106,15 @@
 
 #aboutr,
 #aboutr .carousel-item,
-#offerr,
-#offerr .carousel-item,
+.offer .slide,
+.offer .slide .carousel-item,
 #aboutv,
 #aboutv .carousel-item {
     height: 45vw;
 }
 
 #aboutr .carousel-item img,
-#offerr .carousel-item img,
+.offer .slide .carousel-item img,
 #aboutv .carousel-item img {
     height: 100%;
     width: fit-content;
@@ -789,8 +789,8 @@ font-weight: bold;
     #aboutr,
     #aboutr .carousel-item,
 
-    #offerr,
-    #offerr .carousel-item,
+    .offer .slide,
+    .offer .slide .carousel-item,
     #aboutv,
     #aboutv .carousel-item {
         height: 50vw !important;
