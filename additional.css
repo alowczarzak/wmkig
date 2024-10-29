@@ -171,6 +171,15 @@
     margin-bottom: .4vw;
 }
 
+.happy-hour {
+    background-color: #fffdf4c5;
+    width: 95%;
+}
+.happy-hour ul {
+    font-size: large;
+}
+
+
 .contact .row .col .card {
     border: none;
     width: 100%;
@@ -573,6 +582,10 @@
     font-family: "source code pro", monospace;
     font-size: calc(1rem + 1.1vw);
     margin: 0.6rem;
+}
+
+.an-back .back-light ul {
+    font-size: 1.5vw;
 }
 
 .landing {

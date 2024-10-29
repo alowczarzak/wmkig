@@ -274,7 +274,7 @@ const retroGames =
             "title": "Takashi Meijin no Bugutte Honey",
             "genre": "Platformer",
             "platform": "Famicom",
-            "imageCover": "https:\/\/static.wikia.nocookie.net\/wonderboy\/images\/1\/15\/Takahashi_Meijin_no_Bug-tte_Honey_-_01.jpg\/revision\/latest?cb=20211115075332"
+            "imageCover": "https://cdn.suruga-ya.com/database/pics_webp/game/607518234.jpg.webp"
         },
         {
             "title": "The Maze of Galious",
@@ -316,7 +316,7 @@ const retroGames =
             "title": "Gundam Hero Soukessen",
             "genre": "Action",
             "platform": "Famicom",
-            "imageCover": "https:\/\/static.wikia.nocookie.net\/ultra\/images\/0\/07\/SD_Hero_Soukessen.png\/revision\/latest?cb=20200727012259"
+            "imageCover": "https://i.ytimg.com/vi/oBKxnCGoIGU/sddefault.jpg"
         },
         {
             "title": "Gundam Gachapon Senshi 3",

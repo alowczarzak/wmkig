@@ -556,6 +556,10 @@ font-weight: bold;
     .container p {
         font-size: 2vw;
     }
+    .an-back .back-light ul {
+        font-size: 2vw !important;
+    }
+    
     .bckgrnd-dark .offer ul {
         font-size: 1.85vw !important;
     }
@@ -598,7 +602,7 @@ font-weight: bold;
     }
 
     .price .row {
-        width: 100% !important;
+        width: 95% !important;
     }
 
     .price .row .card li {
@@ -656,6 +660,10 @@ font-weight: bold;
     .container p {
         font-size: 2.5vw;
     }
+    .an-back .back-light ul {
+        font-size: 2.5vw !important;
+    }
+    
 
     .bckgrnd-dark .offer ul {
         font-size: 2.3vw !important;
@@ -765,6 +773,10 @@ font-weight: bold;
     .offer .back-dark h4 {
         font-size: 1.4rem !important;
     }
+
+    .happy-hour ul {
+        font-size: medium !important;
+    }
 }
 
 @media only screen and (max-width:570px) {
@@ -778,6 +790,10 @@ font-weight: bold;
         font-size: 3.5vw !important;
     }
 
+    .an-back .back-light ul {
+        font-size: 3.5vw !important;
+    }
+    
     .back-light-wrap .col {
         width: 100% !important;
     }

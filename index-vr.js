@@ -58,7 +58,7 @@ const vrgames =
             "multiplayer": "4 osoby",
             "producer": "Wenkly Studio",
             "description": "Walcz z hordami zielonoskórych. Czy podołasz obronie miasta?",
-            "imageCover": "https://scontent.oculuscdn.com/v/t64.5771-25/75556281_3372025449610589_1206488216322750101_n.png?_nc_cat=108&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=0MlUVNXL-JgQ7kNvgFsrok7&_nc_ht=scontent.oculuscdn.com&oh=00_AYAog5g4t903l1s8j8o8eiA7Wun4RAGCujEGFIHowb7wBg&oe=66E79538"
+            "imageCover": "https://allinvr.hu/wp-content/uploads/2020/07/eleven-assassin.jpg"
         },
         {
             "title": "Pavlov VR",
@@ -125,7 +125,7 @@ const vrgames =
             "multiplayer": "nie",
             "producer": "Bevan McKechnie",
             "description": "Pora ustrzelić parę robotów wrogich korporacji!",
-            "imageCover": "https://thumbnails.pcgamingwiki.com/5/55/New_cover.png/300px-New_cover.png"
+            "imageCover": "https://image.api.playstation.com/vulcan/ap/rnd/202407/3005/00da8940e9b1a7e4d1ea6cccdd66eae455904a90e8d89689.png"
         },
         {
             "title": "DHL Box Stacker Pro",
