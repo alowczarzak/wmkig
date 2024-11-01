@@ -349,7 +349,6 @@
 #rconsoles img,
 #vrconsoles img {
     width: 10vw;
-
 }
 
 .bckgrnd-clr .no-records-found {
@@ -372,6 +371,12 @@
     border: rgba(0, 0, 0, 0.521);
 }
 
+#rconsoles td {
+    font-size: small;
+}
+#rconsoles td {
+   width: 25%;
+}
 .gamesTable {
     margin: 0.5rem;
     padding: 0.5rem;
@@ -391,7 +396,7 @@
 
 #rgames td,
 #rgames th,
-#rconsoles td {
+#rconsoles td:first-child {
     font-size: x-large;
 }
 

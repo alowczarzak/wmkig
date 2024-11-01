@@ -467,20 +467,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
 const vrconsoles = [
     
-    {  "title": "Amiga 500",
+    {  "title": "nie wiem",
 
-      "platform": "Amiga 500",
+      "platform": "co jest na VR",
       },
   {
-      "title": "Commodore64",
+      "title": "nie znam",
      
-      "platform": "Commodore64",
-          },
-  {
-      "title": "Atari",
-     
-      "platform": "Atari",
-      }
+      "platform": "się na tym",
+          }
 ]
 
 $(document).ready(function () {

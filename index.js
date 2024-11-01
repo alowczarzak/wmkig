@@ -1614,21 +1614,109 @@ $(document).ready(function () {
 
 
 const rconsoles = [
-    
-      {  "title": "Amiga 500",
+    {
+        "platform": "Commodore64", 
+        "generacja": " ",
+        "premiera": "premiera: 1982 (czerwiec 1988 w Polsce)",    
+        "desc": "Klasyczny komputer lat 80’, bardzo popularny także w Polsce. Zdobywca rekordu Guinnessa jako najlepiej sprzedający się komputer domowy w historii.",
+    },
+    {
+        "platform": "Amiga 500+",
+        "generacja": " ",
+        "premiera": "premiera: 1991",    
+        "desc": "Ulepszona wersja modelu 500, będącego głównym rywalem Atari za czasów świetności Amigi. Wersja 500+ została wycofana ze sprzedaży zaledwie rok po wypuszczeniu na rynek, czyniąc z niej najkrócej obecny na rynku model Amigi.",
+    },
+    {
+        "platform": "Atari 130XE",
+        "generacja": " ",
+        "premiera": "premiera: 1985",    
+        "desc": "Komputer domowy z polowy lat 80. XX wieku, w Niemczech i Czechosłowacji wypuszczony pod nazwą 800XE, aby skapitalizować na popularności poprzedzającego modelu. Założyciel Atari, Nolan Bushnell, później założył sieć pizzerii Chuck E. Cheese.",
+    },
+    {
+        "platform": "Schneider CPC",
+        "generacja": " ",
+        "premiera": "premiera: 1984 (1985 w Polsce)",  
+        "desc": "Komputer domowy, który walczył o swoje miejsce na rynku zdominowanym przez Commodore, Atari i ZX Spectrum poprzez sprzedaż wszystkich elementów potrzebnych do użytku komputera w jednym zestawie. Wbrew nazwie, komputer jest dziełem brytyjskiej firmy Amstrad, a pod nazwą Schneider był jedynie produkowany w Niemczech.",
+    },
+    {
+        "platform": "Atari XE Game System",
+        "generacja": "Generacja 3",
+        "premiera": "premiera: 1987",    
+        "desc": "Konsola mającą rywalizować z NESem i Master Systemem, z wiadomym poziomem sukcesu. W rzeczywistości jest to komputer Atari 65XE przerobiony na platformę do gier.",
+    },
+    {
+        "platform": "Ameprod TVG-10",
+        "generacja": "Generacja 1",
+        "premiera": "premiera: 1978",    
+        "desc": "Pierwsza polska konsola do gier wideo w produkcji seryjnej, niestety – także ostatnia. Pełna nazwa brzmi Telewizyjna Video Gra z 10 rodzajami rozrywki, zatem można łatwo się domyślić, że konsola oferowała graczom 6 gier. Konsola była klonem atarowskiegio Ponga.",
+    },
+    {
+        "platform": "Pegasus MT-777DX ",
+        "generacja": "Generacja 3",
+        "premiera": "premiera: 1991",    
+        "desc": "Nasza kultowa „spiracona” konsola – klon Famicoma, wyprodukowany na zlecenie polskiej firmy Bobmark International przez wciąż owianego tajemnicą kontraktora z Tajwanu. Założyciele Bobmarku wycofali się z branży gier pod koniec XX wieku i zdecydowali się na bardziej oryginalny pomysł na biznes – Hoop Colę.",
+    },
+    {
+        "platform": "Nintendo Entertainment System",
+        "generacja": "Generacja 3",
+        "premiera": "premiera: 1983 (Japonia), 1985 (USA), 1986 (Europa), 1994 (Polska, w końcu)",    
+        "desc": "Jedna z najbardziej rozpoznawalnych retro konsol, a także platforma na której swój początek miały serie takie jak Mario, The Legend of Zelda, Final Fantasy czy Shin Megami Tensei. Chociaż niepozorne, to skromne pudełko swoim sukcesem odegrało kluczową rolę w zakończeniu krachu rynku gier wideo w 1983.",
+    },
+    {
+        "platform": "Super Nintendo Entertainment System",
+        "generacja": "Generacja 4",
+        "premiera": "premiera: 990 (Japonia), 1991 (USA), 1992 (Europa), 1994 (Polska)",
+        "desc": "Flagowiec czwartej generacji, którego premiera zapoczątkowała wojnę 16-bitowców pomiędzy Nintendo a Segą. Konsola słynie nie tylko z klasyków, które na nią wyszły, lecz również ze swojego Mode 7 – trybu graficznego imitującego głębię i trójwymiarowość, używanego na przykład w Super Mario Kart.",
+    },
+    {
+        "platform": "Nintendo 64",
+        "generacja": "Generacja 5",
+        "premiera": "premiera: 1996",    
+        "desc": "Pierwsza konsola Nintendo obsługująca grafikę 3D i ostatnia używająca kartridży, a przynajmniej tak było do premiery Nintendo Switch. Konsola znana zarówno ze słynnch gier takich jak Ocarina of Time, Majora's Mask, Star Fox, GoldenEye czy Pokemon Snap, jak i ze swojego komicznie niewygodnego kontrolera",
+    },
+    {
+        "platform": "Sega Master System II ",
+        "generacja": "Generacja 3",
+        "premiera": "premiera: 1985 (Japonia), 1986 (USA), 1987 (Europa), 1992 (Polska)",
+        "desc": "Główny konkurent NESa, niestety bez większych sukcesów w tej rywalizacji. Konsola technicznie bardziej zaawansowana niż odpowiednik Nintendo, lecz przez późny debiut i mniejszą bibliotekę skończyła z blisko 15-krotnie mniejszą sprzedażą.",
+    },
+    {
+        "platform": "Sega Mega Drive II ",
+        "generacja": "Generacja 4",
+        "premiera": "premiera: 1988 (Japonia), 1989 (USA), 1990 (Europa), 1992 (Polska)",  
+        "desc": "Główny konkurent SNESa, tym razem z większymi sukcesami w tej rywalizacji. Konsola odniosła olbrzymi sukces w USA oraz Brazylii, a także poradziła sobie nieźle na rynku europejskim, zostawiając tym samym trwały odcisk na historii tytułami takimi jak Sonic, Golden Axe, Phantasy Star czy Earthworm Jim. Mój szef kazał zrobić mi osobny punkt, w którym mówię, że to najlepsza konsola na świecie.",
+    },
+    {
+        "platform": "Sega Saturn",
+        "generacja": "Generacja 5",
+        "premiera": "1994 (Japonia), 1995 (USA i Europa), 1996 (Polska)",
+        "desc": "Segowy rywal Playstation, początkowo z sukcesami w Japonii, lecz małymi poza nią. Niestety – wydanie Nintendo 64 w roku 1996 ostatecznie wpędziło Saturna w przedwczesny grób. Konsola do dziś jest wspominana jako nieoszlifowany diament z licznymi wybitnymi, unikatowymi tytułami, takimi jak Panzer Dragoon czy Virtua Fighter.",
+    },
+    {
+        "platform": "Sega Dreamcast",
+        "generacja": "Generacja 6",
+        "premiera": "premiera: 1998 (Japonia), 1999 (USA i Europa), 2000 (Polska)",
+        "desc": "Ostatnie podejście Segi do walki o rynek konsolowy, po którym firma wycofała się z produkcji konsol. Chociaż Dreamcast sprzedał się w bardzo zadowalających liczbach w USA, nie udało się mu wybić w Europie i Australii, a premiera PlayStation 2 zadała ostateczny cios sprzedaży w Ameryce i Japonii.",
+    },
+    {
+        "platform": "Sony PSOne",
+        "generacja": "Generacja 5",
+        "premiera": "premiera: 1994 (Japonia), 1995(USA i Europa), 1996 (Polska)",
+        "desc": "Pierwsza konsola Sony, która w oszałamiającym sukcesie trzykrotnie przebiła sprzedaż Nintendo 64, a dziesięciokrotnie sprzedaż Sega Saturn. Co ciekawe, PlayStation oryginalnie miało być jedynie czytnikiem CD-ROM do SNESa, lecz po zerwaniu współpracy z Nintendo, Sony zdecydowało się rozwinąć rozpoczęty projekt we własną platformę.",
+    },
+    {
+        "platform": "Sony PlayStation 2",
+        "generacja": "Generacja 6",
+        "premiera": "premiera: 2000",
+        "desc": "Wiekopomny sukces Sony, który przebił sprzedaż swoich rywali razem wziętych prawie trzykrotnie. PS2 jest również najlepiej sprzedającą się konsolą w historii ze 155 milionami sprzedanych sztuk.",
+    },
+    {
+        "platform": "Microsoft Xbox 360",
+        "generacja": "Generacja 7",
+        "premiera": "premiera: 2005 (Świat), 2006 (Polska)",
+        "desc": "Następca pierwszego, mniej zapamiętanego, Xboxa. Konsola z biegiem czasu stała się platformą do wszelkiego rodzaju multimediów i rozrywki, dzięki możliwościom odtwarzania muzyki, filmów czy streamingu. Innowacją był również Kinect, który jako pierwsze urządzenie wykrywające ruch przeznaczone do konsol nie wymagał dodatkowego kontrolera, polegając jedynie na skanowaniu ruchu ciała.",
+    },
 
-        "platform": "Amiga 500",
-        },
-    {
-        "title": "Commodore64",
-       
-        "platform": "Commodore64",
-            },
-    {
-        "title": "Atari",
-       
-        "platform": "Atari",
-        }
 ]
 
 
@@ -1637,10 +1725,11 @@ $(document).ready(function () {
     var rcontableBody = $('#rconsoles tbody');
     $.each(rconsoles, function (index, item) {
         var row = $('<tr class="back-dark">');
-     
-        row.append($('<td>').text(`${item.title}`));
-
         row.append($('<td>').text(`${item.platform}`));
+        row.append($('<td>').html(`<img src="${item.img}">`));
+        row.append($('<td>').text(`${item.generacja}`));
+        row.append($('<td>').text(`${item.premiera}`));
+        row.append($('<td>').text(`${item.desc}`));
 
         rcontableBody.append(row);
     });
@@ -1652,34 +1741,34 @@ $(document).ready(function () {
     $('#rconsoles').bootstrapTable({
         search: true,
         columns: [
-         
+
             {
                 field: 'title',
                 title: 'tytuł',
             },
-         {
+            {
                 field: 'platform',
                 title: 'platforma',
             },
-          
+
         ]
     });
 });
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const button1 = document.getElementById('rtoggleGames');
     const button2 = document.getElementById('rtoggleConsoles');
     const div1 = document.getElementById('rgamesTab');
     const div2 = document.getElementById('rconsolesTab');
 
-    button1.addEventListener('click', function() {
+    button1.addEventListener('click', function () {
         if (div2.style.display === 'block') {
             div2.style.display = 'none';
             div1.style.display = 'block';
         }
     });
 
-    button2.addEventListener('click', function() {
+    button2.addEventListener('click', function () {
         if (div1.style.display === 'block') {
             div1.style.display = 'none';
             div2.style.display = 'block';
@@ -1696,7 +1785,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-$(document).ready(function() {
+$(document).ready(function () {
     const genres = [...new Set(retroGames.map(game => game.genre))];
     const platforms = [...new Set(retroGames.map(game => game.platform))];
 
@@ -1709,18 +1798,18 @@ $(document).ready(function() {
     });
 
     function filterGames() {
-        const selectedGenres = $('#genreFilter input:checked').map(function() {
+        const selectedGenres = $('#genreFilter input:checked').map(function () {
             return $(this).val();
         }).get();
-        
-        const selectedPlatforms = $('#platformFilter input:checked').map(function() {
+
+        const selectedPlatforms = $('#platformFilter input:checked').map(function () {
             return $(this).val();
         }).get();
-        
-        
+
+
         const genreMatchAll = selectedGenres.length === 0;
         const platformMatchAll = selectedPlatforms.length === 0;
-        
+
         const filteredGames = retroGames.filter(game => {
             const genreMatch = genreMatchAll || selectedGenres.includes("") || selectedGenres.includes(game.genre);
             const platformMatch = platformMatchAll || selectedPlatforms.includes("") || selectedPlatforms.includes(game.platform);
@@ -1733,20 +1822,23 @@ $(document).ready(function() {
         });
     }
 
-    $('#filterButton').click(function() {
+    $('#filterButton').click(function () {
         $('.filter-options').toggle();
     });
 
     $('#genreFilter, #platformFilter').change(filterGames);
 
-    filterGames(); 
+    filterGames();
 });
 
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const navPlaceholder = document.getElementById("nav-placeholder");
     fetch("navretro.html")
         .then(response => response.text())
         .then(data => navPlaceholder.innerHTML = data)
         .catch(error => console.error("Error loading navigation:", error));
 });
+
+
+// console.error = function() {};

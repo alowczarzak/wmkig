@@ -5,3 +5,14 @@ document.addEventListener("DOMContentLoaded", function() {
         .then(data => navPlaceholder.innerHTML = data)
         .catch(error => console.error("Error loading navigation:", error));
 });
+
+
+window.onerror = function (message, file, line, col, error) {
+    alert("Error occurred: " + error.message);
+    return false;
+ };
+ 
+ window.addEventListener("error", function (e) {
+    alert("Error occurred: " + e.error.message);
+    return false;
+ })
