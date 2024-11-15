@@ -171,14 +171,34 @@
     margin-bottom: .4vw;
 }
 
-.happy-hour {
+
+.ibm .happy-hour {
     background-color: #fffdf4c5;
-    width: 95%;
-}
-.happy-hour ul {
-    font-size: large;
+    width: 100%;
 }
 
+.happy-hour ul {
+    font-size: large;
+    text-align: left;
+    list-style: circle;
+}
+
+.happy-hour p {
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+}
+
+.happy-hour h4 {
+    font-weight: bold;
+}
+
+.bckgrnd-dark .happy-hour {
+    width: 100%;
+    /* margin-left: calc(-.5 * var(--bs-gutter-x));
+    margin-right: calc(-.5 * var(--bs-gutter-x)); */
+
+}
 
 .contact .row .col .card {
     border: none;
@@ -374,9 +394,11 @@
 #rconsoles td {
     font-size: small;
 }
+
 #rconsoles td {
-   width: 25%;
+    width: 33%;
 }
+
 .gamesTable {
     margin: 0.5rem;
     padding: 0.5rem;
@@ -597,60 +619,89 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-overflow: hidden;
+    overflow: hidden;
+    padding: 0 !important;
+    margin: 0 !important;
+    justify-content: space-around;
 }
 
 .mainpart {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
-    text-align: center;
     background-attachment: fixed;
     display: block;
     flex-grow: 1;
     justify-content: center;
     align-items: center;
-    height: 33vh;
-
-}
-.mainpart img {
-
-    justify-content: center;
-    align-items: center;
-    height: 33vh;
-    width: fit-content;
-}
-/* 
-#gotoretro {
-    background-image: url(images/tuo.jpg) !important;
-    background-position: bottom;
+    height: 87vh;
+    width: 100%;
     font-family: "press start 2p";
+    position: absolute;
+    overflow: hidden;
+
+}
+
+
+#gotoretro {
+    background-image: url(images/main/retro2.png) !important;
+    background-position: top;
     font-size: 5vw;
+    text-align: left;
+    padding-left: 2em;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
 #gotovr {
-    background-image: url(images/vrtlo.jpg) !important;
+    background-image: url(images/main/VRCADE.png) !important;
     background-position: top center;
-    font-family: "Play";
-    font-weight: bolder;
+    padding-right: 2em;
+    text-align: right;
+    clip-path: polygon(0% 37.5%, 100% 25%, 100% 100%,0% 62.5%);
+    padding-top: 37.5vh;
+
 }
 
 #gotobar {
-    background-image: url(images/bar-back.png) !important;
-    background-position: center;
-    font-family: "Libre Baskerville";
-    font-weight: bolder;
+    background-image: url(images/main/BAR.png) !important;
+    background-position: top;
+    text-align: left;
+    padding-left: 2em;
+    padding-top: 67.5vh;
+    clip-path: polygon(0% 0%, 0% 62.5%, 150% 80%, 0% 138%);
 }
 
 .landing a {
     text-decoration: none;
     font-size: 5.3vw;
-    padding-top: 10vh;
-    text-shadow: -15px 5px 20px #ced0d3;
-    color: white;
+    padding-top: 7vh;
+    text-shadow: -17px 7px 15px #fff;
+    color: #13111f;
     letter-spacing: -0.05em;
     transition: all 0.35s ease-out;
+    justify-content: center;
+    align-items: center;
 }
+
 .landing a:hover {
-    text-shadow: -16px 6px 15px #ced0d3;
-} */
+    text-shadow: -16px 9px 17px rgb(203, 175, 255);
+}
+
+.main-trip {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    height: 13vh;
+    background-color: #010113;
+}
+
+.main-trip img {
+    height: 100%;
+    margin-right: 3em;   
+}
+
+.main-trip p {
+    color: #c9c9c9;
+    font-family: "press start 2p";
+}

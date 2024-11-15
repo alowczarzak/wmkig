@@ -467,15 +467,19 @@ document.addEventListener('DOMContentLoaded', function () {
 
 const vrconsoles = [
     
-    {  "title": "nie wiem",
+    {  "title": "Playstation 3",
 
-      "platform": "co jest na VR",
+      "platform": "",
       },
   {
-      "title": "nie znam",
+      "title": "Meta Quest 2",
      
-      "platform": "się na tym",
-          }
+      "platform": "",
+          },
+          {  "title": "Meta Quest 3",
+
+            "platform": "",
+            }
 ]
 
 $(document).ready(function () {

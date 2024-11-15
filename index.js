@@ -355,10 +355,10 @@ const retroGames =
             "imageCover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/7\/7d\/Tetris_NES_cover_art.jpg\/220px-Tetris_NES_cover_art.jpg"
         },
         {
-            "title": "Hydelide 3",
+            "title": "Hydlide 3",
             "genre": "Action RPG",
             "platform": "Famicom",
-            "imageCover": "https:\/\/static.wikia.nocookie.net\/nintendo\/images\/a\/a2\/Hydlide_3_Visitors_from_Darkness.jpg\/revision\/latest?cb=20200210140422&path-prefix=en"
+            "imageCover": "https:\/\/static.wikia.nocookie.net/namco/images/a/a2/Hydlide_3_Visitors_from_Darkness.jpg/revision/latest?cb=20200710131832"
         },
         {
             "title": "Rollerball",
@@ -1726,7 +1726,6 @@ $(document).ready(function () {
     $.each(rconsoles, function (index, item) {
         var row = $('<tr class="back-dark">');
         row.append($('<td>').text(`${item.platform}`));
-        row.append($('<td>').html(`<img src="${item.img}">`));
         row.append($('<td>').text(`${item.generacja}`));
         row.append($('<td>').text(`${item.premiera}`));
         row.append($('<td>').text(`${item.desc}`));
