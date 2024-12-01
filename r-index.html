@@ -40,6 +40,8 @@
     <script src="index.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta charset="UTF-8">
+  <meta charset="UTF-8"/>
 </head>
 
 <body class="bckgrnd-clr">
@@ -59,12 +61,12 @@
         </p>
       </section>
       <section class="back-light">
-
-        <video id="retroVideo">
-          <source src="" type="video/mp4">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/iK31MHZ-jTI?autoplay=1&mute=1" allow="autoplay" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <!-- <video id="retroVideo">
+          <source src="https://www.youtube.com/watch?v=iK31MHZ-jTI" type="video/mp4">
        
         </video>
-        <button id="muteButton">Wycisz</button>
+        <button id="muteButton">Wycisz</button> -->
      </section>
       <section class="back-light">
         <p> Chcemy, by każda wizyta u nas była podróżą w przeszłość, która pozwala młodym
@@ -262,25 +264,5 @@
     </section>
   </footer>
 </body>
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-      const video = document.getElementById('retroVideo');
-      const muteButton = document.getElementById('muteButton');
-      
-      video.play().catch(error => {
-          console.error('Autoplay prevented:', error);
-      });
-      
-      muteButton.addEventListener('click', function() {
-          if (video.muted) {
-              video.muted = false;
-              muteButton.textContent = 'Wycisz';
-          } else {
-              video.muted = true;
-              muteButton.textContent = 'Wyłącz wyciszenie';
-          }
-      });
-  });
-  </script>
-  
+ 
 </html>

@@ -1838,6 +1838,3 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(data => navPlaceholder.innerHTML = data)
         .catch(error => console.error("Error loading navigation:", error));
 });
-
-
-// console.error = function() {};
